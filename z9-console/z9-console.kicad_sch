@@ -148,16 +148,6 @@
 	)
 	(text "Swap here"
 		(exclude_from_sim no)
-		(at 107.188 180.086 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6c56c59b-fcbc-4bbe-b2ba-8768177f8a9d")
-	)
-	(text "Swap here"
-		(exclude_from_sim no)
 		(at 38.1 188.468 0)
 		(effects
 			(font
@@ -330,16 +320,6 @@
 		)
 		(uuid "0424adc8-d043-45fd-8fe3-97d0f04687ad")
 	)
-	(label "SPI1_IRQ"
-		(at 92.71 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "066bd48a-6ad8-4bb7-9bc3-0fd2a55fb73c")
-	)
 	(label "PE13"
 		(at 212.09 140.97 0)
 		(effects
@@ -380,16 +360,6 @@
 		)
 		(uuid "176176da-95cf-4c77-a04e-93de65cb1d4a")
 	)
-	(label "SPI1_CS"
-		(at 92.71 184.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1a2a8ae8-6c67-4fcf-936a-fb979b178b88")
-	)
 	(label "LCD_RESET"
 		(at 222.25 232.41 0)
 		(effects
@@ -399,16 +369,6 @@
 			(justify left bottom)
 		)
 		(uuid "1e196023-b907-4cbc-a8f1-47803a6bb727")
-	)
-	(label "SPI1_IRQ2"
-		(at 92.71 191.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2139456b-14e4-4847-951c-ccb040c21eec")
 	)
 	(label "GND_ISO"
 		(at 53.34 233.68 180)
@@ -670,16 +630,6 @@
 		)
 		(uuid "6b128eee-e05b-4439-8996-182affc37a9e")
 	)
-	(label "SPI1_SDO"
-		(at 92.71 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6d8b9803-52c2-459f-811e-f26c7a991545")
-	)
 	(label "SPI4_SDO"
 		(at 95.25 71.12 0)
 		(effects
@@ -779,16 +729,6 @@
 			(justify left bottom)
 		)
 		(uuid "9fdf0565-59fd-449f-92fe-706a32eae6cc")
-	)
-	(label "SPI1_SDI"
-		(at 92.71 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a2d44906-0fa4-4626-a68e-fa3ecf15122b")
 	)
 	(label "SPI3_CS"
 		(at 222.25 184.15 0)
@@ -910,16 +850,6 @@
 		)
 		(uuid "c2d34a90-18dc-45c6-9415-9fdce2c1811f")
 	)
-	(label "SPI1_SCK"
-		(at 92.71 176.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c32883bf-1099-4a56-9c8f-338e53a1789b")
-	)
 	(label "SPI2_SDI"
 		(at 52.07 190.5 180)
 		(effects
@@ -949,16 +879,6 @@
 			(justify left bottom)
 		)
 		(uuid "cef6dbac-f731-4839-b775-3ea9eb12c02b")
-	)
-	(label "SPI1_CS2"
-		(at 92.71 186.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d0ed655e-d96d-43bc-a844-6bf592706834")
 	)
 	(label "CAN1_RX"
 		(at 299.72 30.48 180)
@@ -1949,76 +1869,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "ST_SENSOR_SDO" input
-			(at 92.71 179.07 0)
-			(uuid "46f1d92a-de0e-4eb5-835c-c397a53dcaf6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ST_SENSOR_SDI" input
-			(at 92.71 181.61 0)
-			(uuid "8506c858-afb0-45c4-9079-7fed191940f4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ST_SENSOR_CS" input
-			(at 92.71 184.15 0)
-			(uuid "e3fbf003-f36b-4b16-a887-f12f073bc358")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ST_SENSOR_CS2" input
-			(at 92.71 186.69 0)
-			(uuid "dd908fe3-3904-4d40-83dd-19b555efe735")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ST_SENSOR__INT1" input
-			(at 92.71 189.23 0)
-			(uuid "fd0b2085-829a-44c2-82cb-2e06df1f3a89")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ST_SENSOR_INT2" input
-			(at 92.71 191.77 0)
-			(uuid "be9be5ad-6cf9-4e9b-b09f-71448fbbde48")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ST_SENSOR_SCK" input
-			(at 92.71 176.53 0)
-			(uuid "a0a05881-3327-4c9e-9cb9-f1d9da1727e4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "ISM_CS" input
