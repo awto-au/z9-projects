@@ -2079,7 +2079,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
-					(reference "#PWR?")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -2286,7 +2286,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
-					(reference "C?")
+					(reference "C953")
 					(unit 1)
 				)
 			)
@@ -2573,7 +2573,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
-					(reference "R?")
+					(reference "R951")
 					(unit 1)
 				)
 			)
@@ -2780,7 +2780,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
-					(reference "C?")
+					(reference "C951")
 					(unit 1)
 				)
 			)
@@ -2987,7 +2987,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
-					(reference "C?")
+					(reference "C952")
 					(unit 1)
 				)
 			)
@@ -3065,7 +3065,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
-					(reference "#PWR?")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -3201,7 +3201,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
-					(reference "JP?")
+					(reference "JP951")
 					(unit 1)
 				)
 			)
@@ -3327,7 +3327,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
-					(reference "U?")
+					(reference "U951")
 					(unit 1)
 				)
 			)
