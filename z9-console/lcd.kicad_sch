@@ -4515,6 +4515,22 @@
 		(uuid "265a7107-8b7a-4156-9848-36ffe1590fb2")
 	)
 	(no_connect
+		(at 71.12 156.21)
+		(uuid "3072c36f-6a17-4dfe-9623-88846fb95434")
+	)
+	(no_connect
+		(at 71.12 158.75)
+		(uuid "4d1fcdc4-370b-4f91-a4f4-780e9f3ad63c")
+	)
+	(no_connect
+		(at 71.12 153.67)
+		(uuid "6a541918-e9c5-45e7-bde7-c80f6b6cf14b")
+	)
+	(no_connect
+		(at 71.12 151.13)
+		(uuid "71755ff2-2311-425b-b2ca-ebd64b397b48")
+	)
+	(no_connect
 		(at 177.8 53.34)
 		(uuid "7ca51cc7-ba2e-4170-b6ad-1a0afaee3103")
 	)
@@ -4601,16 +4617,6 @@
 			(type default)
 		)
 		(uuid "0d478852-8cb2-4f81-be5b-17e901603af5")
-	)
-	(wire
-		(pts
-			(xy 71.12 158.75) (xy 132.08 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dd5491f-acdf-4dd7-bf82-50abb3133b8d")
 	)
 	(wire
 		(pts
@@ -4731,16 +4737,6 @@
 			(type default)
 		)
 		(uuid "270b085a-a034-4cba-8438-baecc0a7200f")
-	)
-	(wire
-		(pts
-			(xy 71.12 156.21) (xy 132.08 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "283f8a2b-be1c-4350-97fa-d3906cb4d2cb")
 	)
 	(wire
 		(pts
@@ -4911,16 +4907,6 @@
 			(type default)
 		)
 		(uuid "64b174aa-184c-4714-acfb-9edd247d68c2")
-	)
-	(wire
-		(pts
-			(xy 71.12 153.67) (xy 132.08 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64b1ac61-23e3-4363-a618-6338336adec7")
 	)
 	(wire
 		(pts
@@ -5264,16 +5250,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 151.13) (xy 132.08 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcc30da8-b90f-4dfb-8a07-eda593653355")
-	)
-	(wire
-		(pts
 			(xy 97.79 71.12) (xy 132.08 71.12)
 		)
 		(stroke
@@ -5599,17 +5575,6 @@
 		)
 		(uuid "7ad8eca6-78ee-4faf-82f5-e7f4b2d22def")
 	)
-	(hierarchical_label "SD_SDI"
-		(shape input)
-		(at 132.08 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8710ac40-cf52-4314-b442-90430990c033")
-	)
 	(hierarchical_label "LCD_SCK"
 		(shape input)
 		(at 132.08 78.74 0)
@@ -5621,17 +5586,6 @@
 		)
 		(uuid "9d317040-076a-46e9-8fb1-c1d35879e120")
 	)
-	(hierarchical_label "SD_SDO"
-		(shape output)
-		(at 132.08 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9f7ffcd7-80f5-4843-a703-9495c169d5dd")
-	)
 	(hierarchical_label "LCD_RESET"
 		(shape input)
 		(at 132.08 71.12 0)
@@ -5642,28 +5596,6 @@
 			(justify left)
 		)
 		(uuid "b0665441-c7d4-4a6b-978b-1d00f9400f6f")
-	)
-	(hierarchical_label "SD_SCK"
-		(shape input)
-		(at 132.08 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b947a7f9-af7c-404c-ba67-dfa22cc0133e")
-	)
-	(hierarchical_label "SD_CS"
-		(shape input)
-		(at 132.08 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e394653d-aa58-4fb1-9461-2df19dd856ca")
 	)
 	(hierarchical_label "LCD_CS"
 		(shape input)
