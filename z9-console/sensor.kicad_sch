@@ -2019,6 +2019,78 @@
 			(embedded_fonts no)
 		)
 	)
+	(circle
+		(center 35.56 158.75)
+		(radius 2.8398)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0b2b8fc7-5dc3-4f09-8f0b-646a03574c1e)
+	)
+	(circle
+		(center 101.6 161.29)
+		(radius 2.8398)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1dd2ae3d-e5bb-4f38-a7d0-bd0f91f7dd59)
+	)
+	(rectangle
+		(start 30.48 153.67)
+		(end 105.41 189.23)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3d323a17-cce8-4c9a-aaed-7b2793d30f75)
+	)
+	(rectangle
+		(start 46.99 156.21)
+		(end 87.63 162.56)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a80a8179-f091-4fc3-83db-3997c9663e84)
+	)
+	(rectangle
+		(start 59.69 170.18)
+		(end 68.58 175.26)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid acc5fd88-70f4-4c92-bc7f-f0c41ce7ecfa)
+	)
+	(circle
+		(center 64.77 182.88)
+		(radius 3.5921)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d5de11cb-3036-4591-ba07-a0d7c0d5904c)
+	)
 	(junction
 		(at 132.08 58.42)
 		(diameter 0)
