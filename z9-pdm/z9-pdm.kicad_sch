@@ -94,16 +94,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "ST_SENSOR"
-		(exclude_from_sim no)
-		(at 219.71 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "06aae83d-50f6-4362-913e-365cf537f3a8")
-	)
 	(text "IIS3DHHCTR"
 		(exclude_from_sim no)
 		(at 219.71 88.9 0)
