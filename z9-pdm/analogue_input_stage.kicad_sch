@@ -2115,7 +2115,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "08c4385e-2fdf-4278-ac47-3b2cdc937a2f")
 		(property "Reference" "F4"
 			(at 95.25 57.15 90)
@@ -2126,7 +2125,7 @@
 			)
 		)
 		(property "Value" "Fuse_16V_500mA_100A_1A_150mΩ_0805_PTC_Resettable_Fuses_ROHS"
-			(at 95.25 59.69 90)
+			(at 96.012 50.546 90)
 			(effects
 				(font
 					(size 1.27 1.27)
