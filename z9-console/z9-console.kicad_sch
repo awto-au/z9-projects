@@ -405,7 +405,7 @@
 		(uuid "342ac598-3ae4-4e08-a6ec-47bfd38b81c2")
 	)
 	(label "USB_OTG_FS_DP"
-		(at 351.79 95.25 0)
+		(at 351.79 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -575,7 +575,7 @@
 		(uuid "73f4831e-7244-4500-bb96-94d59115b90c")
 	)
 	(label "USB_OTG_FS_VBUS"
-		(at 351.79 99.06 0)
+		(at 351.79 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -785,7 +785,7 @@
 		(uuid "f00a87ab-e98f-4f65-a332-69d864fb516e")
 	)
 	(label "USB_OTG_FS_DM"
-		(at 351.79 91.44 0)
+		(at 351.79 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1950,7 +1950,7 @@
 		)
 	)
 	(sheet
-		(at 300.99 83.82)
+		(at 299.72 86.36)
 		(size 50.8 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1966,7 +1966,7 @@
 		)
 		(uuid "ad2e8a4f-4087-4a5a-8ddd-b6c7bc1c0b58")
 		(property "Sheetname" "shared usbc"
-			(at 300.99 83.1084 0)
+			(at 299.72 85.6484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,7 +1975,7 @@
 			)
 		)
 		(property "Sheetfile" "../z9-shared/shared_usbc.kicad_sch"
-			(at 300.99 107.2646 0)
+			(at 299.72 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1984,7 +1984,7 @@
 			)
 		)
 		(pin "USB_OTG_FS_DM" bidirectional
-			(at 351.79 91.44 0)
+			(at 350.52 93.98 0)
 			(uuid "b6ddfb0c-27f2-4779-a42b-6a4eb24f077d")
 			(effects
 				(font
@@ -1994,7 +1994,7 @@
 			)
 		)
 		(pin "USB_OTG_FS_DP" bidirectional
-			(at 351.79 95.25 0)
+			(at 350.52 97.79 0)
 			(uuid "4a4f1632-d3d8-4008-94dc-dcb15b66b05b")
 			(effects
 				(font
@@ -2004,7 +2004,7 @@
 			)
 		)
 		(pin "USB_OTG_FS_VBUS" output
-			(at 351.79 99.06 0)
+			(at 350.52 101.6 0)
 			(uuid "eb602a51-0c15-43fc-a7df-5e003794bb41")
 			(effects
 				(font
