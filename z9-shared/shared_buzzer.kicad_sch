@@ -2983,9 +2983,9 @@
 					(unit 1)
 				)
 			)
-			(project "z9-console"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
-					(reference "FB?")
+			(project ""
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/f06e6e31-c68d-491a-ad1f-dc0bf57e1d1a"
+					(reference "FB701")
 					(unit 1)
 				)
 			)
@@ -3238,12 +3238,6 @@
 		(instances
 			(project "z9-shared"
 				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/1a1ef1d0-80f8-40e1-820b-d8a0de9a6f67"
-					(reference "Q701")
-					(unit 1)
-				)
-			)
-			(project "z9-console"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
 					(reference "Q701")
 					(unit 1)
 				)
@@ -3513,12 +3507,6 @@
 					(unit 1)
 				)
 			)
-			(project "z9-console"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
-					(reference "D701")
-					(unit 1)
-				)
-			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/c97401c5-7e03-4d93-a14f-f692468677b5"
 					(reference "D701")
@@ -3591,12 +3579,6 @@
 					(unit 1)
 				)
 			)
-			(project "z9-console"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3659,12 +3641,6 @@
 		(instances
 			(project "z9-shared"
 				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/1a1ef1d0-80f8-40e1-820b-d8a0de9a6f67"
-					(reference "#PWR0701")
-					(unit 1)
-				)
-			)
-			(project "z9-console"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
 					(reference "#PWR0701")
 					(unit 1)
 				)
@@ -3870,12 +3846,6 @@
 					(unit 1)
 				)
 			)
-			(project "z9-console"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
-					(reference "C?")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4071,12 +4041,6 @@
 					(unit 1)
 				)
 			)
-			(project "z9-console"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
-					(reference "C701")
-					(unit 1)
-				)
-			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/c97401c5-7e03-4d93-a14f-f692468677b5"
 					(reference "C701")
@@ -4171,12 +4135,6 @@
 					(unit 1)
 				)
 			)
-			(project "z9-console"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
-					(reference "BZ701")
-					(unit 1)
-				)
-			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/c97401c5-7e03-4d93-a14f-f692468677b5"
 					(reference "BZ701")
@@ -4246,12 +4204,6 @@
 			(project "z9-shared"
 				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/1a1ef1d0-80f8-40e1-820b-d8a0de9a6f67"
 					(reference "#PWR0702")
-					(unit 1)
-				)
-			)
-			(project "z9-console"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
-					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -4451,9 +4403,9 @@
 					(unit 1)
 				)
 			)
-			(project "z9-console"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
-					(reference "C?")
+			(project ""
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/f06e6e31-c68d-491a-ad1f-dc0bf57e1d1a"
+					(reference "C703")
 					(unit 1)
 				)
 			)
@@ -4679,12 +4631,6 @@
 					(unit 1)
 				)
 			)
-			(project "z9-console"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
-					(reference "R702")
-					(unit 1)
-				)
-			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/c97401c5-7e03-4d93-a14f-f692468677b5"
 					(reference "R702")
@@ -4757,9 +4703,9 @@
 					(unit 1)
 				)
 			)
-			(project "z9-console"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
-					(reference "#PWR0103")
+			(project ""
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/f06e6e31-c68d-491a-ad1f-dc0bf57e1d1a"
+					(reference "#PWR0953")
 					(unit 1)
 				)
 			)
@@ -4984,12 +4930,6 @@
 					(unit 1)
 				)
 			)
-			(project "z9-console"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
-					(reference "R701")
-					(unit 1)
-				)
-			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/c97401c5-7e03-4d93-a14f-f692468677b5"
 					(reference "R701")
@@ -5058,12 +4998,6 @@
 		(instances
 			(project "z9-shared"
 				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/1a1ef1d0-80f8-40e1-820b-d8a0de9a6f67"
-					(reference "#PWR0703")
-					(unit 1)
-				)
-			)
-			(project "z9-console"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
 					(reference "#PWR0703")
 					(unit 1)
 				)
