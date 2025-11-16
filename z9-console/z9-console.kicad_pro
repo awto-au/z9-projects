@@ -597,7 +597,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 300,
+    "annotate_start_num": 700,
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -1171,10 +1171,6 @@
       "sensor"
     ],
     [
-      "cb7fc79f-a21e-4f3e-a003-80932d60a7a0",
-      "power"
-    ],
-    [
       "98bf8f66-79b9-41fc-9cd7-550fbae3319a",
       "lcd"
     ],
@@ -1191,8 +1187,8 @@
       "shared ps"
     ],
     [
-      "8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201",
-      "shared buzzer"
+      "f06e6e31-c68d-491a-ad1f-dc0bf57e1d1a",
+      "shared_buzzer"
     ],
     [
       "ad2e8a4f-4087-4a5a-8ddd-b6c7bc1c0b58",

@@ -314,16 +314,6 @@
 		)
 		(uuid "06de7516-903e-42f1-8a05-3684d6b0ae96")
 	)
-	(label "+5V_ISO"
-		(at 93.98 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0d48f440-8eee-43c0-899c-e2c8f6a2e3c3")
-	)
 	(label "GND_ISO"
 		(at 299.72 41.91 180)
 		(effects
@@ -385,7 +375,7 @@
 		(uuid "2a108980-2dba-4c27-ad2a-6bad9ae58607")
 	)
 	(label "PE13"
-		(at 300.99 62.23 180)
+		(at 299.72 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -493,16 +483,6 @@
 			(justify left bottom)
 		)
 		(uuid "50b60750-001e-434c-96f7-739f27dd5aa1")
-	)
-	(label "GND_ISO"
-		(at 93.98 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "50caa9c5-1fb2-4b7c-9338-154eb143820a")
 	)
 	(label "USB_OTG_FS_VBUS"
 		(at 180.34 104.14 180)
@@ -623,6 +603,16 @@
 			(justify left bottom)
 		)
 		(uuid "7e6c892d-0fc1-417f-9938-112560dcfba9")
+	)
+	(label "VBATT"
+		(at 162.56 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b080b2f-b59f-4849-9a8a-6d6193bddeed")
 	)
 	(label "SPI4_SCK"
 		(at 222.25 200.66 0)
@@ -763,16 +753,6 @@
 			(justify right bottom)
 		)
 		(uuid "dc3c5b8a-e6b6-4a2a-ad18-4f52ce2a8495")
-	)
-	(label "VBATT"
-		(at 53.34 128.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e28b244b-586e-42dc-b61f-ece48d19c584")
 	)
 	(label "SPI2_IRQ2"
 		(at 212.09 161.29 0)
@@ -1807,51 +1787,9 @@
 				(justify left top)
 			)
 		)
-		(instances
-			(project "z9-console"
-				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 300.99 54.61)
-		(size 50.8 16.51)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201")
-		(property "Sheetname" "shared buzzer"
-			(at 300.99 53.8984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "../z9-shared/shared_buzzer.kicad_sch"
-			(at 300.99 71.7046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "BUZZER" input
-			(at 300.99 62.23 180)
-			(uuid "812edb31-3aa6-4696-a183-65f5f0145f6c")
+		(pin "VBATT" input
+			(at 162.56 38.1 180)
+			(uuid "2ef75998-b995-4699-abe8-29fd349e1d16")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,7 +1800,7 @@
 		(instances
 			(project "z9-console"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
-					(page "700")
+					(page "10")
 				)
 			)
 		)
@@ -2084,8 +2022,8 @@
 		)
 	)
 	(sheet
-		(at 53.34 119.38)
-		(size 40.64 44.45)
+		(at 299.72 55.88)
+		(size 50.8 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2098,9 +2036,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "cb7fc79f-a21e-4f3e-a003-80932d60a7a0")
-		(property "Sheetname" "power"
-			(at 53.34 118.6684 0)
+		(uuid "f06e6e31-c68d-491a-ad1f-dc0bf57e1d1a")
+		(property "Sheetname" "shared_buzzer"
+			(at 299.72 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,8 +2046,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "power.kicad_sch"
-			(at 53.34 164.4146 0)
+		(property "Sheetfile" "../z9-shared/shared_buzzer.kicad_sch"
+			(at 299.72 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,29 +2055,9 @@
 				(justify left top)
 			)
 		)
-		(pin "GND_ISO" input
-			(at 93.98 154.94 0)
-			(uuid "d109deab-a265-4969-942d-3cf9d239ccbc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "+5V_ISO" output
-			(at 93.98 148.59 0)
-			(uuid "0cc1625a-f3c8-46bb-9c67-387dff994d66")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VBATT" input
-			(at 53.34 128.27 180)
-			(uuid "a544fca6-c259-4f85-b494-405b0961e0e7")
+		(pin "BUZZER" input
+			(at 299.72 66.04 180)
+			(uuid "3328bf2e-634f-4bf4-9a2b-7fc7289c2212")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2150,7 +2068,7 @@
 		(instances
 			(project "z9-console"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
-					(page "5")
+					(page "11")
 				)
 			)
 		)
