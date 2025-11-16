@@ -1686,7 +1686,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "FB_*"
+			(property "ki_fp_filters" "F*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2800,7 +2800,7 @@
 		(fields_autoplaced yes)
 		(uuid "0859973b-7624-4280-bbd2-b60661fdeb30")
 		(property "Reference" "FB701"
-			(at 107.95 64.8207 0)
+			(at 107.95 63.5507 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2809,12 +2809,12 @@
 			)
 		)
 		(property "Value" "~"
-			(at 104.14 66.04 0)
+			(at 107.95 66.0908 0)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "dnt:F_0805_2012Metric"
@@ -2953,7 +2953,7 @@
 			)
 		)
 		(property "Current Rating" "800mA"
-			(at 107.95 67.3608 0)
+			(at 107.95 68.6308 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -2980,6 +2980,12 @@
 			(project ""
 				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/1a1ef1d0-80f8-40e1-820b-d8a0de9a6f67"
 					(reference "FB701")
+					(unit 1)
+				)
+			)
+			(project "z9-console"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
+					(reference "FB?")
 					(unit 1)
 				)
 			)
@@ -3585,6 +3591,12 @@
 					(unit 1)
 				)
 			)
+			(project "z9-console"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3855,6 +3867,12 @@
 			(project "z9-shared"
 				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/1a1ef1d0-80f8-40e1-820b-d8a0de9a6f67"
 					(reference "C702")
+					(unit 1)
+				)
+			)
+			(project "z9-console"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -4231,6 +4249,12 @@
 					(unit 1)
 				)
 			)
+			(project "z9-console"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4424,6 +4448,12 @@
 			(project ""
 				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/1a1ef1d0-80f8-40e1-820b-d8a0de9a6f67"
 					(reference "C703")
+					(unit 1)
+				)
+			)
+			(project "z9-console"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -4724,6 +4754,12 @@
 			(project ""
 				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/1a1ef1d0-80f8-40e1-820b-d8a0de9a6f67"
 					(reference "#PWR0953")
+					(unit 1)
+				)
+			)
+			(project "z9-console"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/8d0cf1ff-dd45-490a-9f6d-ad4eb4a5c201"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
