@@ -24,6 +24,10 @@
 		(uuid "327c44cd-7426-47f5-8339-b64a7bb87698")
 	)
 	(no_connect
+		(at 193.04 41.91)
+		(uuid "334acea5-ab94-43b4-a4d9-8d6c3e4875b9")
+	)
+	(no_connect
 		(at 36.83 111.76)
 		(uuid "43492688-478e-492f-b770-f5912777a19a")
 	)
@@ -34,6 +38,10 @@
 	(no_connect
 		(at 36.83 43.18)
 		(uuid "6d81dce9-0318-41f8-b5bd-22b243436331")
+	)
+	(no_connect
+		(at 193.04 44.45)
+		(uuid "a575f442-36d4-4ddf-94fd-976a95252ee7")
 	)
 	(no_connect
 		(at 83.82 116.84)
@@ -315,6 +323,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+5V_ISO" output
+			(at 193.04 41.91 0)
+			(uuid "08fdd34e-57d5-473d-850f-3e9fa5ddb159")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND_ISO" output
+			(at 193.04 44.45 0)
+			(uuid "4bb788e0-223d-4bf0-a06f-8594c67ca5fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
