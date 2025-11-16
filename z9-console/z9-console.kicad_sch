@@ -405,7 +405,7 @@
 		(uuid "342ac598-3ae4-4e08-a6ec-47bfd38b81c2")
 	)
 	(label "USB_OTG_FS_DP"
-		(at 351.79 97.79 0)
+		(at 350.52 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -575,7 +575,7 @@
 		(uuid "73f4831e-7244-4500-bb96-94d59115b90c")
 	)
 	(label "USB_OTG_FS_VBUS"
-		(at 351.79 101.6 0)
+		(at 350.52 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -785,7 +785,7 @@
 		(uuid "f00a87ab-e98f-4f65-a332-69d864fb516e")
 	)
 	(label "USB_OTG_FS_DM"
-		(at 351.79 93.98 0)
+		(at 350.52 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
