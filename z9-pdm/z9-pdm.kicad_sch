@@ -468,7 +468,7 @@
 		)
 		(uuid "2d7799d7-016c-4aae-9bf0-2673d114070f")
 	)
-	(label "HC_12"
+	(label "HC_7"
 		(at 304.8 77.47 180)
 		(effects
 			(font
@@ -708,7 +708,7 @@
 		)
 		(uuid "5dd4cb3b-e319-405b-aaab-f29bcc0d5212")
 	)
-	(label "HC_9"
+	(label "HC_10"
 		(at 304.8 66.04 180)
 		(effects
 			(font
@@ -738,7 +738,7 @@
 		)
 		(uuid "6679a2a3-56e3-472e-ae0b-d2d0e2488a54")
 	)
-	(label "HC_7"
+	(label "HC_12"
 		(at 304.8 58.42 180)
 		(effects
 			(font
@@ -1028,7 +1028,7 @@
 		)
 		(uuid "b4440e58-606f-4411-8602-aa370007a8d2")
 	)
-	(label "HC_11"
+	(label "HC_8"
 		(at 304.8 73.66 180)
 		(effects
 			(font
@@ -1088,7 +1088,7 @@
 		)
 		(uuid "d351d660-eae6-4569-b97b-d6e7903da100")
 	)
-	(label "HC_10"
+	(label "HC_9"
 		(at 304.8 69.85 180)
 		(effects
 			(font
@@ -1128,7 +1128,7 @@
 		)
 		(uuid "d8d17a51-e5f8-432a-ae1b-310c79da1c8d")
 	)
-	(label "HC_8"
+	(label "HC_11"
 		(at 304.8 62.23 180)
 		(effects
 			(font
