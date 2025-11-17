@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.2,
+          "height": 2.5,
+          "width": 2.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -93,7 +93,7 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
+        "lib_footprint_issues": "ignore",
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
@@ -108,7 +108,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -502,38 +502,18 @@
         "wire_width": 6
       },
       {
-        "bus_width": 12,
         "clearance": 0.127127,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
-        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "SCS200_POWER",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "OUTPUTS",
+        "pcb_color": "rgb(255, 75, 240)",
         "priority": 0,
-        "schematic_color": "rgb(255, 12, 41)",
-        "track_width": 0.127127,
-        "via_diameter": 0.40045,
-        "via_drill": 0.200225,
-        "wire_width": 24
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.127127,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "SMALL_POWER",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 2.8,
         "via_diameter": 0.40045,
-        "via_drill": 0.200225,
-        "wire_width": 6
+        "via_drill": 0.200225
       },
       {
         "bus_width": 12,
@@ -545,7 +525,7 @@
         "microvia_drill": 0.1,
         "name": "THR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.40045,
@@ -563,20 +543,72 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "SMALL_POWER",
+        "netclass": "Default",
         "pattern": "+5V"
       },
       {
-        "netclass": "SMALL_POWER",
+        "netclass": "Default",
         "pattern": "*VBATT"
       },
       {
-        "netclass": "SMALL_POWER",
+        "netclass": "Default",
         "pattern": "Net-(D1-A)"
       },
       {
-        "netclass": "SMALL_POWER",
+        "netclass": "Default",
         "pattern": "+3.3VP"
+      },
+      {
+        "netclass": "OUTPUTS",
+        "pattern": "HC_.*"
+      },
+      {
+        "netclass": "OUTPUTS",
+        "pattern": "/HC_5"
+      },
+      {
+        "netclass": "OUTPUTS",
+        "pattern": "/HC_4"
+      },
+      {
+        "netclass": "OUTPUTS",
+        "pattern": "/HC_6"
+      },
+      {
+        "netclass": "OUTPUTS",
+        "pattern": "/HC_3"
+      },
+      {
+        "netclass": "OUTPUTS",
+        "pattern": "/HC_2"
+      },
+      {
+        "netclass": "OUTPUTS",
+        "pattern": "/HC_1"
+      },
+      {
+        "netclass": "OUTPUTS",
+        "pattern": "/HC_7"
+      },
+      {
+        "netclass": "OUTPUTS",
+        "pattern": "/HC_8"
+      },
+      {
+        "netclass": "OUTPUTS",
+        "pattern": "/HC_9"
+      },
+      {
+        "netclass": "OUTPUTS",
+        "pattern": "/HC_10"
+      },
+      {
+        "netclass": "OUTPUTS",
+        "pattern": "/HC_11"
+      },
+      {
+        "netclass": "OUTPUTS",
+        "pattern": "/HC_12"
       }
     ]
   },

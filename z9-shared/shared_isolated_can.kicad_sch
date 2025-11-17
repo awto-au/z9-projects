@@ -2544,7 +2544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f318322-5538-4ba9-be99-86133d941428")
-		(property "Reference" "#PWR0952"
+		(property "Reference" "#PWR0111"
 			(at 128.27 142.24 0)
 			(effects
 				(font
@@ -2829,7 +2829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bb0a43e-d14e-4696-8af0-3de0209557ad")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0951"
 			(at 52.07 160.02 0)
 			(effects
 				(font
@@ -2886,6 +2886,12 @@
 			(project "z9-console"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/f6275c7c-4728-4868-9630-23eeb36e7047"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+			(project "z9-pdm"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
+					(reference "#PWR0951")
 					(unit 1)
 				)
 			)
@@ -3584,6 +3590,12 @@
 					(unit 1)
 				)
 			)
+			(project "z9-pdm"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
+					(reference "C955")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3803,7 +3815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9acff709-e683-4bdb-a818-a17fe81b6acf")
-		(property "Reference" "#PWR0951"
+		(property "Reference" "#PWR0110"
 			(at 78.74 77.47 0)
 			(effects
 				(font
@@ -4070,6 +4082,12 @@
 					(unit 1)
 				)
 			)
+			(project "z9-pdm"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
+					(reference "C954")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4082,7 +4100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3c78465-adbd-4358-b0a9-5bace530c2af")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0952"
 			(at 52.07 184.15 0)
 			(effects
 				(font
@@ -4139,6 +4157,12 @@
 			(project "z9-console"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/f6275c7c-4728-4868-9630-23eeb36e7047"
 					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+			(project "z9-pdm"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
+					(reference "#PWR0952")
 					(unit 1)
 				)
 			)
@@ -4260,6 +4284,12 @@
 			)
 			(project "z9-console"
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/f6275c7c-4728-4868-9630-23eeb36e7047"
+					(reference "U952")
+					(unit 1)
+				)
+			)
+			(project "z9-pdm"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
 					(reference "U952")
 					(unit 1)
 				)

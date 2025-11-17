@@ -96,7 +96,7 @@
       11
     ],
     "col_widths": [
-      174,
+      243,
       159,
       110,
       73,
@@ -115,7 +115,7 @@
     "filter_by_netclass": true,
     "filter_text": "",
     "group_by_constraint": false,
-    "group_by_netclass": false,
+    "group_by_netclass": true,
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
