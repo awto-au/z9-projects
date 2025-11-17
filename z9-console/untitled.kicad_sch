@@ -3768,7 +3768,7 @@
 	)
 	(text "series 300"
 		(exclude_from_sim no)
-		(at 131.826 34.544 0)
+		(at 276.098 162.814 0)
 		(effects
 			(font
 				(size 1.27 1.27)

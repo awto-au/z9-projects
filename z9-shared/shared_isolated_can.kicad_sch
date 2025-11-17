@@ -2829,7 +2829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bb0a43e-d14e-4696-8af0-3de0209557ad")
-		(property "Reference" "#PWR0954"
+		(property "Reference" "#PWR0105"
 			(at 52.07 160.02 0)
 			(effects
 				(font
@@ -2880,6 +2880,12 @@
 			(project "z9-shared"
 				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/a613cbdc-c893-46e2-859f-3c7622690192"
 					(reference "#PWR0954")
+					(unit 1)
+				)
+			)
+			(project "z9-console"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/f6275c7c-4728-4868-9630-23eeb36e7047"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -3572,6 +3578,12 @@
 					(unit 1)
 				)
 			)
+			(project "z9-console"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/f6275c7c-4728-4868-9630-23eeb36e7047"
+					(reference "C955")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4052,6 +4064,12 @@
 					(unit 1)
 				)
 			)
+			(project "z9-console"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/f6275c7c-4728-4868-9630-23eeb36e7047"
+					(reference "C954")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4064,7 +4082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3c78465-adbd-4358-b0a9-5bace530c2af")
-		(property "Reference" "#PWR0955"
+		(property "Reference" "#PWR0106"
 			(at 52.07 184.15 0)
 			(effects
 				(font
@@ -4115,6 +4133,12 @@
 			(project "z9-shared"
 				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/a613cbdc-c893-46e2-859f-3c7622690192"
 					(reference "#PWR0955")
+					(unit 1)
+				)
+			)
+			(project "z9-console"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/f6275c7c-4728-4868-9630-23eeb36e7047"
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -4230,6 +4254,12 @@
 		(instances
 			(project "z9-shared"
 				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/a613cbdc-c893-46e2-859f-3c7622690192"
+					(reference "U952")
+					(unit 1)
+				)
+			)
+			(project "z9-console"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/f6275c7c-4728-4868-9630-23eeb36e7047"
 					(reference "U952")
 					(unit 1)
 				)
