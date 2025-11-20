@@ -648,6 +648,10 @@
       {
         "netclass": "LC",
         "pattern": "/connectors/SENSE_GROUND"
+      },
+      {
+        "netclass": "HC",
+        "pattern": "+12V_VIPOWER"
       }
     ]
   },
