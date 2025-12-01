@@ -30330,7 +30330,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58eeba68-e4d8-4fe9-aefe-0b3e472bc974")
 		(property "Reference" "J4"
@@ -30351,7 +30351,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "dnt:SAMTEC_FTSH-107-01-F-DV-K-Fix"
+		(property "Footprint" "dnt:Conn_SAMTEC_FTSH-107-01-F-DV-K-Fix"
 			(at 293.37 53.34 0)
 			(effects
 				(font
