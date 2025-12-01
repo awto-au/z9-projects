@@ -388,16 +388,6 @@
 		)
 		(uuid "0a3d8007-65fe-484e-8745-fb783798e1d8")
 	)
-	(label "+5V_ISO"
-		(at 92.71 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0d48f440-8eee-43c0-899c-e2c8f6a2e3c3")
-	)
 	(label "ADC1_IN2"
 		(at 160.02 52.07 180)
 		(effects
@@ -607,16 +597,6 @@
 			(justify right bottom)
 		)
 		(uuid "50bde2c3-e9e0-433b-973b-efa6ab9125c1")
-	)
-	(label "GND_ISO"
-		(at 92.71 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "50caa9c5-1fb2-4b7c-9338-154eb143820a")
 	)
 	(label "ADC1_IN1"
 		(at 160.02 49.53 180)
@@ -3496,26 +3476,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "GND_ISO" input
-			(at 92.71 149.86 0)
-			(uuid "d109deab-a265-4969-942d-3cf9d239ccbc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "+5V_ISO" output
-			(at 92.71 143.51 0)
-			(uuid "0cc1625a-f3c8-46bb-9c67-387dff994d66")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances

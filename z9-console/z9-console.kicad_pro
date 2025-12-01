@@ -472,8 +472,13 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "dnt",
+      "dnt-alt2"
+    ],
+    "pinned_symbol_libs": [
+      "dnt_global"
+    ]
   },
   "meta": {
     "filename": "z9-console.kicad_pro",
