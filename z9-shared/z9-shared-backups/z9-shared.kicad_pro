@@ -609,6 +609,27 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "09e08bdc-786f-4949-8afc-e02ddbe0502e",
+      "Root"
+    ],
+    [
+      "ea021776-ac33-4bd3-a9c7-68e81cc76aac",
+      "shared_usbc"
+    ],
+    [
+      "4ba7270b-fda7-4f09-aaf0-2021d0ea5e88",
+      "shared_buzzer"
+    ],
+    [
+      "0e53bd87-7ef1-4ffd-bb7a-214552c0f320",
+      "shared_isolated_can"
+    ],
+    [
+      "4ae5da5d-94ab-423e-aee7-921d47489096",
+      "shared_ism330dhcx"
+    ]
+  ],
   "text_variables": {}
 }

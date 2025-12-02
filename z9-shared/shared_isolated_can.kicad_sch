@@ -2544,7 +2544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f318322-5538-4ba9-be99-86133d941428")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0952"
 			(at 128.27 142.24 0)
 			(effects
 				(font
@@ -2593,7 +2593,7 @@
 		)
 		(instances
 			(project "z9-shared"
-				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/a613cbdc-c893-46e2-859f-3c7622690192"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/0e53bd87-7ef1-4ffd-bb7a-214552c0f320"
 					(reference "#PWR0952")
 					(unit 1)
 				)
@@ -2800,7 +2800,7 @@
 		)
 		(instances
 			(project "z9-shared"
-				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/a613cbdc-c893-46e2-859f-3c7622690192"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/0e53bd87-7ef1-4ffd-bb7a-214552c0f320"
 					(reference "C953")
 					(unit 1)
 				)
@@ -2829,7 +2829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bb0a43e-d14e-4696-8af0-3de0209557ad")
-		(property "Reference" "#PWR0951"
+		(property "Reference" "#PWR0954"
 			(at 52.07 160.02 0)
 			(effects
 				(font
@@ -2878,7 +2878,7 @@
 		)
 		(instances
 			(project "z9-shared"
-				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/a613cbdc-c893-46e2-859f-3c7622690192"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/0e53bd87-7ef1-4ffd-bb7a-214552c0f320"
 					(reference "#PWR0954")
 					(unit 1)
 				)
@@ -3165,7 +3165,7 @@
 		)
 		(instances
 			(project "z9-shared"
-				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/a613cbdc-c893-46e2-859f-3c7622690192"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/0e53bd87-7ef1-4ffd-bb7a-214552c0f320"
 					(reference "R951")
 					(unit 1)
 				)
@@ -3372,7 +3372,7 @@
 		)
 		(instances
 			(project "z9-shared"
-				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/a613cbdc-c893-46e2-859f-3c7622690192"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/0e53bd87-7ef1-4ffd-bb7a-214552c0f320"
 					(reference "C951")
 					(unit 1)
 				)
@@ -3579,7 +3579,7 @@
 		)
 		(instances
 			(project "z9-shared"
-				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/a613cbdc-c893-46e2-859f-3c7622690192"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/0e53bd87-7ef1-4ffd-bb7a-214552c0f320"
 					(reference "C955")
 					(unit 1)
 				)
@@ -3786,7 +3786,7 @@
 		)
 		(instances
 			(project "z9-shared"
-				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/a613cbdc-c893-46e2-859f-3c7622690192"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/0e53bd87-7ef1-4ffd-bb7a-214552c0f320"
 					(reference "C952")
 					(unit 1)
 				)
@@ -3815,7 +3815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9acff709-e683-4bdb-a818-a17fe81b6acf")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0951"
 			(at 78.74 77.47 0)
 			(effects
 				(font
@@ -3864,7 +3864,7 @@
 		)
 		(instances
 			(project "z9-shared"
-				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/a613cbdc-c893-46e2-859f-3c7622690192"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/0e53bd87-7ef1-4ffd-bb7a-214552c0f320"
 					(reference "#PWR0951")
 					(unit 1)
 				)
@@ -4071,7 +4071,7 @@
 		)
 		(instances
 			(project "z9-shared"
-				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/a613cbdc-c893-46e2-859f-3c7622690192"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/0e53bd87-7ef1-4ffd-bb7a-214552c0f320"
 					(reference "C954")
 					(unit 1)
 				)
@@ -4100,7 +4100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3c78465-adbd-4358-b0a9-5bace530c2af")
-		(property "Reference" "#PWR0952"
+		(property "Reference" "#PWR0955"
 			(at 52.07 184.15 0)
 			(effects
 				(font
@@ -4149,7 +4149,7 @@
 		)
 		(instances
 			(project "z9-shared"
-				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/a613cbdc-c893-46e2-859f-3c7622690192"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/0e53bd87-7ef1-4ffd-bb7a-214552c0f320"
 					(reference "#PWR0955")
 					(unit 1)
 				)
@@ -4277,7 +4277,7 @@
 		)
 		(instances
 			(project "z9-shared"
-				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/a613cbdc-c893-46e2-859f-3c7622690192"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/0e53bd87-7ef1-4ffd-bb7a-214552c0f320"
 					(reference "U952")
 					(unit 1)
 				)
@@ -4413,7 +4413,7 @@
 		)
 		(instances
 			(project "z9-shared"
-				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/a613cbdc-c893-46e2-859f-3c7622690192"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/0e53bd87-7ef1-4ffd-bb7a-214552c0f320"
 					(reference "JP951")
 					(unit 1)
 				)
@@ -4539,7 +4539,7 @@
 		)
 		(instances
 			(project "z9-shared"
-				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/a613cbdc-c893-46e2-859f-3c7622690192"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e/0e53bd87-7ef1-4ffd-bb7a-214552c0f320"
 					(reference "U951")
 					(unit 1)
 				)

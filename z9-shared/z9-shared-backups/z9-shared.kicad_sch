@@ -2,9 +2,177 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 09e08bdc-786f-4949-8afc-e02ddbe0502e)
+	(uuid "09e08bdc-786f-4949-8afc-e02ddbe0502e")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 24.13 95.25)
+		(size 48.26 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0e53bd87-7ef1-4ffd-bb7a-214552c0f320")
+		(property "Sheetname" "shared_isolated_can"
+			(at 24.13 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../shared_isolated_can.kicad_sch"
+			(at 24.13 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "z9-shared"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 129.54)
+		(size 48.26 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ae5da5d-94ab-423e-aee7-921d47489096")
+		(property "Sheetname" "shared_ism330dhcx"
+			(at 24.13 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../shared_ism330dhcx.kicad_sch"
+			(at 24.13 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "z9-shared"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 60.96)
+		(size 48.26 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ba7270b-fda7-4f09-aaf0-2021d0ea5e88")
+		(property "Sheetname" "shared_buzzer"
+			(at 24.13 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../shared_buzzer.kicad_sch"
+			(at 24.13 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "z9-shared"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 27.94)
+		(size 48.26 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ea021776-ac33-4bd3-a9c7-68e81cc76aac")
+		(property "Sheetname" "shared_usbc"
+			(at 24.13 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../shared_usbc.kicad_sch"
+			(at 24.13 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "z9-shared"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
