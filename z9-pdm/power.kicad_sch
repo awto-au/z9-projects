@@ -4877,6 +4877,12 @@
 		(uuid "c859d12e-83ce-4622-8ca0-2ce64473bd70")
 	)
 	(junction
+		(at 72.39 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d20a8884-e381-4154-8008-f016436c254f")
+	)
+	(junction
 		(at 115.57 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5166,6 +5172,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 73.66) (xy 72.39 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d5421a7-3789-4fdc-a6d1-a03faa6029b8")
+	)
+	(wire
+		(pts
 			(xy 92.71 34.29) (xy 100.33 34.29)
 		)
 		(stroke
@@ -5233,16 +5249,6 @@
 			(type default)
 		)
 		(uuid "489b51d4-8a38-4ffc-a44c-6772791ae4b8")
-	)
-	(wire
-		(pts
-			(xy 72.39 73.66) (xy 87.63 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48fb1ef7-905f-4e39-a97a-3d2cd93189a4")
 	)
 	(wire
 		(pts
@@ -5606,6 +5612,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 73.66) (xy 87.63 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1fe7149-1244-42a5-814f-e651f264eb05")
+	)
+	(wire
+		(pts
 			(xy 116.84 30.48) (xy 116.84 34.29)
 		)
 		(stroke
@@ -5773,16 +5789,6 @@
 			(type default)
 		)
 		(uuid "e91c079d-ebb7-40fc-b8b0-f0e0f0c07c59")
-	)
-	(wire
-		(pts
-			(xy 87.63 74.93) (xy 87.63 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ead31121-e305-40f2-b7d7-75ee3f1ddbad")
 	)
 	(wire
 		(pts
@@ -8029,7 +8035,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 74.93 0)
+		(at 72.39 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8037,7 +8043,7 @@
 		(dnp no)
 		(uuid "79b6d088-1557-4b6d-8981-8cb735226b30")
 		(property "Reference" "#PWR02"
-			(at 87.63 81.28 0)
+			(at 72.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8046,7 +8052,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 78.74 0)
+			(at 72.39 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8054,7 +8060,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 74.93 0)
+			(at 72.39 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8063,7 +8069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 74.93 0)
+			(at 72.39 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8072,7 +8078,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 74.93 0)
+			(at 72.39 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
