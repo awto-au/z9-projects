@@ -109,12 +109,11 @@
     ],
     "custom_group_rules": [],
     "expanded_rows": [
-      "Default",
-      "LC and Default"
+      "HC and Default"
     ],
     "filter_by_net_name": true,
     "filter_by_netclass": true,
-    "filter_text": "",
+    "filter_text": "hc",
     "group_by_constraint": false,
     "group_by_netclass": true,
     "show_unconnected_nets": false,
