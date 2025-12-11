@@ -512,11 +512,17 @@
       },
       {
         "clearance": 0.127127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "LC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0
+        "track_width": 1.0,
+        "via_diameter": 0.40045,
+        "via_drill": 0.200225
       },
       {
         "bus_width": 12,
