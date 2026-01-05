@@ -94,32 +94,32 @@
       11
     ],
     "col_widths": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      461,
+      161,
+      152,
+      116,
+      115,
+      119,
+      135,
+      75,
+      111,
+      147,
+      130,
+      507
     ],
     "custom_group_rules": [],
     "expanded_rows": [
-      "HC and Default"
+      "Default"
     ],
     "filter_by_net_name": true,
     "filter_by_netclass": true,
-    "filter_text": "hc",
+    "filter_text": "gnd",
     "group_by_constraint": false,
     "group_by_netclass": true,
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
-    "sort_ascending": true,
-    "sorting_column": 0
+    "sort_ascending": false,
+    "sorting_column": 10
   },
   "open_jobsets": [],
   "project": {

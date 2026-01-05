@@ -7,7 +7,181 @@
 	(title_block
 		(title "l8")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 130.81 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06165580-cd9f-4510-9bef-f5110d71eea1")
+	)
+	(junction
+		(at 130.81 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1015345a-954e-43b5-979e-46b9f6e97270")
+	)
+	(junction
+		(at 130.81 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55e01256-e375-4373-bb8d-5803faedcf96")
+	)
+	(junction
+		(at 130.81 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71684093-5f10-4d5d-b04f-8ba237120451")
+	)
+	(junction
+		(at 130.81 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7571012f-58cd-4609-a89b-b982418dc286")
+	)
+	(junction
+		(at 130.81 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7668faba-d5d2-4ef9-8a39-6db1fe0845bd")
+	)
+	(junction
+		(at 130.81 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbd37647-6ae6-4e40-8017-46ba7f8d23e9")
+	)
+	(junction
+		(at 130.81 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc439a6d-0c2d-483f-b522-37a3b488da02")
+	)
 	(wire
 		(pts
 			(xy 116.84 45.72) (xy 137.16 45.72)
@@ -30,6 +204,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 100.33) (xy 137.16 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ce2c6c2-4725-4611-8023-2fd0c88e3b89")
+	)
+	(wire
+		(pts
 			(xy 161.29 45.72) (xy 189.23 45.72)
 		)
 		(stroke
@@ -37,6 +221,16 @@
 			(type default)
 		)
 		(uuid "0f2d45ce-0e93-447e-a0b7-af9b96324c37")
+	)
+	(wire
+		(pts
+			(xy 130.81 111.76) (xy 130.81 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18676feb-d4bb-4a45-a1e8-11f6d81c7bf9")
 	)
 	(wire
 		(pts
@@ -50,6 +244,26 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 43.18) (xy 130.81 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d58e240-84d3-4316-904b-30089257a640")
+	)
+	(wire
+		(pts
+			(xy 130.81 66.04) (xy 137.16 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a97bad4-5601-4140-8bba-189e126cead2")
+	)
+	(wire
+		(pts
 			(xy 161.29 91.44) (xy 189.23 91.44)
 		)
 		(stroke
@@ -60,6 +274,46 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 77.47) (xy 130.81 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42253781-342f-4f8b-9431-ed0cf345858c")
+	)
+	(wire
+		(pts
+			(xy 130.81 54.61) (xy 130.81 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "464a9afb-1d3c-45f7-a91f-36e63a7d1d31")
+	)
+	(wire
+		(pts
+			(xy 130.81 66.04) (xy 130.81 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6218f598-8815-4c73-9a83-cf36eaae963a")
+	)
+	(wire
+		(pts
+			(xy 130.81 111.76) (xy 137.16 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f5e2a0-7278-4018-8e30-a177cacbade2")
+	)
+	(wire
+		(pts
 			(xy 161.29 68.58) (xy 189.23 68.58)
 		)
 		(stroke
@@ -67,6 +321,66 @@
 			(type default)
 		)
 		(uuid "66863766-4f9f-42d0-b080-d8dd09de4ce3")
+	)
+	(wire
+		(pts
+			(xy 130.81 54.61) (xy 137.16 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d593253-7b11-414b-8ebf-963e75a8df8a")
+	)
+	(wire
+		(pts
+			(xy 130.81 88.9) (xy 137.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f311f9b-fe2e-49df-a1af-3209acfea67c")
+	)
+	(wire
+		(pts
+			(xy 130.81 43.18) (xy 130.81 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83120d43-0522-43c6-8ce3-27af63f47144")
+	)
+	(wire
+		(pts
+			(xy 130.81 123.19) (xy 130.81 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8410e987-cfcc-46e8-912e-caf56a8bac08")
+	)
+	(wire
+		(pts
+			(xy 130.81 100.33) (xy 130.81 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "874a9056-5252-4b5a-b1eb-f19c12531cde")
+	)
+	(wire
+		(pts
+			(xy 130.81 123.19) (xy 137.16 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f01a76-c6ba-4b80-84f5-20ddd735ce28")
 	)
 	(wire
 		(pts
@@ -87,6 +401,16 @@
 			(type default)
 		)
 		(uuid "8ee1ac94-9c03-4d07-bcf2-92fed8ae04a5")
+	)
+	(wire
+		(pts
+			(xy 130.81 21.59) (xy 130.81 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "965874c6-4c19-4ac0-8ecc-0aeec006b0e2")
 	)
 	(wire
 		(pts
@@ -127,6 +451,36 @@
 			(type default)
 		)
 		(uuid "a3d82225-6434-4a9a-bd36-ff8b213a154f")
+	)
+	(wire
+		(pts
+			(xy 130.81 134.62) (xy 137.16 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ef9304-594a-4748-bbdf-b9045d1ae065")
+	)
+	(wire
+		(pts
+			(xy 130.81 77.47) (xy 137.16 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7817166-fbf0-418c-aaa0-96f8525d6bee")
+	)
+	(wire
+		(pts
+			(xy 130.81 88.9) (xy 130.81 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93c68b7-0604-40ff-9b4e-75edbbd80061")
 	)
 	(wire
 		(pts
@@ -386,9 +740,75 @@
 		)
 		(uuid "f35017ff-b64b-4ba3-b5e4-7913215c206b")
 	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 130.81 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14348baa-f03b-49c6-a86f-169bfaf5d3b8")
+		(property "Reference" "#PWR04901"
+			(at 130.81 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 130.81 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 130.81 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d748f6cf-bee1-4398-8445-c96e5e62ac2a")
+		)
+		(instances
+			(project ""
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8"
+					(reference "#PWR04901")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 137.16 66.04)
-		(size 24.13 5.08)
+		(at 137.16 64.77)
+		(size 24.13 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -403,7 +823,7 @@
 		)
 		(uuid "16936357-08be-4dfb-9389-5ff776d9b4b6")
 		(property "Sheetname" "Analogue Input Stage2"
-			(at 137.16 65.3284 0)
+			(at 137.16 64.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -440,17 +860,27 @@
 				(justify left)
 			)
 		)
+		(pin "3V3_VOLT" input
+			(at 137.16 66.04 180)
+			(uuid "43ac819b-299e-4322-8408-0911a63a8372")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8"
-					(page "13")
+					(page "52")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 137.16 54.61)
-		(size 24.13 5.08)
+		(at 137.16 53.34)
+		(size 24.13 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -465,7 +895,7 @@
 		)
 		(uuid "2dd2e65c-6d2c-4efc-971f-df9732d92616")
 		(property "Sheetname" "Analogue Input Stage1"
-			(at 137.16 53.8984 0)
+			(at 137.16 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -502,17 +932,27 @@
 				(justify left)
 			)
 		)
+		(pin "3V3_VOLT" input
+			(at 137.16 54.61 180)
+			(uuid "27dc21b3-05ba-4605-92c3-a7526cf69876")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8"
-					(page "9")
+					(page "51")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 137.16 77.47)
-		(size 24.13 5.08)
+		(at 137.16 76.2)
+		(size 24.13 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -527,7 +967,7 @@
 		)
 		(uuid "475a8070-9854-42c4-a221-83799d98dc7a")
 		(property "Sheetname" "Analogue Input Stage3"
-			(at 137.16 76.7584 0)
+			(at 137.16 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -564,17 +1004,27 @@
 				(justify left)
 			)
 		)
+		(pin "3V3_VOLT" input
+			(at 137.16 77.47 180)
+			(uuid "be98b8f2-ee3d-4be8-a2cd-1487a86ef673")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8"
-					(page "14")
+					(page "53")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 137.16 111.76)
-		(size 24.13 5.08)
+		(at 137.16 110.49)
+		(size 24.13 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -589,7 +1039,7 @@
 		)
 		(uuid "6e105c8c-269d-44b6-bf84-4ea90c10d39b")
 		(property "Sheetname" "Analogue Input Stage6"
-			(at 137.16 111.0484 0)
+			(at 137.16 109.7784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -626,17 +1076,27 @@
 				(justify left)
 			)
 		)
+		(pin "3V3_VOLT" input
+			(at 137.16 111.76 180)
+			(uuid "6c4e4be5-81cc-4bbe-9c6c-50457e866113")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8"
-					(page "17")
+					(page "56")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 137.16 88.9)
-		(size 24.13 5.08)
+		(at 137.16 87.63)
+		(size 24.13 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -651,7 +1111,7 @@
 		)
 		(uuid "8e372482-0802-42be-8457-226c2d332a06")
 		(property "Sheetname" "Analogue Input Stage4"
-			(at 137.16 88.1884 0)
+			(at 137.16 86.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -688,17 +1148,27 @@
 				(justify left)
 			)
 		)
+		(pin "3V3_VOLT" input
+			(at 137.16 88.9 180)
+			(uuid "c04b0577-e403-4db6-ae78-2dd5ca26df93")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8"
-					(page "15")
+					(page "54")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 137.16 134.62)
-		(size 24.13 5.08)
+		(at 137.16 133.35)
+		(size 24.13 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -713,7 +1183,7 @@
 		)
 		(uuid "9000048e-bda8-4ae5-91bd-14a70361a8ab")
 		(property "Sheetname" "Analogue Input Stage8"
-			(at 137.16 133.9084 0)
+			(at 137.16 132.6384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -750,17 +1220,27 @@
 				(justify left)
 			)
 		)
+		(pin "3V3_VOLT" input
+			(at 137.16 134.62 180)
+			(uuid "d436e3ce-bfeb-4541-a8e9-32a00995e735")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8"
-					(page "19")
+					(page "58")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 137.16 123.19)
-		(size 24.13 5.08)
+		(at 137.16 121.92)
+		(size 24.13 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -775,7 +1255,7 @@
 		)
 		(uuid "9a14746b-34ec-4972-892b-737dff6e1e47")
 		(property "Sheetname" "Analogue Input Stage7"
-			(at 137.16 122.4784 0)
+			(at 137.16 121.2084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -812,17 +1292,27 @@
 				(justify left)
 			)
 		)
+		(pin "3V3_VOLT" input
+			(at 137.16 123.19 180)
+			(uuid "9959c2f2-14b0-47b6-8ba7-f822773f8f65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8"
-					(page "18")
+					(page "57")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 137.16 100.33)
-		(size 24.13 5.08)
+		(at 137.16 99.06)
+		(size 24.13 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -837,7 +1327,7 @@
 		)
 		(uuid "c655b86a-12db-4169-a137-df9f02825cf7")
 		(property "Sheetname" "Analogue Input Stage5"
-			(at 137.16 99.6184 0)
+			(at 137.16 98.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -874,17 +1364,27 @@
 				(justify left)
 			)
 		)
+		(pin "3V3_VOLT" input
+			(at 137.16 100.33 180)
+			(uuid "248de0e4-0143-421d-a126-5e6e0e0ca9e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8"
-					(page "16")
+					(page "55")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 137.16 43.18)
-		(size 24.13 5.08)
+		(at 137.16 41.91)
+		(size 24.13 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -899,7 +1399,7 @@
 		)
 		(uuid "ca441d0e-e0e4-4e4e-8f25-3aa63f5e3572")
 		(property "Sheetname" "Analogue Input Stage"
-			(at 137.16 42.4684 0)
+			(at 137.16 41.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -936,10 +1436,20 @@
 				(justify left)
 			)
 		)
+		(pin "3V3_VOLT" input
+			(at 137.16 43.18 180)
+			(uuid "b0f24204-8a71-4c5f-8a3b-9c0494256d9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8"
-					(page "12")
+					(page "50")
 				)
 			)
 		)

@@ -1065,7 +1065,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 700,
+    "annotate_start_num": 2,
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -1583,10 +1583,6 @@
       "connectors"
     ],
     [
-      "2dd2e65c-6d2c-4efc-971f-df9732d92616",
-      "Analogue Input Stage1"
-    ],
-    [
       "cd2147da-2530-4471-81dd-8f7a12e86f84",
       "vipower"
     ],
@@ -1597,6 +1593,10 @@
     [
       "ca441d0e-e0e4-4e4e-8f25-3aa63f5e3572",
       "Analogue Input Stage"
+    ],
+    [
+      "2dd2e65c-6d2c-4efc-971f-df9732d92616",
+      "Analogue Input Stage1"
     ],
     [
       "16936357-08be-4dfb-9389-5ff776d9b4b6",
@@ -1632,7 +1632,7 @@
     ],
     [
       "afe0b366-72e8-4aeb-bdd6-ed92c2bd7364",
-      "shared_usb"
+      "shared_usbc"
     ],
     [
       "2345b862-d871-4771-9bee-01079d71c128",

@@ -3003,7 +3003,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
-					(page "11")
+					(page "49")
 				)
 			)
 		)
@@ -3336,7 +3336,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "afe0b366-72e8-4aeb-bdd6-ed92c2bd7364")
-		(property "Sheetname" "shared_usb"
+		(property "Sheetname" "shared_usbc"
 			(at 52.07 196.1384 0)
 			(effects
 				(font
