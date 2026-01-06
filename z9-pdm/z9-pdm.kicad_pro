@@ -897,7 +897,7 @@
         "microvia_drill": 0.1,
         "name": "HC",
         "pcb_color": "rgb(255, 75, 240)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.8,
         "via_diameter": 1.6,
@@ -911,7 +911,7 @@
         "microvia_drill": 0.1,
         "name": "LC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "via_diameter": 0.40045,
@@ -927,12 +927,26 @@
         "microvia_drill": 0.1,
         "name": "THR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.40045,
         "via_drill": 0.200225,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.127127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "VLC",
+        "pcb_color": "rgb(255, 76, 253)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.4,
+        "via_drill": 0.2
       }
     ],
     "meta": {
@@ -962,91 +976,31 @@
       },
       {
         "netclass": "HC",
-        "pattern": "HC_.*"
-      },
-      {
-        "netclass": "HC",
-        "pattern": "/HC_5"
-      },
-      {
-        "netclass": "HC",
-        "pattern": "/HC_4"
-      },
-      {
-        "netclass": "HC",
-        "pattern": "/HC_6"
-      },
-      {
-        "netclass": "HC",
-        "pattern": "/HC_3"
-      },
-      {
-        "netclass": "HC",
-        "pattern": "/HC_2"
-      },
-      {
-        "netclass": "HC",
-        "pattern": "/HC_1"
-      },
-      {
-        "netclass": "HC",
-        "pattern": "/HC_7"
-      },
-      {
-        "netclass": "HC",
-        "pattern": "/HC_8"
-      },
-      {
-        "netclass": "HC",
-        "pattern": "/HC_9"
-      },
-      {
-        "netclass": "HC",
-        "pattern": "/HC_10"
-      },
-      {
-        "netclass": "HC",
-        "pattern": "/HC_11"
-      },
-      {
-        "netclass": "HC",
-        "pattern": "/HC_12"
+        "pattern": "/HC_.?.?"
       },
       {
         "netclass": "HC",
         "pattern": "+BATT"
       },
       {
-        "netclass": "LC",
-        "pattern": "/SENSE_6"
-      },
-      {
-        "netclass": "LC",
-        "pattern": "/SENSE_5"
-      },
-      {
-        "netclass": "LC",
-        "pattern": "/SENSE_4"
-      },
-      {
-        "netclass": "LC",
-        "pattern": "/SENSE_3"
-      },
-      {
-        "netclass": "LC",
-        "pattern": "/SENSE_2"
-      },
-      {
-        "netclass": "LC",
-        "pattern": "/SENSE_1"
-      },
-      {
-        "netclass": "LC",
-        "pattern": "/connectors/SENSE_GROUND"
-      },
-      {
         "netclass": "HC",
         "pattern": "+12V_VIPOWER"
+      },
+      {
+        "netclass": "LC",
+        "pattern": "/*SENSOR_POWER"
+      },
+      {
+        "netclass": "VLC",
+        "pattern": "/*_ISO"
+      },
+      {
+        "netclass": "LC",
+        "pattern": "/*SENSE*"
+      },
+      {
+        "netclass": "LC",
+        "pattern": "CAN_POWER"
       }
     ]
   },

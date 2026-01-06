@@ -105,10 +105,6 @@
 		(uuid "5e8a8606-9fb8-4d8c-b58e-c4ce40980460")
 	)
 	(no_connect
-		(at 312.42 83.82)
-		(uuid "053fe304-097f-4d1d-a339-dfe99f212c91")
-	)
-	(no_connect
 		(at 191.77 158.75)
 		(uuid "0a3a8e1c-9cd2-43d4-9283-53911678c22f")
 	)
@@ -171,6 +167,10 @@
 	(no_connect
 		(at 191.77 153.67)
 		(uuid "9b6db989-a9c5-4780-bff4-0833dbc94040")
+	)
+	(no_connect
+		(at 312.42 83.82)
+		(uuid "ccb50d1f-4d95-44da-bc8a-30c10f8ae491")
 	)
 	(no_connect
 		(at 160.02 118.11)
@@ -317,6 +317,16 @@
 			(type default)
 		)
 		(uuid "e08560a5-0484-4860-add4-eeac0451b724")
+	)
+	(wire
+		(pts
+			(xy 312.42 83.82) (xy 314.96 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f193881e-ead2-4986-858d-d0871fedbf2e")
 	)
 	(wire
 		(pts
@@ -467,6 +477,16 @@
 			(justify right bottom)
 		)
 		(uuid "2de0dd46-23c4-411c-8cd1-c06fa842a353")
+	)
+	(label "SENSE_GROUND"
+		(at 312.42 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3877f46d-81f2-4fda-bea3-18326386ccb0")
 	)
 	(label "USB_OTG_FS_DP"
 		(at 160.02 31.75 180)
@@ -978,6 +998,16 @@
 		)
 		(uuid "a367fe91-f152-4186-a375-1ddef0a906b5")
 	)
+	(label "5V_SENSOR_POWER"
+		(at 303.53 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a43f0037-232b-4961-9a5b-316140d2e0b4")
+	)
 	(label "HC_5"
 		(at 304.8 39.37 180)
 		(effects
@@ -1027,6 +1057,16 @@
 			(justify right bottom)
 		)
 		(uuid "be2f4e08-a0c4-45ca-8e5a-86e3adf02c47")
+	)
+	(label "GND_ISO"
+		(at 312.42 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9daef91-956f-45e6-9daf-1e66dafafa73")
 	)
 	(label "SENSE_8"
 		(at 363.22 53.34 0)
@@ -1197,6 +1237,16 @@
 			(justify right bottom)
 		)
 		(uuid "e4b65cf1-36cd-4fb7-9db7-c135ef31803e")
+	)
+	(label "+5V_ISO"
+		(at 312.42 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed800fb0-9d13-4f7e-bba4-179e126006f6")
 	)
 	(label "ADC1_IN3"
 		(at 363.22 153.67 0)
@@ -3042,7 +3092,7 @@
 				(justify left top)
 			)
 		)
-		(pin "5V_SENSOR_POWER" output
+		(pin "5V_SENSOR_POWER" input
 			(at 312.42 83.82 180)
 			(uuid "762e926c-0c43-44d0-92bd-2d6dba101f9b")
 			(effects
