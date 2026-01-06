@@ -954,7 +954,8 @@
     },
     "net_colors": {
       "+3.3V": "rgb(59, 255, 101)",
-      "+5V": "rgb(131, 63, 255)"
+      "+5V": "rgb(131, 63, 255)",
+      "GND": "rgb(0, 0, 255)"
     },
     "netclass_assignments": null,
     "netclass_patterns": [

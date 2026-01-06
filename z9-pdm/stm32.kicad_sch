@@ -19340,6 +19340,12 @@
 		(uuid "b1ef00bc-27fd-4f4a-a155-1b738e608b48")
 	)
 	(junction
+		(at 43.18 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2004ec6-05c4-4139-bc3f-337eda9bb0fc")
+	)
+	(junction
 		(at 74.93 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -19356,6 +19362,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfba750e-20a4-4644-89ff-6777836c3566")
+	)
+	(junction
+		(at 35.56 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c571b03c-d854-4133-834f-44c3a7c40410")
 	)
 	(junction
 		(at 45.72 49.53)
@@ -19725,6 +19737,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 26.67) (xy 35.56 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f8152b-7b29-4fee-85ef-5a364d0d3f36")
+	)
+	(wire
+		(pts
 			(xy 335.28 50.8) (xy 306.07 50.8)
 		)
 		(stroke
@@ -19765,7 +19787,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 26.67) (xy 43.18 26.67)
+			(xy 30.48 26.67) (xy 35.56 26.67)
 		)
 		(stroke
 			(width 0)
@@ -20975,6 +20997,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 49.53) (xy 43.18 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9948ac1f-08ff-4084-b281-f148b3e2bdc1")
+	)
+	(wire
+		(pts
 			(xy 293.37 129.54) (xy 304.8 129.54)
 		)
 		(stroke
@@ -21585,6 +21617,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 26.67) (xy 43.18 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3203e48-85f4-4bf8-b217-7cc035b00032")
+	)
+	(wire
+		(pts
 			(xy 104.14 140.97) (xy 140.97 140.97)
 		)
 		(stroke
@@ -21612,6 +21654,16 @@
 			(type default)
 		)
 		(uuid "e4bce98b-faf9-41bc-a3b6-58ea9fe716e5")
+	)
+	(wire
+		(pts
+			(xy 35.56 41.91) (xy 35.56 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7c49111-0db1-47a4-a852-f6f9df529754")
 	)
 	(wire
 		(pts
@@ -25902,7 +25954,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 51.308 37.7218 0)
+			(at 52.832 45.212 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -28556,9 +28608,9 @@
 		(at 389.89 95.25 0)
 		(unit 2)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "2fae7ef4-7354-495e-a5df-54c679250c14")
 		(property "Reference" "J5"
 			(at 395.224 85.598 0)
@@ -29238,7 +29290,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 43.688 37.7218 0)
+			(at 42.418 45.212 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -32223,7 +32275,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 48.768 37.7218 0)
+			(at 49.022 43.688 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -33365,7 +33417,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 41.148 37.7218 0)
+			(at 42.164 34.29 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -33849,9 +33901,9 @@
 		(at 367.03 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "9f6ef3eb-0c08-4681-8049-cf24c8d5a584")
 		(property "Reference" "J5"
 			(at 373.888 85.598 0)
@@ -35685,7 +35737,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 46.228 37.7218 0)
+			(at 46.228 44.958 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -36341,6 +36393,255 @@
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dnt_global:0402,100nF, 16V")
+		(at 35.56 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb055957-f334-4875-8032-911831f3c79c")
+		(property "Reference" "C706"
+			(at 34.29 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 33.528 37.7218 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0402"
+			(at 37.338 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "20208285"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rated" "16V"
+			(at 33.528 36.0538 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 35.56 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 35.56 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 35.56 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 35.56 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 35.56 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 35.56 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d04c227-2e33-4cee-b942-b3c76b420665")
+		)
+		(pin "2"
+			(uuid "4b6cb766-808b-463c-a14d-94ba432ad96c")
+		)
+		(instances
+			(project "z9-pdm"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
+					(reference "C706")
 					(unit 1)
 				)
 			)
