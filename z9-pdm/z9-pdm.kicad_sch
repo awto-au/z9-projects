@@ -117,16 +117,8 @@
 		(uuid "17e59a49-a7ca-4b40-b917-674c2c04871a")
 	)
 	(no_connect
-		(at 312.42 91.44)
-		(uuid "26a43521-31ed-4bc0-8cd7-6d1eba3ef055")
-	)
-	(no_connect
 		(at 191.77 96.52)
 		(uuid "26a92f39-a549-45ed-8c12-c02034b38fd5")
-	)
-	(no_connect
-		(at 312.42 87.63)
-		(uuid "31a49f4b-df73-4166-be6d-e5d488c87eb8")
 	)
 	(no_connect
 		(at 191.77 88.9)
@@ -169,16 +161,8 @@
 		(uuid "9b6db989-a9c5-4780-bff4-0833dbc94040")
 	)
 	(no_connect
-		(at 312.42 83.82)
-		(uuid "ccb50d1f-4d95-44da-bc8a-30c10f8ae491")
-	)
-	(no_connect
 		(at 160.02 118.11)
 		(uuid "cdb4dd6d-9219-4130-a6cd-ef56195b342c")
-	)
-	(no_connect
-		(at 312.42 95.25)
-		(uuid "d25ae799-487f-4cb7-929b-2f5077c80a7a")
 	)
 	(no_connect
 		(at 191.77 172.72)
@@ -240,6 +224,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 81.28) (xy 312.42 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30582ef1-de79-4d4c-be84-9349de36d7a9")
+	)
+	(wire
+		(pts
 			(xy 304.8 66.04) (xy 312.42 66.04)
 		)
 		(stroke
@@ -270,6 +264,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 92.71) (xy 312.42 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f244dd2-9238-4313-a7b7-50e6f84b9c59")
+	)
+	(wire
+		(pts
 			(xy 304.8 69.85) (xy 312.42 69.85)
 		)
 		(stroke
@@ -277,6 +281,16 @@
 			(type default)
 		)
 		(uuid "8958e40f-8bea-4c80-b362-3f2483dce3eb")
+	)
+	(wire
+		(pts
+			(xy 292.1 88.9) (xy 312.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b2da8b5-2887-40ac-b3e8-a067b8c6e634")
 	)
 	(wire
 		(pts
@@ -300,6 +314,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 85.09) (xy 312.42 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c30d6912-5c34-4283-9c36-b35ad64b8cbe")
+	)
+	(wire
+		(pts
 			(xy 304.8 77.47) (xy 312.42 77.47)
 		)
 		(stroke
@@ -317,16 +341,6 @@
 			(type default)
 		)
 		(uuid "e08560a5-0484-4860-add4-eeac0451b724")
-	)
-	(wire
-		(pts
-			(xy 312.42 83.82) (xy 314.96 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f193881e-ead2-4986-858d-d0871fedbf2e")
 	)
 	(wire
 		(pts
@@ -479,7 +493,7 @@
 		(uuid "2de0dd46-23c4-411c-8cd1-c06fa842a353")
 	)
 	(label "SENSE_GROUND"
-		(at 312.42 87.63 180)
+		(at 292.1 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -988,7 +1002,7 @@
 		)
 		(uuid "9e5ab9e7-b7f5-439e-ad71-2b9e5b299a11")
 	)
-	(label "VIPOWER_CS1"
+	(label "VIPOWER_CS2"
 		(at 191.77 124.46 0)
 		(effects
 			(font
@@ -999,7 +1013,7 @@
 		(uuid "a367fe91-f152-4186-a375-1ddef0a906b5")
 	)
 	(label "5V_SENSOR_POWER"
-		(at 303.53 83.82 180)
+		(at 292.1 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1059,7 +1073,7 @@
 		(uuid "be2f4e08-a0c4-45ca-8e5a-86e3adf02c47")
 	)
 	(label "GND_ISO"
-		(at 312.42 91.44 180)
+		(at 292.1 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1239,7 +1253,7 @@
 		(uuid "e4b65cf1-36cd-4fb7-9db7-c135ef31803e")
 	)
 	(label "+5V_ISO"
-		(at 312.42 95.25 180)
+		(at 292.1 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3093,7 +3107,7 @@
 			)
 		)
 		(pin "5V_SENSOR_POWER" input
-			(at 312.42 83.82 180)
+			(at 312.42 81.28 180)
 			(uuid "762e926c-0c43-44d0-92bd-2d6dba101f9b")
 			(effects
 				(font
@@ -3123,7 +3137,7 @@
 			)
 		)
 		(pin "SENSE_GROUND" input
-			(at 312.42 87.63 180)
+			(at 312.42 85.09 180)
 			(uuid "b4e6456e-0df9-439f-bafa-67246187a3e5")
 			(effects
 				(font
@@ -3133,7 +3147,7 @@
 			)
 		)
 		(pin "+5V_ISO" output
-			(at 312.42 95.25 180)
+			(at 312.42 92.71 180)
 			(uuid "90433c7a-ca87-48b3-9d6b-01021d3afb3b")
 			(effects
 				(font
@@ -3143,7 +3157,7 @@
 			)
 		)
 		(pin "GND_ISO" bidirectional
-			(at 312.42 91.44 180)
+			(at 312.42 88.9 180)
 			(uuid "3a04a22d-0465-4030-9ec9-65588a82d2db")
 			(effects
 				(font
