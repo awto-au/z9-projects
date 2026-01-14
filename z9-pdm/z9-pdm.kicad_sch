@@ -1292,16 +1292,6 @@
 		)
 		(uuid "f587c0eb-7b1d-4b00-8517-f57a85ae32ef")
 	)
-	(label "VIPOWER_CS2"
-		(at 191.77 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f7b1e06c-bb82-477b-9b74-934f3112dc28")
-	)
 	(label "SENSE_4"
 		(at 312.42 154.94 180)
 		(effects
@@ -2648,16 +2638,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "PC13" output
-			(at 191.77 115.57 0)
-			(uuid "1979b2dc-73fd-47cc-8122-ae075018a6d5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "TIM3_CH1" output
