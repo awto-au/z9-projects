@@ -10,6 +10,198 @@
 		(company "DNT")
 	)
 	(lib_symbols
+		(symbol "LED-WHITE_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED-WHITE"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "dnt:LED_0603_1608Metric - polarity"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550724001388785664"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0.254 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2290"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED-WHITE_1_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED-WHITE_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_JLCPCB-Capacitors:0603,100nF"
 			(pin_numbers
 				(hide yes)
@@ -2068,6 +2260,262 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "dnt_global:0402,100nF, 16V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.032 1.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100nF"
+				(at 2.032 -0.3782 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:C_0402"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C1525"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "20208285"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.004USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "CL05B104KO5NNNC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rated" "16V"
+				(at 2.032 -2.0462 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "±10%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Capacitance" "100nF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "X7R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402,100nF, 16V_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy 1.27 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.635) (xy 1.27 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402,100nF, 16V_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.175)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.175)
 					(name "~"
 						(effects
 							(font
@@ -14531,7 +14979,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550724001388785664"
 				(at 0 0 0)
 				(effects
 					(font
@@ -14551,6 +14999,15 @@
 			)
 			(property "Sim.Pins" "1=K 2=A"
 				(at 0 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2290"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -18309,7 +18766,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3VP"
+		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -18322,7 +18779,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 3.81 -1.27 0)
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -18330,7 +18787,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3VP"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -18356,7 +18813,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3VP\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -18374,27 +18831,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3VP_0_0"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "+3.3VP_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -18429,6 +18866,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -18530,6 +18987,107 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -18656,12 +19214,6 @@
 		(uuid "57be4481-578e-480a-b137-dcb8fd95babf")
 	)
 	(junction
-		(at 116.84 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59c367a4-44f8-4459-9f96-3d60fbf5e38b")
-	)
-	(junction
 		(at 129.54 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18678,6 +19230,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f1fb170-bca3-464e-b287-479a24e0c124")
+	)
+	(junction
+		(at 58.42 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62ccc2df-aa82-4c4a-9720-fcae059edc93")
 	)
 	(junction
 		(at 44.45 100.33)
@@ -18722,6 +19280,12 @@
 		(uuid "7b7d87a6-ffe9-4867-9524-803e56664970")
 	)
 	(junction
+		(at 146.05 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dfb411b-8adc-40d0-a5bc-3d6f5e108e20")
+	)
+	(junction
 		(at 332.74 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18738,12 +19302,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "924f66d9-6a0e-4da5-9075-5238ba1bcb69")
-	)
-	(junction
-		(at 55.88 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "952bdae6-1c89-4e2e-a69c-6e8cb01b0428")
 	)
 	(junction
 		(at 293.37 34.29)
@@ -18782,6 +19340,12 @@
 		(uuid "b1ef00bc-27fd-4f4a-a155-1b738e608b48")
 	)
 	(junction
+		(at 43.18 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2004ec6-05c4-4139-bc3f-337eda9bb0fc")
+	)
+	(junction
 		(at 74.93 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18800,16 +19364,22 @@
 		(uuid "bfba750e-20a4-4644-89ff-6777836c3566")
 	)
 	(junction
-		(at 109.22 26.67)
+		(at 35.56 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c2dde4a5-2e7e-456d-ad3c-600cb63928b8")
+		(uuid "c571b03c-d854-4133-834f-44c3a7c40410")
 	)
 	(junction
 		(at 45.72 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c964575a-502e-47d9-acf3-2fc7edf461c2")
+	)
+	(junction
+		(at 58.42 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfeff4cc-89e1-49e5-a2d9-148d89e73d20")
 	)
 	(junction
 		(at 60.96 49.53)
@@ -18828,12 +19398,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebe91ab2-5b2c-4074-bac3-01f16a827e7e")
-	)
-	(junction
-		(at 55.88 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f01d90d8-af52-4251-a4d0-3e8f78192ce7")
 	)
 	(junction
 		(at 346.71 66.04)
@@ -19173,6 +19737,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 26.67) (xy 35.56 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f8152b-7b29-4fee-85ef-5a364d0d3f36")
+	)
+	(wire
+		(pts
 			(xy 335.28 50.8) (xy 306.07 50.8)
 		)
 		(stroke
@@ -19213,7 +19787,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 26.67) (xy 43.18 26.67)
+			(xy 30.48 26.67) (xy 35.56 26.67)
 		)
 		(stroke
 			(width 0)
@@ -19983,6 +20557,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 26.67) (xy 173.99 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a25a60d-5deb-49fa-88fb-1f6ca311cc17")
+	)
+	(wire
+		(pts
 			(xy 293.37 80.01) (xy 304.8 80.01)
 		)
 		(stroke
@@ -20000,16 +20584,6 @@
 			(type default)
 		)
 		(uuid "6f03a879-9eb6-4f95-92d5-0895e0b4d6ed")
-	)
-	(wire
-		(pts
-			(xy 55.88 26.67) (xy 68.58 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f204928-47f0-4881-8591-a04fb86ca7f9")
 	)
 	(wire
 		(pts
@@ -20253,6 +20827,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 26.67) (xy 68.58 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f7660d-a67c-48dd-bef9-8fe11a46d780")
+	)
+	(wire
+		(pts
 			(xy 100.33 251.46) (xy 97.79 251.46)
 		)
 		(stroke
@@ -20403,13 +20987,23 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 49.53) (xy 55.88 49.53)
+			(xy 60.96 49.53) (xy 58.42 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "95bae6c6-0f0d-4351-8dcc-7d20b62a1070")
+	)
+	(wire
+		(pts
+			(xy 35.56 49.53) (xy 43.18 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9948ac1f-08ff-4084-b281-f148b3e2bdc1")
 	)
 	(wire
 		(pts
@@ -20563,7 +21157,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 49.53) (xy 55.88 41.91)
+			(xy 58.42 49.53) (xy 58.42 41.91)
 		)
 		(stroke
 			(width 0)
@@ -20763,23 +21357,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 26.67) (xy 55.88 26.67)
+			(xy 53.34 26.67) (xy 58.42 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "be99f581-7357-40d7-ae2c-01abfbc1deb5")
-	)
-	(wire
-		(pts
-			(xy 109.22 26.67) (xy 116.84 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf67f8f5-5d0b-446d-b1ec-52d32e758a5e")
 	)
 	(wire
 		(pts
@@ -20813,7 +21397,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 26.67) (xy 55.88 34.29)
+			(xy 58.42 26.67) (xy 58.42 34.29)
 		)
 		(stroke
 			(width 0)
@@ -20833,7 +21417,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 116.84) (xy 44.45 118.11)
+			(xy 44.45 116.84) (xy 44.45 127)
 		)
 		(stroke
 			(width 0)
@@ -21033,6 +21617,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 26.67) (xy 43.18 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3203e48-85f4-4bf8-b217-7cc035b00032")
+	)
+	(wire
+		(pts
 			(xy 104.14 140.97) (xy 140.97 140.97)
 		)
 		(stroke
@@ -21053,13 +21647,23 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 26.67) (xy 173.99 26.67)
+			(xy 129.54 26.67) (xy 146.05 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e4bce98b-faf9-41bc-a3b6-58ea9fe716e5")
+	)
+	(wire
+		(pts
+			(xy 35.56 41.91) (xy 35.56 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7c49111-0db1-47a4-a852-f6f9df529754")
 	)
 	(wire
 		(pts
@@ -21133,7 +21737,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 49.53) (xy 53.34 49.53)
+			(xy 53.34 49.53) (xy 58.42 49.53)
 		)
 		(stroke
 			(width 0)
@@ -22625,6 +23229,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 113.03 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 113.03 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 113.03 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 113.03 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 113.03 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 113.03 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b50e8c5-b259-4d85-99b2-74535d4505a6")
 		)
@@ -22912,6 +23570,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 40.64 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 40.64 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 40.64 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 40.64 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 40.64 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 40.64 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ac93241-6bd8-4c3d-992e-17e25973d658")
 		)
@@ -23058,8 +23770,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
-		(at 55.88 38.1 180)
+		(lib_id "dnt_global:0402,100nF, 16V")
+		(at 58.42 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23067,7 +23779,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c5fee98")
 		(property "Reference" "C30"
-			(at 54.61 39.37 90)
+			(at 57.15 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23076,7 +23788,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 53.848 37.7218 0)
+			(at 56.388 37.7218 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -23084,8 +23796,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 57.658 38.1 90)
+		(property "Footprint" "PCM_JLCPCB:C_0402"
+			(at 60.198 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23093,8 +23805,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 55.88 38.1 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+			(at 58.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23102,8 +23814,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 55.88 38.1 0)
+		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 58.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23111,8 +23823,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14663"
-			(at 55.88 38.1 0)
+		(property "LCSC" "C1525"
+			(at 58.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23120,8 +23832,8 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "70324515"
-			(at 55.88 38.1 0)
+		(property "Stock" "20208285"
+			(at 58.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23129,8 +23841,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.006USD"
-			(at 55.88 38.1 0)
+		(property "Price" "0.004USD"
+			(at 58.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23139,7 +23851,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 55.88 38.1 0)
+			(at 58.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23148,7 +23860,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 55.88 38.1 0)
+			(at 58.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23157,7 +23869,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 55.88 38.1 0)
+			(at 58.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23166,7 +23878,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 55.88 38.1 0)
+			(at 58.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23175,7 +23887,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 55.88 38.1 0)
+			(at 58.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23183,8 +23895,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
-			(at 55.88 38.1 0)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 58.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23192,8 +23904,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "CC0603KRX7R9BB104"
-			(at 55.88 38.1 0)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 58.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23201,8 +23913,8 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rated" "50V"
-			(at 53.848 36.0538 0)
+		(property "Voltage Rated" "16V"
+			(at 56.388 36.0538 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -23211,7 +23923,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 55.88 38.1 0)
+			(at 58.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23220,7 +23932,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 55.88 38.1 0)
+			(at 58.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23229,7 +23941,61 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 55.88 38.1 0)
+			(at 58.42 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 58.42 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 58.42 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 58.42 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 58.42 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 58.42 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 58.42 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23459,6 +24225,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 44.45 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 44.45 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 44.45 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 44.45 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 44.45 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 44.45 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "011f535d-0b8d-4a5a-94e7-e2a87bc35540")
 		)
@@ -23646,6 +24466,60 @@
 			)
 		)
 		(property "Temperature Coefficient" "X5R"
+			(at 121.92 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 121.92 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 121.92 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 121.92 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 121.92 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 121.92 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 121.92 38.1 0)
 			(effects
 				(font
@@ -23979,6 +24853,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 50.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 50.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 50.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 50.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 50.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 50.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ec217831-c7d7-4950-a054-f2af87ecf5c2")
 		)
@@ -23996,7 +24924,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 118.11 0)
+		(at 44.45 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24004,7 +24932,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cfe03f2")
 		(property "Reference" "#PWR0190"
-			(at 44.45 118.11 0)
+			(at 44.45 127 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -24013,7 +24941,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 121.92 0)
+			(at 44.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24021,7 +24949,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 118.11 0)
+			(at 44.45 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24030,7 +24958,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 118.11 0)
+			(at 44.45 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24039,7 +24967,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 118.11 0)
+			(at 44.45 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24348,6 +25276,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 59.69 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 59.69 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 59.69 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 59.69 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 59.69 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 59.69 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8fe46827-1ccb-4490-8393-5293de02aaea")
 		)
@@ -24482,6 +25464,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 293.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 293.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 293.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 293.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 293.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 293.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a8a86bbe-ea36-4a2f-85ab-c5883d675cf5")
 		)
@@ -24539,7 +25575,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "01743737-7039-4a8e-9b11-288420926dd9")
 		(property "Reference" "TP33"
@@ -24650,6 +25686,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 104.14 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 104.14 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 104.14 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 104.14 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 104.14 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 104.14 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e8b9b27-b445-4ab4-a283-8ae9749247ba")
 		)
@@ -24668,7 +25758,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "0a4d05d5-fd12-462c-82a4-712ef6c5794c")
 		(property "Reference" "TP36"
@@ -24779,6 +25869,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 104.14 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 104.14 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 104.14 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 104.14 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 104.14 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 104.14 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e818693-8b22-415b-9c5d-92fbbf176ea1")
 		)
@@ -24792,7 +25936,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
+		(lib_id "dnt_global:0402,100nF, 16V")
 		(at 53.34 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24810,7 +25954,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 51.308 37.7218 0)
+			(at 52.832 45.212 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -24818,7 +25962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_0603"
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 55.118 38.1 90)
 			(effects
 				(font
@@ -24827,7 +25971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 53.34 38.1 0)
 			(effects
 				(font
@@ -24836,7 +25980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 53.34 38.1 0)
 			(effects
 				(font
@@ -24845,7 +25989,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1525"
 			(at 53.34 38.1 0)
 			(effects
 				(font
@@ -24854,7 +25998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "70324515"
+		(property "Stock" "20208285"
 			(at 53.34 38.1 0)
 			(effects
 				(font
@@ -24863,7 +26007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.006USD"
+		(property "Price" "0.004USD"
 			(at 53.34 38.1 0)
 			(effects
 				(font
@@ -24917,7 +26061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 53.34 38.1 0)
 			(effects
 				(font
@@ -24926,7 +26070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "CC0603KRX7R9BB104"
+		(property "Part" "CL05B104KO5NNNC"
 			(at 53.34 38.1 0)
 			(effects
 				(font
@@ -24935,7 +26079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rated" "50V"
+		(property "Voltage Rated" "16V"
 			(at 51.308 36.0538 0)
 			(effects
 				(font
@@ -24964,6 +26108,60 @@
 		)
 		(property "Temperature Coefficient" "X7R"
 			(at 53.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 53.34 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 53.34 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 53.34 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 53.34 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 53.34 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 53.34 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25082,6 +26280,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 93.98 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 93.98 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 93.98 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 93.98 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 93.98 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 93.98 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a0389fd-f96f-4997-9f70-a69b3bc788b3")
 		)
@@ -25103,7 +26355,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "0ea55724-d87c-4834-8395-8667b1e540ec")
 		(property "Reference" "TP32"
@@ -25206,6 +26458,60 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 104.14 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 104.14 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 104.14 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 104.14 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 104.14 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 104.14 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 104.14 135.89 90)
 			(effects
 				(font
@@ -25406,6 +26712,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 68.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 68.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 68.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 68.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 68.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 68.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1313a89-cd52-4899-a18b-5e770acf0b0a")
 		)
@@ -25519,6 +26879,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 93.98 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 93.98 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 93.98 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 93.98 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 93.98 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 93.98 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4731b9a-28fa-436a-906e-2f74a434889a")
 		)
@@ -25540,7 +26954,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "171fa000-3f47-4442-940b-80bf4b237d09")
 		(property "Reference" "TP37"
@@ -25651,6 +27065,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 104.14 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 104.14 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 104.14 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 104.14 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 104.14 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 104.14 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41b5ca43-b70a-4336-9119-c2ba8ac5a379")
 		)
@@ -25752,6 +27220,60 @@
 			)
 		)
 		(property "Silkscreen" ""
+			(at 74.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 74.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 74.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 74.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 74.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 74.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 74.93 111.76 0)
 			(effects
 				(font
@@ -25982,6 +27504,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 290.83 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 290.83 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 290.83 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 290.83 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 290.83 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 290.83 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "52fae91c-9533-4ea1-a30c-59bda14ea489")
 		)
@@ -26003,7 +27579,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "2348e367-3223-46cd-89b9-09a95ed138a3")
 		(property "Reference" "TP35"
@@ -26114,6 +27690,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 104.14 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 104.14 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 104.14 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 104.14 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 104.14 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 104.14 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e57f671c-7045-44ac-92b5-332fa12cb5ce")
 		)
@@ -26198,7 +27828,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "28a9a114-b4f7-42fa-9558-c14b1095c7c8")
 		(property "Reference" "TP31"
@@ -26309,6 +27939,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 104.14 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 104.14 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 104.14 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 104.14 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 104.14 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 104.14 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce011e75-c309-46b9-9aab-cfd1c274e9b4")
 		)
@@ -26327,7 +28011,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "29c08f84-4e50-4513-83ec-b810086dc7ad")
 		(property "Reference" "TP26"
@@ -26430,6 +28114,60 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 223.52 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 223.52 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 223.52 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 223.52 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 223.52 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 223.52 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 223.52 168.91 90)
 			(effects
 				(font
@@ -26613,6 +28351,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 148.59 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 148.59 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 148.59 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 148.59 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 148.59 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 148.59 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ed85c009-bda0-4754-a1d0-34c1a1e4cc6b")
 		)
@@ -26634,7 +28426,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "2f4792ed-86a4-4f54-a5f6-aea07dfb6129")
 		(property "Reference" "TP3"
@@ -26745,6 +28537,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 223.52 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 223.52 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 223.52 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 223.52 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 223.52 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 223.52 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "79617a05-c035-401e-bab3-45d9e82b08e2")
 		)
@@ -26762,9 +28608,9 @@
 		(at 389.89 95.25 0)
 		(unit 2)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "2fae7ef4-7354-495e-a5df-54c679250c14")
 		(property "Reference" "J5"
 			(at 395.224 85.598 0)
@@ -26806,6 +28652,60 @@
 			)
 		)
 		(property "Description" ""
+			(at 389.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 389.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 389.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 389.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 389.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 389.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 389.89 95.25 0)
 			(effects
 				(font
@@ -27302,6 +29202,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 124.46 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 124.46 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 124.46 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 124.46 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 124.46 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 124.46 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "380456a2-097d-4d3b-9c1d-7159793e0ae4")
 		)
@@ -27318,7 +29272,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
+		(lib_id "dnt_global:0402,100nF, 16V")
 		(at 45.72 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27336,7 +29290,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 43.688 37.7218 0)
+			(at 42.418 45.212 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -27344,7 +29298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_0603"
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 47.498 38.1 90)
 			(effects
 				(font
@@ -27353,7 +29307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 45.72 38.1 0)
 			(effects
 				(font
@@ -27362,7 +29316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 45.72 38.1 0)
 			(effects
 				(font
@@ -27371,7 +29325,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1525"
 			(at 45.72 38.1 0)
 			(effects
 				(font
@@ -27380,7 +29334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "70324515"
+		(property "Stock" "20208285"
 			(at 45.72 38.1 0)
 			(effects
 				(font
@@ -27389,7 +29343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.006USD"
+		(property "Price" "0.004USD"
 			(at 45.72 38.1 0)
 			(effects
 				(font
@@ -27443,7 +29397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 45.72 38.1 0)
 			(effects
 				(font
@@ -27452,7 +29406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "CC0603KRX7R9BB104"
+		(property "Part" "CL05B104KO5NNNC"
 			(at 45.72 38.1 0)
 			(effects
 				(font
@@ -27461,7 +29415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rated" "50V"
+		(property "Voltage Rated" "16V"
 			(at 43.688 36.0538 0)
 			(effects
 				(font
@@ -27490,6 +29444,60 @@
 		)
 		(property "Temperature Coefficient" "X7R"
 			(at 45.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 45.72 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 45.72 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 45.72 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 45.72 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 45.72 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 45.72 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27565,7 +29573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "CAT16-1001F4LF"
+		(property "Part #" ""
 			(at 308.61 -124.46 0)
 			(effects
 				(font
@@ -27630,6 +29638,60 @@
 		)
 		(property "Silkscreen" ""
 			(at 157.48 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 157.48 256.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 157.48 256.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 157.48 256.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 157.48 256.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 157.48 256.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 157.48 256.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27760,6 +29822,60 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" "0"
+			(at 93.98 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 93.98 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 93.98 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 93.98 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 93.98 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 93.98 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 93.98 259.08 0)
 			(effects
 				(font
@@ -27946,6 +30062,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 148.59 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 148.59 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 148.59 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 148.59 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 148.59 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 148.59 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8464f706-0746-4e85-8ca8-47ba9e17637a")
 		)
@@ -27967,7 +30137,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "4b5c4a94-8082-4275-bcba-942c1ea63526")
 		(property "Reference" "TP6"
@@ -28078,6 +30248,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 223.52 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 223.52 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 223.52 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 223.52 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 223.52 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 223.52 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75757eff-e000-4176-9b9b-362cfab9e300")
 		)
@@ -28091,6 +30315,7 @@
 		)
 	)
 	(symbol
+		(lib_name "LED-WHITE_1")
 		(lib_id "dnt_global:LED-WHITE")
 		(at 148.59 254 180)
 		(unit 1)
@@ -28124,7 +30349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550724001388785664"
 			(at 148.59 254 0)
 			(effects
 				(font
@@ -28144,6 +30369,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 148.59 258.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2290"
+			(at 148.59 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28233,7 +30467,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VP")
+		(lib_id "power:+3.3V")
 		(at 25.4 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28242,8 +30476,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "564c5aee-5e34-40a1-b88c-59a2aa95d725")
-		(property "Reference" "#PWR019"
-			(at 29.21 27.94 0)
+		(property "Reference" "#PWR19"
+			(at 25.4 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28277,7 +30511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VP\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 25.4 26.67 0)
 			(effects
 				(font
@@ -28292,7 +30526,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR019")
+					(reference "#PWR19")
 					(unit 1)
 				)
 			)
@@ -28305,7 +30539,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58eeba68-e4d8-4fe9-aefe-0b3e472bc974")
 		(property "Reference" "J4"
@@ -28326,7 +30560,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "dnt:SAMTEC_FTSH-107-01-F-DV-K-Fix"
+		(property "Footprint" "dnt:Conn_SAMTEC_FTSH-107-01-F-DV-K-Fix"
 			(at 293.37 53.34 0)
 			(effects
 				(font
@@ -28346,6 +30580,60 @@
 		)
 		(property "Description" "ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART"
 			(at 300.482 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 293.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 293.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 293.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 293.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 293.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 293.37 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28500,6 +30788,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 148.59 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 148.59 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 148.59 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 148.59 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 148.59 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 148.59 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b05ee1fb-42f4-44bd-9c14-5586c238ab59")
 		)
@@ -28516,7 +30858,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VP")
+		(lib_id "power:+3.3V")
 		(at 293.37 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28525,8 +30867,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a00a489-9c1c-47bc-9bc3-b05e39d04733")
-		(property "Reference" "#PWR010"
-			(at 297.18 35.56 0)
+		(property "Reference" "#PWR10"
+			(at 293.37 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28560,7 +30902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VP\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 293.37 34.29 0)
 			(effects
 				(font
@@ -28575,7 +30917,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR010")
+					(reference "#PWR10")
 					(unit 1)
 				)
 			)
@@ -28753,6 +31095,60 @@
 		)
 		(property "Temperature Coefficient" "X5R"
 			(at 109.22 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 109.22 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 109.22 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 109.22 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 109.22 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 109.22 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 109.22 207.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29064,6 +31460,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 35.56 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 35.56 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 35.56 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 35.56 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 35.56 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 35.56 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e2d3301-6e5a-4d63-b588-b247d3367d57")
 		)
@@ -29113,7 +31563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550724001388785664"
 			(at 93.98 254 0)
 			(effects
 				(font
@@ -29133,6 +31583,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 93.98 258.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2290"
+			(at 93.98 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29161,7 +31620,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "632fbd34-dd68-4870-ac43-716dc32a93a0")
 		(property "Reference" "TP38"
@@ -29272,6 +31731,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 104.14 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 104.14 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 104.14 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 104.14 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 104.14 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 104.14 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c7ffbb2-418f-467a-be64-b396b40d96ba")
 		)
@@ -29290,7 +31803,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "66de31d4-9d0b-47ac-bb68-db48805fcd90")
 		(property "Reference" "TP20"
@@ -29393,6 +31906,60 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 223.52 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 223.52 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 223.52 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 223.52 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 223.52 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 223.52 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 223.52 148.59 90)
 			(effects
 				(font
@@ -29620,6 +32187,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 290.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 290.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 290.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 290.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 290.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 290.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18a0f4cf-5084-4eed-98b5-8475f90533e5")
 		)
@@ -29636,7 +32257,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
+		(lib_id "dnt_global:0402,100nF, 16V")
 		(at 50.8 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29654,7 +32275,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 48.768 37.7218 0)
+			(at 49.022 43.688 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -29662,7 +32283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_0603"
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 52.578 38.1 90)
 			(effects
 				(font
@@ -29671,7 +32292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 50.8 38.1 0)
 			(effects
 				(font
@@ -29680,7 +32301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 50.8 38.1 0)
 			(effects
 				(font
@@ -29689,7 +32310,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1525"
 			(at 50.8 38.1 0)
 			(effects
 				(font
@@ -29698,7 +32319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "70324515"
+		(property "Stock" "20208285"
 			(at 50.8 38.1 0)
 			(effects
 				(font
@@ -29707,7 +32328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.006USD"
+		(property "Price" "0.004USD"
 			(at 50.8 38.1 0)
 			(effects
 				(font
@@ -29761,7 +32382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 50.8 38.1 0)
 			(effects
 				(font
@@ -29770,7 +32391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "CC0603KRX7R9BB104"
+		(property "Part" "CL05B104KO5NNNC"
 			(at 50.8 38.1 0)
 			(effects
 				(font
@@ -29779,7 +32400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rated" "50V"
+		(property "Voltage Rated" "16V"
 			(at 48.768 36.0538 0)
 			(effects
 				(font
@@ -29815,6 +32436,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 50.8 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 50.8 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 50.8 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 50.8 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 50.8 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 50.8 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b59d76bb-6200-45bd-b598-ece406d3ccf5")
 		)
@@ -29836,7 +32511,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "79dc80b2-fe44-43ae-97dc-d04cdfb6810a")
 		(property "Reference" "TP23"
@@ -29947,6 +32622,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 223.52 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 223.52 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 223.52 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 223.52 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 223.52 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 223.52 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "49904e8f-bfce-4dec-8d20-a1b0f3d880f3")
 		)
@@ -29960,7 +32689,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VP")
+		(lib_id "power:+3.3V")
 		(at 21.59 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29969,8 +32698,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a2989af-614e-422a-b133-c09691541ba8")
-		(property "Reference" "#PWR011"
-			(at 25.4 96.52 0)
+		(property "Reference" "#PWR11"
+			(at 21.59 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30004,7 +32733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VP\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 21.59 95.25 0)
 			(effects
 				(font
@@ -30019,7 +32748,73 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR011")
+					(reference "#PWR11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 146.05 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bc513bf-7331-4c72-a34f-c655645f42cb")
+		(property "Reference" "#FLG0701"
+			(at 146.05 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 146.05 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 146.05 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bed0d0e-acc8-4f6e-a3af-5ffca2e49ae5")
+		)
+		(instances
+			(project ""
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
+					(reference "#FLG0701")
 					(unit 1)
 				)
 			)
@@ -30031,7 +32826,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "7c88ffea-4fb3-4106-96f8-a1e7ad33b949")
 		(property "Reference" "TP22"
@@ -30142,6 +32937,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 223.52 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 223.52 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 223.52 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 223.52 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 223.52 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 223.52 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "515fdd21-6a6b-413e-af3b-2ac61c773ddf")
 		)
@@ -30160,7 +33009,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "83e9211c-921c-443b-be4f-510524288200")
 		(property "Reference" "TP28"
@@ -30271,6 +33120,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 104.14 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 104.14 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 104.14 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 104.14 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 104.14 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 104.14 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cabc1ab5-d628-4ee7-b3b3-160d18b1dc00")
 		)
@@ -30336,7 +33239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "CAT16-1001F4LF"
+		(property "Part #" ""
 			(at 256.54 -124.46 0)
 			(effects
 				(font
@@ -30408,6 +33311,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 105.41 256.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 105.41 256.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 105.41 256.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 105.41 256.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 105.41 256.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 105.41 256.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "19d67962-250a-4d72-805d-3dc75faa401c")
 		)
@@ -30442,7 +33399,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
+		(lib_id "dnt_global:0402,100nF, 16V")
 		(at 43.18 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30460,7 +33417,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 41.148 37.7218 0)
+			(at 42.164 34.29 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -30468,7 +33425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_0603"
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 44.958 38.1 90)
 			(effects
 				(font
@@ -30477,7 +33434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 43.18 38.1 0)
 			(effects
 				(font
@@ -30486,7 +33443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 43.18 38.1 0)
 			(effects
 				(font
@@ -30495,7 +33452,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1525"
 			(at 43.18 38.1 0)
 			(effects
 				(font
@@ -30504,7 +33461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "70324515"
+		(property "Stock" "20208285"
 			(at 43.18 38.1 0)
 			(effects
 				(font
@@ -30513,7 +33470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.006USD"
+		(property "Price" "0.004USD"
 			(at 43.18 38.1 0)
 			(effects
 				(font
@@ -30567,7 +33524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 43.18 38.1 0)
 			(effects
 				(font
@@ -30576,7 +33533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "CC0603KRX7R9BB104"
+		(property "Part" "CL05B104KO5NNNC"
 			(at 43.18 38.1 0)
 			(effects
 				(font
@@ -30585,7 +33542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rated" "50V"
+		(property "Voltage Rated" "16V"
 			(at 41.148 36.0538 0)
 			(effects
 				(font
@@ -30614,6 +33571,60 @@
 		)
 		(property "Temperature Coefficient" "X7R"
 			(at 43.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 43.18 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 43.18 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 43.18 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 43.18 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 43.18 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 43.18 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30816,6 +33827,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 71.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 71.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 71.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 71.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 71.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 71.12 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f90e6772-1b7f-4107-970d-42d9c6b3d4a3")
 		)
@@ -30836,9 +33901,9 @@
 		(at 367.03 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "9f6ef3eb-0c08-4681-8049-cf24c8d5a584")
 		(property "Reference" "J5"
 			(at 373.888 85.598 0)
@@ -30879,6 +33944,60 @@
 			)
 		)
 		(property "Description" ""
+			(at 367.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 367.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 367.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 367.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 367.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 367.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 367.03 95.25 0)
 			(effects
 				(font
@@ -31202,7 +34321,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "b2ef2ca1-b0e8-46dd-bfeb-1882ab73d194")
 		(property "Reference" "TP25"
@@ -31305,6 +34424,60 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 223.52 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 223.52 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 223.52 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 223.52 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 223.52 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 223.52 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 223.52 166.37 90)
 			(effects
 				(font
@@ -31505,6 +34678,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 129.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 129.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 129.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 129.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 129.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 129.54 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "72fe92b0-37de-4ca1-952a-ce463dc5e838")
 		)
@@ -31526,7 +34753,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "bb3b0761-0213-44c1-874a-42687763b151")
 		(property "Reference" "TP19"
@@ -31629,6 +34856,60 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 223.52 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 223.52 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 223.52 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 223.52 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 223.52 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 223.52 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 223.52 115.57 90)
 			(effects
 				(font
@@ -31782,7 +35063,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VP")
+		(lib_id "power:+3.3V")
 		(at 318.77 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31791,8 +35072,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7c3233c-9b08-46c3-aac9-c66e29571c2e")
-		(property "Reference" "#PWR033"
-			(at 322.58 154.94 0)
+		(property "Reference" "#PWR33"
+			(at 318.77 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31826,7 +35107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VP\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 318.77 153.67 0)
 			(effects
 				(font
@@ -31841,7 +35122,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR033")
+					(reference "#PWR33")
 					(unit 1)
 				)
 			)
@@ -32047,6 +35328,60 @@
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
 			(at 255.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 255.27 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 255.27 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 255.27 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 255.27 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 255.27 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 255.27 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32314,6 +35649,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 71.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 71.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 71.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 71.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 71.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 71.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5871c597-627a-472b-903b-3e25eb038dc3")
 		)
@@ -32330,7 +35719,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
+		(lib_id "dnt_global:0402,100nF, 16V")
 		(at 48.26 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32348,7 +35737,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 46.228 37.7218 0)
+			(at 46.228 44.958 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -32356,7 +35745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_0603"
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 50.038 38.1 90)
 			(effects
 				(font
@@ -32365,7 +35754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 48.26 38.1 0)
 			(effects
 				(font
@@ -32374,7 +35763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 48.26 38.1 0)
 			(effects
 				(font
@@ -32383,7 +35772,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1525"
 			(at 48.26 38.1 0)
 			(effects
 				(font
@@ -32392,7 +35781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "70324515"
+		(property "Stock" "20208285"
 			(at 48.26 38.1 0)
 			(effects
 				(font
@@ -32401,7 +35790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.006USD"
+		(property "Price" "0.004USD"
 			(at 48.26 38.1 0)
 			(effects
 				(font
@@ -32455,7 +35844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 48.26 38.1 0)
 			(effects
 				(font
@@ -32464,7 +35853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "CC0603KRX7R9BB104"
+		(property "Part" "CL05B104KO5NNNC"
 			(at 48.26 38.1 0)
 			(effects
 				(font
@@ -32473,7 +35862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rated" "50V"
+		(property "Voltage Rated" "16V"
 			(at 46.228 36.0538 0)
 			(effects
 				(font
@@ -32509,6 +35898,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 48.26 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 48.26 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 48.26 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 48.26 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 48.26 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 48.26 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db7ceed3-6922-45fb-924a-de9e82d648e7")
 		)
@@ -32530,7 +35973,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "d7210c18-c171-4efb-9b20-7dd1ce71814a")
 		(property "Reference" "TP21"
@@ -32641,6 +36084,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 223.52 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 223.52 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 223.52 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 223.52 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 223.52 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 223.52 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "faecbbdc-5832-448f-a3c6-3c78874c26cf")
 		)
@@ -32724,7 +36221,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "e8dd5601-5bac-44cc-a3f2-d0649fa58377")
 		(property "Reference" "TP24"
@@ -32835,6 +36332,60 @@
 				(hide yes)
 			)
 		)
+		(property "Order" ""
+			(at 223.52 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 223.52 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 223.52 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 223.52 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 223.52 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 223.52 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a0e39fb6-b6e9-4311-9d0e-af1d314f7ead")
 		)
@@ -32842,6 +36393,255 @@
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dnt_global:0402,100nF, 16V")
+		(at 35.56 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb055957-f334-4875-8032-911831f3c79c")
+		(property "Reference" "C706"
+			(at 34.29 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 33.528 37.7218 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0402"
+			(at 37.338 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "20208285"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rated" "16V"
+			(at 33.528 36.0538 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 35.56 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 35.56 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 35.56 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 35.56 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 35.56 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 35.56 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d04c227-2e33-4cee-b942-b3c76b420665")
+		)
+		(pin "2"
+			(uuid "4b6cb766-808b-463c-a14d-94ba432ad96c")
+		)
+		(instances
+			(project "z9-pdm"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
+					(reference "C706")
 					(unit 1)
 				)
 			)
@@ -32931,6 +36731,60 @@
 			)
 		)
 		(property "Silkscreen" ""
+			(at 163.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 163.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 163.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 163.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 163.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 163.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 163.83 158.75 0)
 			(effects
 				(font
@@ -33254,7 +37108,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "f1c07385-598d-4869-bbc8-24f9565c91cf")
 		(property "Reference" "TP34"
@@ -33357,6 +37211,60 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 104.14 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order" ""
+			(at 104.14 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 104.14 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 104.14 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" ""
+			(at 104.14 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 104.14 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 104.14 120.65 90)
 			(effects
 				(font

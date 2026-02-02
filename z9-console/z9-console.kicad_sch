@@ -2022,6 +2022,48 @@
 		)
 	)
 	(sheet
+		(at 53.34 129.54)
+		(size 41.91 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dff42766-0e19-4362-b8f6-80b93ed6e104")
+		(property "Sheetname" "shared_esp32"
+			(at 53.34 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../z9-shared/shared_usbc_esp32.kicad_sch"
+			(at 53.34 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "z9-console"
+				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08"
+					(page "825")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 299.72 55.88)
 		(size 50.8 20.32)
 		(exclude_from_sim no)

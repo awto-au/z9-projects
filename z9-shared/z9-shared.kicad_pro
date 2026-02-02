@@ -497,7 +497,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 950,
+    "annotate_start_num": 825,
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -823,6 +823,10 @@
     [
       "1f4251eb-3452-4303-bba0-dce7319e59b1",
       "shared_usbc"
+    ],
+    [
+      "93cb0143-f426-46c4-99ea-4f4a12cd343f",
+      "shared_usbc_esp32"
     ],
     [
       "a613cbdc-c893-46e2-859f-3c7622690192",

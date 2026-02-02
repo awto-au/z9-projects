@@ -73,7 +73,7 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "ignore",
+        "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -476,9 +476,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "dnt"
+    ],
     "pinned_symbol_libs": [
-      "Connector"
+      "Connector",
+      "dnt_global"
     ]
   },
   "meta": {
@@ -636,7 +639,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 2,
+    "annotate_start_num": 750,
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -1158,6 +1161,14 @@
       "vipower"
     ],
     [
+      "04b50bea-1e22-4812-a1d7-d5af092b1e4c",
+      "esp32-s3"
+    ],
+    [
+      "cab17c9d-df0d-4094-9bb8-ab97cd5bdd0b",
+      "radio_433"
+    ],
+    [
       "4bf3a54e-2413-4742-bb3c-6ced251716e8",
       "analogue_inputs"
     ],
@@ -1200,6 +1211,10 @@
     [
       "c97401c5-7e03-4d93-a14f-f692468677b5",
       "shared_buzzer_2"
+    ],
+    [
+      "9f3124a7-546f-4a37-a7dc-076db0dd79a1",
+      "shared_ism330dhcx"
     ],
     [
       "afe0b366-72e8-4aeb-bdd6-ed92c2bd7364",

@@ -180,6 +180,48 @@
 		)
 	)
 	(sheet
+		(at 96.52 31.75)
+		(size 45.72 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "93cb0143-f426-46c4-99ea-4f4a12cd343f")
+		(property "Sheetname" "shared_usbc_esp32"
+			(at 96.52 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "shared_usbc_esp32.kicad_sch"
+			(at 96.52 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "z9-shared"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e"
+					(page "825")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 36.83 106.68)
 		(size 46.99 24.13)
 		(exclude_from_sim no)
@@ -315,6 +357,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ISM_CS" input
+			(at 36.83 153.67 180)
+			(uuid "ac4c99da-bde7-411a-837d-1f7efa808c37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ISM_INT1" input
+			(at 36.83 167.64 180)
+			(uuid "cefc7da4-7f59-47e2-bdd9-304b3f4acdfb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ISM_INT2" input
+			(at 36.83 170.18 180)
+			(uuid "977fc4e2-637e-4be9-b618-ed182e7638b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ISM_SCK" input
+			(at 36.83 157.48 180)
+			(uuid "f3c51e51-897d-4754-a71b-7e37040621a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ISM_SDI" input
+			(at 36.83 160.02 180)
+			(uuid "a817c88e-cc89-4fdc-8e70-37ff577d8017")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ISM_SDO" input
+			(at 36.83 162.56 180)
+			(uuid "2a37e620-50d3-4cc5-8bda-57a771d03376")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
