@@ -94,54 +94,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(no_connect
-		(at 191.77 158.75)
-		(uuid "0a3a8e1c-9cd2-43d4-9283-53911678c22f")
-	)
-	(no_connect
-		(at 191.77 59.69)
-		(uuid "4dbc9d5a-fba6-4273-b727-85b058cfe60a")
-	)
-	(no_connect
-		(at 191.77 170.18)
-		(uuid "6d2afc61-022c-4fa6-bedd-669d351c40a2")
-	)
-	(no_connect
-		(at 191.77 151.13)
-		(uuid "804a4960-e789-44a5-838e-14cac0dbe4e3")
-	)
-	(no_connect
-		(at 160.02 78.74)
-		(uuid "80cd1b87-1461-4ab3-b5c8-373db9852894")
-	)
-	(no_connect
-		(at 191.77 165.1)
-		(uuid "82065c61-aa6c-4df1-9681-3040e9ca8667")
-	)
-	(no_connect
-		(at 191.77 156.21)
-		(uuid "8223a6f9-d5f4-4bee-b62d-36b0bfd9f46e")
-	)
-	(no_connect
-		(at 191.77 148.59)
-		(uuid "8391cdaa-cea0-4d74-8a54-1859b824ad3a")
-	)
-	(no_connect
-		(at 191.77 161.29)
-		(uuid "96633e5f-d800-4472-b13c-f02b2b621328")
-	)
-	(no_connect
-		(at 191.77 153.67)
-		(uuid "9b6db989-a9c5-4780-bff4-0833dbc94040")
-	)
-	(no_connect
-		(at 160.02 118.11)
-		(uuid "cdb4dd6d-9219-4130-a6cd-ef56195b342c")
-	)
-	(no_connect
-		(at 191.77 172.72)
-		(uuid "dc4cbc3d-bb5b-4612-ba53-395595b272ba")
-	)
 	(wire
 		(pts
 			(xy 203.2 129.54) (xy 191.77 129.54)
@@ -2697,16 +2649,6 @@
 				(justify right)
 			)
 		)
-		(pin "LCD_ON" output
-			(at 191.77 165.1 0)
-			(uuid "eeeeda8c-af8e-463c-a1f9-b8bb8b134676")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "CAN1_RX" input
 			(at 191.77 180.34 0)
 			(uuid "00450cb1-4f9c-4384-b0a5-7850641131ec")
@@ -2720,26 +2662,6 @@
 		(pin "CAN1_TX" output
 			(at 191.77 182.88 0)
 			(uuid "9ac8ade9-b8d5-44d2-991e-2c2df38b283d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "LCD_LED" output
-			(at 191.77 170.18 0)
-			(uuid "7d999033-f433-420c-a3a2-cf6b1c4557a6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "LCD_RESET" output
-			(at 191.77 172.72 0)
-			(uuid "0463c6b3-37a5-4699-887f-88ffc0af6c9d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,36 +2717,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "SPI4_CS_1" output
-			(at 191.77 153.67 0)
-			(uuid "ef9d9548-589b-444a-885c-c548f8ff43ed")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SPI4_CS_2" output
-			(at 191.77 156.21 0)
-			(uuid "e84d7f98-c40b-476b-be1e-2339d80b5626")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SPI4_IRQ" input
-			(at 191.77 158.75 0)
-			(uuid "fd082239-ec45-477d-b0b8-f7b5130e473f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "SPI3_CS" output
@@ -2917,16 +2809,6 @@
 				(justify left)
 			)
 		)
-		(pin "SYS_WKUP" input
-			(at 160.02 118.11 180)
-			(uuid "4b393bd7-2235-4604-a856-2875ea40ab8a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "ADC1_IN6" input
 			(at 160.02 59.69 180)
 			(uuid "b95ac7e2-8161-4d67-8e61-0edc914cf4df")
@@ -2960,16 +2842,6 @@
 		(pin "ADC1_IN15" input
 			(at 160.02 69.85 180)
 			(uuid "824b5784-4da1-4abb-87f9-108eed01c114")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SENSOR_ON" output
-			(at 160.02 78.74 180)
-			(uuid "17909843-aa64-4972-9f6f-8822033d8c29")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3017,36 +2889,6 @@
 				(justify right)
 			)
 		)
-		(pin "SPI4_SCK" output
-			(at 191.77 161.29 0)
-			(uuid "a1b6cf72-b082-4da7-8d61-32260af009ea")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SPI4_SDI" input
-			(at 191.77 151.13 0)
-			(uuid "96404ae7-0ece-452a-8f91-a38bb43ff17a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SPI4_SDO" output
-			(at 191.77 148.59 0)
-			(uuid "7d33e59e-ac45-43e8-bb02-9559a3fffe98")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "TIM1_CH3" output
 			(at 160.02 146.05 180)
 			(uuid "939b3ef3-41b5-4b57-bbf8-0d74cbdbded8")
@@ -3070,16 +2912,6 @@
 		(pin "ESP_EN" output
 			(at 191.77 52.07 0)
 			(uuid "6ba9c8a8-b5c5-40cc-acbe-f7044b99f7fc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PC13" output
-			(at 191.77 59.69 0)
-			(uuid "d94f480e-e213-49e7-8388-696fd566ffaf")
 			(effects
 				(font
 					(size 1.27 1.27)
