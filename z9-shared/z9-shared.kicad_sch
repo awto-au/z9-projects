@@ -427,6 +427,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 96.52 71.12)
+		(size 45.72 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e993e41b-b43a-4629-88fc-d5a50321abf7")
+		(property "Sheetname" "shared_5V_LMR54410"
+			(at 96.52 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "shared_5V_LMR54410.kicad_sch"
+			(at 96.52 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "z9-shared"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e"
+					(page "600")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

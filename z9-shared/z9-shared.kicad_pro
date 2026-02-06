@@ -497,7 +497,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 825,
+    "annotate_start_num": 600,
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -811,6 +811,10 @@
     [
       "09e08bdc-786f-4949-8afc-e02ddbe0502e",
       "Root"
+    ],
+    [
+      "e993e41b-b43a-4629-88fc-d5a50321abf7",
+      "shared_5V_LMR54410"
     ],
     [
       "1a1ef1d0-80f8-40e1-820b-d8a0de9a6f67",
