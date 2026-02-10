@@ -1,0 +1,520 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "09e08bdc-786f-4949-8afc-e02ddbe0502e")
+	(paper "A4")
+	(lib_symbols)
+	(text "do not move components if possible \ndo not reannote as links may be lost\npcb-sch links via uuid may be lost!!!\nkeep each schemartic small if possible "
+		(exclude_from_sim no)
+		(at 169.672 20.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "48595376-f6d3-4fda-872b-1620ad54d83e")
+	)
+	(no_connect
+		(at 83.82 114.3)
+		(uuid "28876fa2-bb2a-4871-80b3-37795c193dbf")
+	)
+	(no_connect
+		(at 36.83 78.74)
+		(uuid "327c44cd-7426-47f5-8339-b64a7bb87698")
+	)
+	(no_connect
+		(at 36.83 111.76)
+		(uuid "43492688-478e-492f-b770-f5912777a19a")
+	)
+	(no_connect
+		(at 36.83 40.64)
+		(uuid "654ba70a-08cb-4d31-9808-1f9b2d5fb4b4")
+	)
+	(no_connect
+		(at 36.83 43.18)
+		(uuid "6d81dce9-0318-41f8-b5bd-22b243436331")
+	)
+	(no_connect
+		(at 83.82 116.84)
+		(uuid "acca2ea4-7ca2-4f3f-bce4-2192f6e04f19")
+	)
+	(no_connect
+		(at 36.83 114.3)
+		(uuid "b75fdada-aca4-41fd-b4fb-500dcf8c3722")
+	)
+	(no_connect
+		(at 36.83 116.84)
+		(uuid "b9ad3a7f-0673-4ecf-a8d8-74eaad8067da")
+	)
+	(no_connect
+		(at 36.83 109.22)
+		(uuid "c2664516-2014-482a-8898-d23879e374e6")
+	)
+	(no_connect
+		(at 36.83 38.1)
+		(uuid "d69e3274-1f68-4782-90ee-a0126324bddc")
+	)
+	(sheet
+		(at 36.83 71.12)
+		(size 46.99 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1a1ef1d0-80f8-40e1-820b-d8a0de9a6f67")
+		(property "Sheetname" "shared_buzzer"
+			(at 36.83 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "shared_buzzer.kicad_sch"
+			(at 36.83 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BUZZER" input
+			(at 36.83 78.74 180)
+			(uuid "dddab2f7-7b24-484e-bbdd-e580c2f062cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "z9-shared"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e"
+					(page "700")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 31.75)
+		(size 46.99 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1f4251eb-3452-4303-bba0-dce7319e59b1")
+		(property "Sheetname" "shared_usbc"
+			(at 36.83 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "shared_usbc.kicad_sch"
+			(at 36.83 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_OTG_FS_DM" bidirectional
+			(at 36.83 38.1 180)
+			(uuid "c3beafdb-0c8e-4ddc-b22d-c97d136ed486")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_OTG_FS_DP" bidirectional
+			(at 36.83 40.64 180)
+			(uuid "35b98411-ebdb-47ca-bda7-f56417fa3989")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_OTG_FS_VBUS" output
+			(at 36.83 43.18 180)
+			(uuid "00f992b4-1413-4bd5-94f0-0f0233e7928f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "z9-shared"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e"
+					(page "800")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 110.49)
+		(size 45.72 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "559f1af3-3394-43e4-be5f-1926aa8c8cea")
+		(property "Sheetname" "shared_5V_lmr14206"
+			(at 96.52 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "shared_5V_LMR14206.kicad_sch"
+			(at 96.52 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "z9-shared"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 31.75)
+		(size 45.72 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "93cb0143-f426-46c4-99ea-4f4a12cd343f")
+		(property "Sheetname" "shared_usbc_esp32"
+			(at 96.52 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "shared_usbc_esp32.kicad_sch"
+			(at 96.52 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "z9-shared"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e"
+					(page "825")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 106.68)
+		(size 46.99 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a613cbdc-c893-46e2-859f-3c7622690192")
+		(property "Sheetname" "shared_isolated_can"
+			(at 36.83 105.9684 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "shared_isolated_can.kicad_sch"
+			(at 36.83 131.3946 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V_ISO" input
+			(at 36.83 111.76 180)
+			(uuid "50c5ba36-1456-407e-a582-b0a22c57bbf1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_H" bidirectional
+			(at 36.83 114.3 180)
+			(uuid "950faf36-27a1-484b-b41e-67d5ca93164a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_L" bidirectional
+			(at 36.83 116.84 180)
+			(uuid "4499bfa7-34b0-437a-a922-c688aac528b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_RX" output
+			(at 83.82 114.3 0)
+			(uuid "039f417c-dd8d-4935-806e-d169700f1fc5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 83.82 116.84 0)
+			(uuid "c1577b9a-b5a2-442c-9348-a49d7ed3dc69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND_ISO" input
+			(at 36.83 109.22 180)
+			(uuid "d5aad261-84f1-4993-b49f-5979aff21fc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "z9-shared"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e"
+					(page "950")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 147.32)
+		(size 46.99 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d8370a01-a9e1-42e7-a7a9-c0c792a99fb8")
+		(property "Sheetname" "shared_ism330dhcx"
+			(at 36.83 146.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "shared_ism330dhcx.kicad_sch"
+			(at 36.83 175.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ISM_CS" input
+			(at 36.83 153.67 180)
+			(uuid "ac4c99da-bde7-411a-837d-1f7efa808c37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ISM_INT1" input
+			(at 36.83 167.64 180)
+			(uuid "cefc7da4-7f59-47e2-bdd9-304b3f4acdfb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ISM_INT2" input
+			(at 36.83 170.18 180)
+			(uuid "977fc4e2-637e-4be9-b618-ed182e7638b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ISM_SCK" input
+			(at 36.83 157.48 180)
+			(uuid "f3c51e51-897d-4754-a71b-7e37040621a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ISM_SDI" input
+			(at 36.83 160.02 180)
+			(uuid "a817c88e-cc89-4fdc-8e70-37ff577d8017")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ISM_SDO" input
+			(at 36.83 162.56 180)
+			(uuid "2a37e620-50d3-4cc5-8bda-57a771d03376")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "z9-shared"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e"
+					(page "750")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 71.12)
+		(size 45.72 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e993e41b-b43a-4629-88fc-d5a50321abf7")
+		(property "Sheetname" "shared_5V_LMR54410"
+			(at 96.52 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "shared_5V_LMR54410.kicad_sch"
+			(at 96.52 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "z9-shared"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e"
+					(page "600")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

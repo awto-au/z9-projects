@@ -4227,6 +4227,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 222.25 231.14)
+		(size 49.53 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d17e10e6-7bb2-4872-836c-3827fa43fb8a")
+		(property "Sheetname" "power_5v"
+			(at 222.25 230.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 222.25 271.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "z9-pdm"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
+					(page "24")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

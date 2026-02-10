@@ -1169,6 +1169,10 @@
       "radio_433"
     ],
     [
+      "d17e10e6-7bb2-4872-836c-3827fa43fb8a",
+      "power_5v"
+    ],
+    [
       "4bf3a54e-2413-4742-bb3c-6ced251716e8",
       "analogue_inputs"
     ],
