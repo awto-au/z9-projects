@@ -150,7 +150,7 @@
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.127127,
         "min_via_annular_width": 0.100112,
-        "min_via_diameter": 0.40045,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -583,24 +583,12 @@
         "pattern": "+5V"
       },
       {
-        "netclass": "Default",
-        "pattern": "*VBATT"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D1-A)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "+3.3VP"
+        "netclass": "HC",
+        "pattern": "*+BATT"
       },
       {
         "netclass": "HC",
         "pattern": "/HC_.?.?"
-      },
-      {
-        "netclass": "HC",
-        "pattern": "+BATT"
       },
       {
         "netclass": "HC",
@@ -639,7 +627,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 750,
+    "annotate_start_num": 1,
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -1074,14 +1062,80 @@
           "label": "Pin Style",
           "name": "Pin Style",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Current Rating",
+          "name": "Current Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Total Gate Charge (Qg@Vgs)",
+          "name": "Total Gate Charge (Qg@Vgs)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Circuits",
+          "name": "Circuits",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Gate Threshold Voltage (Vgs(th)@Id)",
+          "name": "Gate Threshold Voltage (Vgs(th)@Id)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Impedance @ Frequency",
+          "name": "Impedance @ Frequency",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Continuous Drain Current (Id)",
+          "name": "Continuous Drain Current (Id)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Input Capacitance (Ciss@Vds)",
+          "name": "Input Capacitance (Ciss@Vds)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Drain Source On Resistance (RDS(on)@Vgs,Id)",
+          "name": "Drain Source On Resistance (RDS(on)@Vgs,Id)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Drain Source Voltage (Vdss)",
+          "name": "Drain Source Voltage (Vdss)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FT Rotation Offset",
+          "name": "FT Rotation Offset",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power Dissipation (Pd)",
+          "name": "Power Dissipation (Pd)",
+          "show": false
         }
       ],
       "filter_string": "",
-      "group_symbols": true,
+      "group_symbols": false,
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Stock"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {

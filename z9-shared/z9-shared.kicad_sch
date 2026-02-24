@@ -56,6 +56,48 @@
 		(uuid "d69e3274-1f68-4782-90ee-a0126324bddc")
 	)
 	(sheet
+		(at 96.52 149.86)
+		(size 45.72 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "109b6e15-16e9-420e-9dc5-7b323a560d53")
+		(property "Sheetname" "shared_power_lmq664"
+			(at 96.52 149.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "share_power_lmq664.kicad_sch"
+			(at 96.52 177.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "z9-shared"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 36.83 71.12)
 		(size 46.99 26.67)
 		(exclude_from_sim no)
@@ -175,6 +217,48 @@
 			(project "z9-shared"
 				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e"
 					(page "800")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 110.49)
+		(size 45.72 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "559f1af3-3394-43e4-be5f-1926aa8c8cea")
+		(property "Sheetname" "shared_5V_lmr14206"
+			(at 96.52 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "shared_5V_LMR14206.kicad_sch"
+			(at 96.52 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "z9-shared"
+				(path "/09e08bdc-786f-4949-8afc-e02ddbe0502e"
+					(page "8")
 				)
 			)
 		)

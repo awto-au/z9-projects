@@ -140,7 +140,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_JLCPCB:C_0402"
+			(property "Footprint" "dnt:C_0402_1005Metric"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -3751,7 +3751,7 @@
 		(dnp no)
 		(uuid "ccc20036-2e33-475a-addf-b818306ee0ae")
 		(property "Reference" "C752"
-			(at 195.58 38.1 0)
+			(at 196.342 37.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3760,15 +3760,15 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 196.088 43.18 0)
+			(at 196.342 39.7482 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_0402"
+		(property "Footprint" "dnt:C_0402_1005Metric"
 			(at 192.532 39.37 90)
 			(effects
 				(font
@@ -3886,7 +3886,7 @@
 			)
 		)
 		(property "Voltage Rated" "16V"
-			(at 197.866 39.116 0)
+			(at 196.342 41.4162 0)
 			(effects
 				(font
 					(size 0.8 0.8)

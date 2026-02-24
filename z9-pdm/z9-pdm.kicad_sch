@@ -93,6 +93,232 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5VA"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5VA"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5VA\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5VA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5VA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(wire
 		(pts
@@ -136,16 +362,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 127) (xy 191.77 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "155a7c0b-be91-4418-852c-15a784268ffa")
-	)
-	(wire
-		(pts
 			(xy 203.2 180.34) (xy 191.77 180.34)
 		)
 		(stroke
@@ -153,16 +369,6 @@
 			(type default)
 		)
 		(uuid "15e4029a-5b64-46aa-b885-61bdfb5c990c")
-	)
-	(wire
-		(pts
-			(xy 203.2 120.65) (xy 191.77 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15e87ff0-2a04-4526-aacc-211701deed40")
 	)
 	(wire
 		(pts
@@ -186,16 +392,6 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 81.28) (xy 312.42 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30582ef1-de79-4d4c-be84-9349de36d7a9")
-	)
-	(wire
-		(pts
 			(xy 304.8 66.04) (xy 312.42 66.04)
 		)
 		(stroke
@@ -216,23 +412,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 113.03) (xy 191.77 113.03)
+			(xy 205.74 160.02) (xy 191.77 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3cfac9bc-d8d8-482a-8c87-60a04cda9fa1")
-	)
-	(wire
-		(pts
-			(xy 203.2 124.46) (xy 191.77 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e4cd01b-66b2-4b3b-831b-f295ee80e378")
+		(uuid "3ee65895-6cab-457f-aade-b5484c61cd43")
 	)
 	(wire
 		(pts
@@ -246,6 +432,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 85.09) (xy 312.42 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c235759-f48a-4c39-a513-cafa1af094f3")
+	)
+	(wire
+		(pts
 			(xy 304.8 73.66) (xy 312.42 73.66)
 		)
 		(stroke
@@ -253,46 +449,6 @@
 			(type default)
 		)
 		(uuid "6c243cf3-a91a-48f7-925c-e98740eae418")
-	)
-	(wire
-		(pts
-			(xy 203.2 88.9) (xy 191.77 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "731d1afc-014e-405c-a40d-2fed231b8118")
-	)
-	(wire
-		(pts
-			(xy 203.2 118.11) (xy 191.77 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cdf5b72-c42e-41ef-afdd-f7b6b4ccbdd7")
-	)
-	(wire
-		(pts
-			(xy 292.1 92.71) (xy 312.42 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f244dd2-9238-4313-a7b7-50e6f84b9c59")
-	)
-	(wire
-		(pts
-			(xy 203.2 91.44) (xy 191.77 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f8324bc-bb3f-4365-b131-83073b360158")
 	)
 	(wire
 		(pts
@@ -306,13 +462,13 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 88.9) (xy 312.42 88.9)
+			(xy 293.37 85.09) (xy 293.37 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8b2da8b5-2887-40ac-b3e8-a067b8c6e634")
+		(uuid "8d510601-f413-4864-ad78-3086bfd2113c")
 	)
 	(wire
 		(pts
@@ -336,6 +492,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 64.77) (xy 293.37 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a81bcab-1d5e-41bf-9ed7-3ad455d1860e")
+	)
+	(wire
+		(pts
 			(xy 304.8 58.42) (xy 312.42 58.42)
 		)
 		(stroke
@@ -343,6 +509,16 @@
 			(type default)
 		)
 		(uuid "ab21298e-d65f-47a8-88eb-9839ee4253ee")
+	)
+	(wire
+		(pts
+			(xy 293.37 81.28) (xy 312.42 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae9ab3e2-f349-4abc-9fdc-b902b98ed594")
 	)
 	(wire
 		(pts
@@ -363,16 +539,6 @@
 			(type default)
 		)
 		(uuid "b843ed4b-feeb-4317-9b23-f9925f1d7245")
-	)
-	(wire
-		(pts
-			(xy 292.1 85.09) (xy 312.42 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c30d6912-5c34-4283-9c36-b35ad64b8cbe")
 	)
 	(wire
 		(pts
@@ -484,6 +650,16 @@
 		)
 		(uuid "0577301b-735d-4694-b9c4-ddb580aed552")
 	)
+	(label "5VA_ENABLE"
+		(at 52.07 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06d7c5f6-b0ee-4703-a908-88dca8f6264f")
+	)
 	(label "SENSE_1"
 		(at 363.22 35.56 0)
 		(effects
@@ -503,16 +679,6 @@
 			(justify right bottom)
 		)
 		(uuid "0a3d8007-65fe-484e-8745-fb783798e1d8")
-	)
-	(label "UART8_RX"
-		(at 160.02 254 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0b482961-e20b-4f44-844d-e58a7b299719")
 	)
 	(label "SPI2_SDI"
 		(at 203.2 93.98 0)
@@ -574,6 +740,16 @@
 		)
 		(uuid "1bb223b7-9adf-4559-bac0-c9aaeb003815")
 	)
+	(label "ESP_U0RXD"
+		(at 160.02 250.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1e0f9c3d-a538-4a31-94a6-119644ccbc1d")
+	)
 	(label "HC_6"
 		(at 95.25 76.2 0)
 		(effects
@@ -585,7 +761,7 @@
 		(uuid "20d4c733-296b-44d6-bf91-209696d1c6ff")
 	)
 	(label "SPI2_SCK"
-		(at 203.2 88.9 0)
+		(at 191.77 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -603,6 +779,16 @@
 			(justify left bottom)
 		)
 		(uuid "24f75aab-b4e3-4be6-b0ed-6115fa2e7aed")
+	)
+	(label "433_RADIO_DA"
+		(at 364.49 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "285a1b9e-689d-40aa-9f19-8970a10339cc")
 	)
 	(label "VIPOWER_PWM"
 		(at 52.07 88.9 180)
@@ -623,16 +809,6 @@
 			(justify right bottom)
 		)
 		(uuid "2de0dd46-23c4-411c-8cd1-c06fa842a353")
-	)
-	(label "SENSE_GROUND"
-		(at 292.1 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3877f46d-81f2-4fda-bea3-18326386ccb0")
 	)
 	(label "USB_OTG_FS_DP"
 		(at 160.02 31.75 180)
@@ -665,7 +841,7 @@
 		(uuid "3ce873ae-a75b-4b42-a536-68cafe0cf376")
 	)
 	(label "VIPOWER_CS1"
-		(at 203.2 113.03 0)
+		(at 191.77 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -715,7 +891,7 @@
 		(uuid "45b486e1-fe98-4943-8713-f0cea8ec1d8a")
 	)
 	(label "VIPOWER_DI1"
-		(at 203.2 120.65 0)
+		(at 191.77 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -734,7 +910,7 @@
 		)
 		(uuid "4789c1e0-b921-411f-8c27-7172529a9a85")
 	)
-	(label "UART8_TX"
+	(label "ESP_U0RXD"
 		(at 191.77 44.45 0)
 		(effects
 			(font
@@ -824,6 +1000,16 @@
 		)
 		(uuid "5619d127-6105-4b88-b229-d3fafc72870a")
 	)
+	(label "ESP_U0TXD"
+		(at 160.02 254 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "575ab305-66b2-4e7f-b08c-bc9a6e850eaa")
+	)
 	(label "SENSE_2"
 		(at 312.42 149.86 180)
 		(effects
@@ -835,7 +1021,7 @@
 		(uuid "575e9fd8-abd8-42fc-a58e-199e92e30fd9")
 	)
 	(label "VIPOWER_DI0"
-		(at 203.2 118.11 0)
+		(at 191.77 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -954,7 +1140,7 @@
 		)
 		(uuid "73f4831e-7244-4500-bb96-94d59115b90c")
 	)
-	(label "TIM1_CH3"
+	(label "BUZZER"
 		(at 160.02 146.05 180)
 		(effects
 			(font
@@ -995,7 +1181,7 @@
 		(uuid "75f6ec67-337e-4513-ac29-f3661b316fbf")
 	)
 	(label "SPI2_SDO"
-		(at 203.2 91.44 0)
+		(at 191.77 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1003,6 +1189,16 @@
 			(justify left bottom)
 		)
 		(uuid "768e3300-ec51-4234-8f00-f2d77778fd9b")
+	)
+	(label "433_RADIO_DA"
+		(at 205.74 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7701d7df-26bc-4beb-b197-46412ccde62a")
 	)
 	(label "SENSE_5"
 		(at 363.22 45.72 0)
@@ -1165,7 +1361,7 @@
 		(uuid "9ac8a0fb-fd6d-47e5-9f7c-6bdf7ef6be78")
 	)
 	(label "VIPOWER_SCK"
-		(at 203.2 127 0)
+		(at 191.77 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1215,7 +1411,7 @@
 		(uuid "9e5ab9e7-b7f5-439e-ad71-2b9e5b299a11")
 	)
 	(label "VIPOWER_CS2"
-		(at 203.2 124.46 0)
+		(at 191.77 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1224,15 +1420,15 @@
 		)
 		(uuid "a367fe91-f152-4186-a375-1ddef0a906b5")
 	)
-	(label "5V_SENSOR_POWER"
-		(at 292.1 81.28 180)
+	(label "BUZZER"
+		(at 52.07 179.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "a43f0037-232b-4961-9a5b-316140d2e0b4")
+		(uuid "a564150b-1d80-4cf9-a957-e30e14fbba10")
 	)
 	(label "HC_5"
 		(at 304.8 39.37 180)
@@ -1295,7 +1491,7 @@
 		(uuid "be2f4e08-a0c4-45ca-8e5a-86e3adf02c47")
 	)
 	(label "GND_ISO"
-		(at 292.1 88.9 180)
+		(at 312.42 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1313,16 +1509,6 @@
 			(justify left bottom)
 		)
 		(uuid "cb5b6190-e841-429b-b3ee-b7087ea1c11b")
-	)
-	(label "UART8_TX"
-		(at 160.02 250.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cc3cad80-ba18-49fd-9f00-801f54b6760c")
 	)
 	(label "SENSE_8"
 		(at 363.22 53.34 0)
@@ -1344,7 +1530,7 @@
 		)
 		(uuid "cf9ee316-16a9-494f-9b36-74e94c3d301a")
 	)
-	(label "UART8_RX"
+	(label "ESP_U0TXD"
 		(at 191.77 48.26 0)
 		(effects
 			(font
@@ -1494,18 +1680,8 @@
 		)
 		(uuid "e37b5d82-c46f-46a4-8202-c39dc1fe5331")
 	)
-	(label "TIM1_CH3"
-		(at 52.07 179.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e4b65cf1-36cd-4fb7-9db7-c135ef31803e")
-	)
 	(label "+5V_ISO"
-		(at 292.1 92.71 180)
+		(at 312.42 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1563,6 +1739,16 @@
 			(justify right bottom)
 		)
 		(uuid "f706c97d-b95a-44ae-b5ba-622e45efad40")
+	)
+	(label "5VA_ENABLE"
+		(at 191.77 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9070d60-67fb-4137-9185-a6c1f6f89398")
 	)
 	(label "SENSE_4"
 		(at 312.42 154.94 180)
@@ -1855,6 +2041,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VA")
+		(at 293.37 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c1f7e36-41a9-42e3-aa7f-8b8b488797be")
+		(property "Reference" "#PWR033"
+			(at 293.37 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 293.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 293.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 293.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbc7b9a5-6aa1-47ed-b936-476eac2f8a3d")
+		)
+		(instances
+			(project ""
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "dnt_global:MountingHole_-_4MM")
 		(at 372.11 243.84 0)
 		(unit 1)
@@ -1969,6 +2221,72 @@
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
 					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 293.37 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "baf1583d-18bf-4bc1-b9a9-5cb0ba44d27c")
+		(property "Reference" "#PWR034"
+			(at 293.37 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 293.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 293.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 293.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69d7c54f-d34d-4e73-94ef-77627be929a6")
+		)
+		(instances
+			(project ""
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2932,6 +3250,26 @@
 		(pin "UART8_TX" output
 			(at 191.77 44.45 0)
 			(uuid "91890255-86eb-418f-99f2-be9038515df8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIM2_CH3" bidirectional
+			(at 191.77 160.02 0)
+			(uuid "06000a8d-7194-4cd2-b703-cadd717ffa66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PC13" output
+			(at 191.77 156.21 0)
+			(uuid "8dae7202-40f9-43c1-8b93-62b836a93b26")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3925,7 +4263,7 @@
 				(justify left top)
 			)
 		)
-		(pin "433_RADIO_DA" input
+		(pin "433_RADIO_DA" output
 			(at 364.49 201.93 0)
 			(uuid "aa61bb5e-29bf-4228-b284-95ccdc9bba11")
 			(effects
@@ -3975,6 +4313,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "5VA_ENABLE" input
+			(at 52.07 120.65 180)
+			(uuid "d4849b62-31df-455b-a089-6e59586c03e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

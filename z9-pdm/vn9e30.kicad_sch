@@ -278,7 +278,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "dnt_global:0603,100nF"
+		(symbol "dnt_global:0603 100nF 50V X7R "
 			(pin_numbers
 				(hide yes)
 			)
@@ -325,7 +325,7 @@
 				)
 			)
 			(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-				(at 0 0 0)
+				(at 0 3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -334,7 +334,7 @@
 				)
 			)
 			(property "LCSC" "C14663"
-				(at 0 0 0)
+				(at -0.508 -3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -468,7 +468,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "0603,100nF_0_1"
+			(symbol "0603 100nF 50V X7R _0_1"
 				(polyline
 					(pts
 						(xy -1.27 0.635) (xy 1.27 0.635)
@@ -494,7 +494,7 @@
 					)
 				)
 			)
-			(symbol "0603,100nF_1_1"
+			(symbol "0603 100nF 50V X7R _1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 3.175)
@@ -2767,7 +2767,7 @@
 		)
 	)
 	(symbol
-		(lib_id "dnt_global:0603,100nF")
+		(lib_id "dnt_global:0603 100nF 50V X7R ")
 		(at 170.18 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2813,7 +2813,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 170.18 46.99 0)
+			(at 170.18 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +2822,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 170.18 46.99 0)
+			(at 169.672 50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)

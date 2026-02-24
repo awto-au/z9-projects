@@ -1070,7 +1070,7 @@
 					)
 				)
 			)
-			(property "Value" "Fuse_16V_500mA_100A_1A_150mΩ_0805_PTC_Resettable_Fuses_ROHS"
+			(property "Value" "Fuse_16V_500mA_100A_1A_150mΩ_PTC"
 				(at 3.81 0 90)
 				(effects
 					(font
@@ -4343,7 +4343,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
+		(property "Value" "Fuse_16V_500mA_100A_1A_150mΩ_PTC"
 			(at 102.87 74.93 90)
 			(effects
 				(font
@@ -4380,60 +4380,6 @@
 		)
 		(property "LCSC" "C2833485"
 			(at 102.87 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" ""
-			(at 102.87 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 102.87 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 102.87 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 102.87 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 102.87 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 102.87 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
