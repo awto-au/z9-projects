@@ -19598,6 +19598,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 140.97) (xy 186.69 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "013b82c3-7091-423e-84e4-b410dbf01e03")
+	)
+	(wire
+		(pts
 			(xy 335.28 50.8) (xy 306.07 50.8)
 		)
 		(stroke
@@ -22776,6 +22786,17 @@
 			(justify left)
 		)
 		(uuid "75b8b0bc-f6ef-46a0-84cb-d4b2dfa9526f")
+	)
+	(hierarchical_label "ADC1_IN9"
+		(shape input)
+		(at 207.01 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "774e259e-8ab0-4d89-8518-43f6df5abc34")
 	)
 	(hierarchical_label "ESP_BOOT"
 		(shape bidirectional)
@@ -33071,6 +33092,7 @@
 		)
 		(pin "24"
 			(uuid "081288c6-d3dc-452f-a1d2-cd03c30d82be")
+			(alternate "ADC1_IN1")
 		)
 		(pin "55"
 			(uuid "374fe559-7bd3-4d93-9466-1acf09dbe6f8")

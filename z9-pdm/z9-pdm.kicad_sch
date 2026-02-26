@@ -3368,6 +3368,48 @@
 		)
 	)
 	(sheet
+		(at 233.045 202.565)
+		(size 59.69 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "152d27d4-4305-45b7-a540-0fdfffe7ed0d")
+		(property "Sheetname" "power_3.3V"
+			(at 233.045 201.8534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_3.3V.kicad_sch"
+			(at 233.045 222.1996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "z9-pdm"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 52.07 16.51)
 		(size 43.18 31.75)
 		(exclude_from_sim no)
@@ -3687,6 +3729,48 @@
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
 					(page "49")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 233.045 171.45)
+		(size 59.69 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "565d507b-2ce3-4039-a7fe-c629aa25c35a")
+		(property "Sheetname" "power_5V_tba"
+			(at 233.045 170.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_5V_tba.kicad_sch"
+			(at 233.045 189.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "z9-pdm"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
+					(page "25")
 				)
 			)
 		)
