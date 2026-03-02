@@ -650,16 +650,6 @@
 		)
 		(uuid "0577301b-735d-4694-b9c4-ddb580aed552")
 	)
-	(label "5VA_ENABLE"
-		(at 52.07 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "06d7c5f6-b0ee-4703-a908-88dca8f6264f")
-	)
 	(label "SENSE_1"
 		(at 363.22 35.56 0)
 		(effects
@@ -1340,16 +1330,6 @@
 		)
 		(uuid "98af0e53-e8bf-4208-8452-1a67581ed66c")
 	)
-	(label "+5V_ISO"
-		(at 52.07 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9a03dddc-65be-4fc1-a559-bffb1adf1726")
-	)
 	(label "SPI2_SDO"
 		(at 52.07 242.57 180)
 		(effects
@@ -1679,16 +1659,6 @@
 			(justify left bottom)
 		)
 		(uuid "e37b5d82-c46f-46a4-8202-c39dc1fe5331")
-	)
-	(label "+5V_ISO"
-		(at 312.42 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ed800fb0-9d13-4f7e-bba4-179e126006f6")
 	)
 	(label "ADC1_IN3"
 		(at 363.22 153.67 0)
@@ -3368,6 +3338,48 @@
 		)
 	)
 	(sheet
+		(at 233.045 202.565)
+		(size 59.69 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "152d27d4-4305-45b7-a540-0fdfffe7ed0d")
+		(property "Sheetname" "power_3.3V"
+			(at 233.045 201.8534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_3.3V.kicad_sch"
+			(at 233.045 222.1996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "z9-pdm"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 52.07 16.51)
 		(size 43.18 31.75)
 		(exclude_from_sim no)
@@ -3399,16 +3411,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "+5V_ISO" input
-			(at 52.07 38.1 180)
-			(uuid "626f5f5c-de06-41d1-8db6-f12bb91ed85c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "CAN_H" bidirectional
@@ -3692,6 +3694,48 @@
 		)
 	)
 	(sheet
+		(at 233.045 171.45)
+		(size 59.69 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "565d507b-2ce3-4039-a7fe-c629aa25c35a")
+		(property "Sheetname" "power_5V_tba"
+			(at 233.045 170.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_5V_tba.kicad_sch"
+			(at 233.045 189.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "z9-pdm"
+				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 312.42 30.48)
 		(size 50.8 76.2)
 		(exclude_from_sim no)
@@ -3758,16 +3802,6 @@
 		(pin "SENSE_GROUND" input
 			(at 312.42 85.09 180)
 			(uuid "b4e6456e-0df9-439f-bafa-67246187a3e5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "+5V_ISO" output
-			(at 312.42 92.71 180)
-			(uuid "90433c7a-ca87-48b3-9d6b-01021d3afb3b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4313,16 +4347,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "5VA_ENABLE" input
-			(at 52.07 120.65 180)
-			(uuid "d4849b62-31df-455b-a089-6e59586c03e0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances

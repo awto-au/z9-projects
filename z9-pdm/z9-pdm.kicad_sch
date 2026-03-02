@@ -452,6 +452,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 121.92) (xy 111.76 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86b5040a-2eb6-4618-80fc-e93287dfa446")
+	)
+	(wire
+		(pts
 			(xy 304.8 69.85) (xy 312.42 69.85)
 		)
 		(stroke
@@ -611,7 +621,7 @@
 		(uuid "009e1caf-0252-4451-a4a4-b9dc114f20d9")
 	)
 	(label "USB_OTG_FS_VBUS"
-		(at 93.98 215.9 0)
+		(at 93.98 177.165 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -641,7 +651,7 @@
 		(uuid "054968fb-fe22-4b6f-8f7f-e60179a2eea2")
 	)
 	(label "ESP_BOOT"
-		(at 160.02 242.57 180)
+		(at 50.8 245.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -649,16 +659,6 @@
 			(justify right bottom)
 		)
 		(uuid "0577301b-735d-4694-b9c4-ddb580aed552")
-	)
-	(label "5VA_ENABLE"
-		(at 52.07 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "06d7c5f6-b0ee-4703-a908-88dca8f6264f")
 	)
 	(label "SENSE_1"
 		(at 363.22 35.56 0)
@@ -741,7 +741,7 @@
 		(uuid "1bb223b7-9adf-4559-bac0-c9aaeb003815")
 	)
 	(label "ESP_U0RXD"
-		(at 160.02 250.19 180)
+		(at 50.8 252.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -789,6 +789,16 @@
 			(justify left bottom)
 		)
 		(uuid "285a1b9e-689d-40aa-9f19-8970a10339cc")
+	)
+	(label "ADC1_IN9"
+		(at 111.76 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c32233d-f0be-4967-8a7c-9d1dcc29e2e1")
 	)
 	(label "VIPOWER_PWM"
 		(at 52.07 88.9 180)
@@ -871,7 +881,7 @@
 		(uuid "426b634e-a4e6-4dd0-b9d2-65aba8e06a33")
 	)
 	(label "ESP_EN"
-		(at 160.02 246.38 180)
+		(at 50.8 248.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -941,7 +951,7 @@
 		(uuid "4f56142d-39f6-4cc0-b1d8-453b98e616a9")
 	)
 	(label "USB_OTG_FS_DP"
-		(at 93.98 200.66 0)
+		(at 93.98 161.925 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1001,7 +1011,7 @@
 		(uuid "5619d127-6105-4b88-b229-d3fafc72870a")
 	)
 	(label "ESP_U0TXD"
-		(at 160.02 254 180)
+		(at 50.8 256.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1049,6 +1059,16 @@
 			(justify right bottom)
 		)
 		(uuid "59ffb3bf-ee32-4d8d-837d-60848ed1de9a")
+	)
+	(label "5VA_ENABLE"
+		(at 233.045 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a0b3731-49b2-4737-9817-8add052779fb")
 	)
 	(label "ADC1_IN7"
 		(at 363.22 161.29 0)
@@ -1171,7 +1191,7 @@
 		(uuid "755ed1ef-f807-4cfa-909e-fd98224f6a3c")
 	)
 	(label "USB_OTG_FS_DM"
-		(at 93.98 205.74 0)
+		(at 93.98 167.005 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1251,7 +1271,7 @@
 		(uuid "887ce51d-3634-4da2-a65b-44596727df8c")
 	)
 	(label "SPI2_IRQ"
-		(at 52.07 256.54 180)
+		(at 52.07 217.805 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1310,6 +1330,16 @@
 		)
 		(uuid "8f603adb-177c-4fd2-a299-4bcc9fd7efdd")
 	)
+	(label "ADC1_IN9"
+		(at 160.02 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8fee53c8-9e8d-43f4-aed5-a83dfc8801af")
+	)
 	(label "SENSE_5"
 		(at 312.42 157.48 180)
 		(effects
@@ -1340,18 +1370,8 @@
 		)
 		(uuid "98af0e53-e8bf-4208-8452-1a67581ed66c")
 	)
-	(label "+5V_ISO"
-		(at 52.07 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9a03dddc-65be-4fc1-a559-bffb1adf1726")
-	)
 	(label "SPI2_SDO"
-		(at 52.07 242.57 180)
+		(at 52.07 203.835 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1421,7 +1441,7 @@
 		(uuid "a367fe91-f152-4186-a375-1ddef0a906b5")
 	)
 	(label "BUZZER"
-		(at 52.07 179.07 180)
+		(at 52.07 140.335 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1441,7 +1461,7 @@
 		(uuid "a955cdf6-ccb6-419e-9126-da88939e4c7a")
 	)
 	(label "SPI2_IRQ2"
-		(at 52.07 260.35 180)
+		(at 52.07 221.615 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1680,16 +1700,6 @@
 		)
 		(uuid "e37b5d82-c46f-46a4-8202-c39dc1fe5331")
 	)
-	(label "+5V_ISO"
-		(at 312.42 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ed800fb0-9d13-4f7e-bba4-179e126006f6")
-	)
 	(label "ADC1_IN3"
 		(at 363.22 153.67 0)
 		(effects
@@ -1721,7 +1731,7 @@
 		(uuid "f587c0eb-7b1d-4b00-8517-f57a85ae32ef")
 	)
 	(label "SPI2_CS"
-		(at 52.07 234.95 180)
+		(at 52.07 196.215 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1731,7 +1741,7 @@
 		(uuid "f64dec2d-083e-4cd3-afa2-ebb54c656b05")
 	)
 	(label "SPI2_SDI"
-		(at 52.07 246.38 180)
+		(at 52.07 207.645 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1771,7 +1781,7 @@
 		(uuid "fb5f42a2-57f3-4a2c-bb76-a8fe30b84d7b")
 	)
 	(label "SPI2_SCK"
-		(at 52.07 238.76 180)
+		(at 52.07 200.025 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3277,6 +3287,16 @@
 				(justify right)
 			)
 		)
+		(pin "ADC1_IN9" input
+			(at 160.02 83.82 180)
+			(uuid "896df154-c4a6-4995-82e7-bfb8fe1c9018")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
@@ -3286,8 +3306,8 @@
 		)
 	)
 	(sheet
-		(at 160.02 231.14)
-		(size 31.75 39.37)
+		(at 50.8 233.68)
+		(size 44.45 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3302,7 +3322,7 @@
 		)
 		(uuid "04b50bea-1e22-4812-a1d7-d5af092b1e4c")
 		(property "Sheetname" "esp32-s3"
-			(at 160.02 230.4284 0)
+			(at 50.8 232.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3311,7 +3331,7 @@
 			)
 		)
 		(property "Sheetfile" "esp32-s3.kicad_sch"
-			(at 160.02 271.0946 0)
+			(at 50.8 273.6346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3320,7 +3340,7 @@
 			)
 		)
 		(pin "ESP_BOOT" input
-			(at 160.02 242.57 180)
+			(at 50.8 245.11 180)
 			(uuid "64aff69a-9030-4819-8e15-53755261d579")
 			(effects
 				(font
@@ -3330,7 +3350,7 @@
 			)
 		)
 		(pin "ESP_EN" input
-			(at 160.02 246.38 180)
+			(at 50.8 248.92 180)
 			(uuid "ccf4d881-5f09-4634-bf64-62e5d2a74a74")
 			(effects
 				(font
@@ -3340,7 +3360,7 @@
 			)
 		)
 		(pin "ESP_U0RXD" input
-			(at 160.02 250.19 180)
+			(at 50.8 252.73 180)
 			(uuid "30041b90-05f7-4750-b934-7e0c1a31fd20")
 			(effects
 				(font
@@ -3350,7 +3370,7 @@
 			)
 		)
 		(pin "ESP_U0TXD" output
-			(at 160.02 254 180)
+			(at 50.8 256.54 180)
 			(uuid "33e2caa2-de6d-453d-a3d4-cb237a53683a")
 			(effects
 				(font
@@ -3441,16 +3461,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "+5V_ISO" input
-			(at 52.07 38.1 180)
-			(uuid "626f5f5c-de06-41d1-8db6-f12bb91ed85c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "CAN_H" bidirectional
@@ -3767,6 +3777,16 @@
 				(justify left top)
 			)
 		)
+		(pin "5VA_ENABLE" input
+			(at 233.045 177.8 180)
+			(uuid "1e42a120-7cb8-40fd-a628-689212317425")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
@@ -3842,16 +3862,6 @@
 		(pin "SENSE_GROUND" input
 			(at 312.42 85.09 180)
 			(uuid "b4e6456e-0df9-439f-bafa-67246187a3e5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "+5V_ISO" output
-			(at 312.42 92.71 180)
-			(uuid "90433c7a-ca87-48b3-9d6b-01021d3afb3b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4088,7 +4098,7 @@
 		)
 	)
 	(sheet
-		(at 52.07 231.14)
+		(at 52.07 192.405)
 		(size 41.91 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4104,7 +4114,7 @@
 		)
 		(uuid "9f3124a7-546f-4a37-a7dc-076db0dd79a1")
 		(property "Sheetname" "shared_ism330dhcx"
-			(at 52.07 230.4284 0)
+			(at 52.07 191.6934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +4123,7 @@
 			)
 		)
 		(property "Sheetfile" "../z9-shared/shared_ism330dhcx.kicad_sch"
-			(at 52.07 263.4746 0)
+			(at 52.07 224.7396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +4132,7 @@
 			)
 		)
 		(pin "ISM_CS" input
-			(at 52.07 234.95 180)
+			(at 52.07 196.215 180)
 			(uuid "92a4b568-c640-4dfa-bb63-e017b29c716c")
 			(effects
 				(font
@@ -4132,7 +4142,7 @@
 			)
 		)
 		(pin "ISM_INT1" input
-			(at 52.07 256.54 180)
+			(at 52.07 217.805 180)
 			(uuid "2830498c-5eb3-44a5-a477-b796f7a6f093")
 			(effects
 				(font
@@ -4142,7 +4152,7 @@
 			)
 		)
 		(pin "ISM_INT2" input
-			(at 52.07 260.35 180)
+			(at 52.07 221.615 180)
 			(uuid "9e0688ee-4f8b-426a-8261-abc67855df64")
 			(effects
 				(font
@@ -4152,7 +4162,7 @@
 			)
 		)
 		(pin "ISM_SCK" input
-			(at 52.07 238.76 180)
+			(at 52.07 200.025 180)
 			(uuid "06f7fd77-c483-436c-ba0d-abfd2903b5d7")
 			(effects
 				(font
@@ -4162,7 +4172,7 @@
 			)
 		)
 		(pin "ISM_SDI" input
-			(at 52.07 242.57 180)
+			(at 52.07 203.835 180)
 			(uuid "42700e7f-3900-404c-941f-84d304700ab8")
 			(effects
 				(font
@@ -4172,7 +4182,7 @@
 			)
 		)
 		(pin "ISM_SDO" input
-			(at 52.07 246.38 180)
+			(at 52.07 207.645 180)
 			(uuid "139985d7-b2d9-400c-8cd5-9307dec14481")
 			(effects
 				(font
@@ -4190,7 +4200,7 @@
 		)
 	)
 	(sheet
-		(at 52.07 196.85)
+		(at 52.07 158.115)
 		(size 41.91 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4206,7 +4216,7 @@
 		)
 		(uuid "afe0b366-72e8-4aeb-bdd6-ed92c2bd7364")
 		(property "Sheetname" "shared_usbc"
-			(at 52.07 196.1384 0)
+			(at 52.07 157.4034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4215,7 +4225,7 @@
 			)
 		)
 		(property "Sheetfile" "../z9-shared/shared_usbc.kicad_sch"
-			(at 52.07 221.5646 0)
+			(at 52.07 182.8296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4224,7 +4234,7 @@
 			)
 		)
 		(pin "USB_OTG_FS_DP" bidirectional
-			(at 93.98 200.66 0)
+			(at 93.98 161.925 0)
 			(uuid "6f496f21-4db0-4030-a51b-ce3e448dfed4")
 			(effects
 				(font
@@ -4234,7 +4244,7 @@
 			)
 		)
 		(pin "USB_OTG_FS_DM" bidirectional
-			(at 93.98 205.74 0)
+			(at 93.98 167.005 0)
 			(uuid "58c5dec3-b3e6-47c1-9c24-b2ca2a40a67d")
 			(effects
 				(font
@@ -4244,7 +4254,7 @@
 			)
 		)
 		(pin "USB_OTG_FS_VBUS" output
-			(at 93.98 215.9 0)
+			(at 93.98 177.165 0)
 			(uuid "bae82dd6-333e-44a6-823b-5cde104ea9a5")
 			(effects
 				(font
@@ -4262,7 +4272,7 @@
 		)
 	)
 	(sheet
-		(at 52.07 173.99)
+		(at 52.07 135.255)
 		(size 41.91 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4278,7 +4288,7 @@
 		)
 		(uuid "c97401c5-7e03-4d93-a14f-f692468677b5")
 		(property "Sheetname" "shared_buzzer_2"
-			(at 52.07 173.2784 0)
+			(at 52.07 134.5434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,7 +4297,7 @@
 			)
 		)
 		(property "Sheetfile" "../z9-shared/shared_buzzer.kicad_sch"
-			(at 52.07 186.0046 0)
+			(at 52.07 147.2696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4296,7 +4306,7 @@
 			)
 		)
 		(pin "BUZZER" input
-			(at 52.07 179.07 180)
+			(at 52.07 140.335 180)
 			(uuid "bf92b5f2-00a8-48c9-ad9f-7a208dbb88f7")
 			(effects
 				(font
@@ -4367,7 +4377,7 @@
 	)
 	(sheet
 		(at 52.07 114.3)
-		(size 40.64 44.45)
+		(size 43.18 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4391,7 +4401,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 52.07 159.3346 0)
+			(at 52.07 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,14 +4409,14 @@
 				(justify left top)
 			)
 		)
-		(pin "5VA_ENABLE" input
-			(at 52.07 120.65 180)
-			(uuid "d4849b62-31df-455b-a089-6e59586c03e0")
+		(pin "IN_SENSE" output
+			(at 95.25 121.92 0)
+			(uuid "cb343d3c-72ab-4176-a05c-69547b55dc4c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances

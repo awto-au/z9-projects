@@ -200,9 +200,11 @@
       ],
       "track_widths": [
         0.0,
+        0.125,
         0.25,
         0.3,
-        0.5
+        0.5,
+        2.8
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -1225,6 +1227,14 @@
     [
       "d17e10e6-7bb2-4872-836c-3827fa43fb8a",
       "power_5v"
+    ],
+    [
+      "565d507b-2ce3-4039-a7fe-c629aa25c35a",
+      "power_5V_tba"
+    ],
+    [
+      "152d27d4-4305-45b7-a540-0fdfffe7ed0d",
+      "power_3.3V"
     ],
     [
       "4bf3a54e-2413-4742-bb3c-6ced251716e8",
