@@ -2364,7 +2364,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Footprint" "dnt:SAMTEC_FTSH-107-01-F-DV-K-Fix"
+			(property "Footprint" "dnt:Conn_SAMTEC_FTSH-107-01-F-DV-K-Fix"
 				(at 0 0 0)
 				(effects
 					(font
@@ -26848,12 +26848,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 307.34 81.2799 0)
+			(at 304.8 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -26915,12 +26914,11 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 27.94 25.3999 0)
+			(at 25.4 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -26990,7 +26988,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "dnt:SAMTEC_FTSH-107-01-F-DV-K-Fix"
+		(property "Footprint" "dnt:Conn_SAMTEC_FTSH-107-01-F-DV-K-Fix"
 			(at 293.37 53.34 0)
 			(effects
 				(font
@@ -27208,12 +27206,11 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 295.91 33.0199 0)
+			(at 293.37 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -28190,12 +28187,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 384.81 80.0099 0)
+			(at 382.27 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -28257,12 +28253,11 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 24.13 93.9799 0)
+			(at 21.59 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -28324,12 +28319,11 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 148.59 25.3999 0)
+			(at 146.05 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -29155,12 +29149,11 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 342.9 203.1999 0)
+			(at 340.36 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -29549,12 +29542,11 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 363.22 77.4699 0)
+			(at 360.68 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -30954,12 +30946,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 307.34 130.8099 0)
+			(at 304.8 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""

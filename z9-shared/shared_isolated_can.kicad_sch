@@ -2526,12 +2526,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 137.1599 0)
+			(at 128.27 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2812,12 +2811,11 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 54.61 154.9399 0)
+			(at 52.07 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3745,12 +3743,11 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 81.28 72.3899 0)
+			(at 78.74 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4031,12 +4028,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 179.0699 0)
+			(at 52.07 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""

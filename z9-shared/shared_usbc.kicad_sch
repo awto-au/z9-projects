@@ -5857,12 +5857,11 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 167.64 49.5299 0)
+			(at 165.1 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""

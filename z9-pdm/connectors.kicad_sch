@@ -8695,12 +8695,11 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 27.94 25.3999 0)
+			(at 25.4 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8899,12 +8898,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 123.1899 0)
+			(at 165.1 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9065,12 +9063,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 137.1599 0)
+			(at 50.8 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9681,12 +9678,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 123.1899 0)
+			(at 104.14 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9885,12 +9881,11 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 102.87 149.8599 0)
+			(at 100.33 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""

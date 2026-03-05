@@ -2655,7 +2655,7 @@
 			)
 		)
 		(property "Value" "Fuse_16V_500mA_100A_1A_150mΩ_PTC"
-			(at 171.45 59.69 90)
+			(at 161.544 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,6 +2932,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2997,6 +2998,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -3364,12 +3366,11 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 123.19 62.2299 0)
+			(at 120.65 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3523,12 +3524,11 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 175.26 109.2199 0)
+			(at 172.72 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3726,6 +3726,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -3787,12 +3788,11 @@
 			)
 		)
 		(property "Value" "+5VA"
-			(at 124.46 113.0299 0)
+			(at 121.92 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3852,7 +3852,7 @@
 			)
 		)
 		(property "Value" "Fuse_16V_500mA_100A_1A_150mΩ_PTC"
-			(at 165.1 118.618 90)
+			(at 159.512 104.648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,6 +3936,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""

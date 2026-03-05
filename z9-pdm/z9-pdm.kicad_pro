@@ -60,6 +60,10 @@
       ],
       "drc_exclusions": [
         [
+          "footprint_symbol_mismatch|288469000|97469000|f7105f03-3496-4b2e-8a53-a243cf7ca901|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "footprint_type_mismatch|161110000|150420000|096a0256-aa1d-42eb-bc6d-8b7e24086f34|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -1187,7 +1191,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": false,
-      "sort_field": "Reference"
+      "sort_field": "LCSC"
     },
     "connection_grid_size": 50.0,
     "drawing": {

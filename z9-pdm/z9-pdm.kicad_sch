@@ -1962,12 +1962,11 @@
 			)
 		)
 		(property "Value" "+5VA"
-			(at 295.91 63.4999 0)
+			(at 293.37 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2095,12 +2094,11 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 295.91 107.9499 0)
+			(at 293.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
