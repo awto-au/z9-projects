@@ -10,198 +10,6 @@
 		(company "DNT")
 	)
 	(lib_symbols
-		(symbol "LED-WHITE_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED-WHITE"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "dnt:LED_0603_1608Metric - polarity"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550724001388785664"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0.254 -4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C2290"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED-WHITE_1_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED-WHITE_1_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_JLCPCB-Capacitors:0603,10nF"
 			(pin_numbers
 				(hide yes)
@@ -2574,8 +2382,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART"
+			(property "Description" "SAMTEC FTSH-107-01-L-DV-K-A - ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART"
 				(at 7.112 23.368 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C5563894"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3459,6 +3276,15 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C424649"
 				(at 0 0 0)
 				(effects
 					(font
@@ -14943,6 +14769,198 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "dnt_global:LED-WHITE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED-WHITE"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "dnt:LED_0603_1608Metric - polarity"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550724001388785664"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0.254 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2290"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED-WHITE_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED-WHITE_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "dnt_global:LED-YELLOW"
 			(pin_numbers
 				(hide yes)
@@ -22815,60 +22833,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 113.03 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 113.03 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 113.03 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 113.03 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 113.03 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 113.03 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "9b50e8c5-b259-4d85-99b2-74535d4505a6")
 		)
@@ -22893,7 +22857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c470c88")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR037"
 			(at 163.83 229.87 0)
 			(effects
 				(font
@@ -22943,7 +22907,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR039")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -22959,7 +22923,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c470c9b")
-		(property "Reference" "R6"
+		(property "Reference" "R12"
 			(at 40.64 97.282 90)
 			(effects
 				(font
@@ -23156,60 +23120,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 40.64 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 40.64 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 40.64 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 40.64 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 40.64 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 40.64 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7ac93241-6bd8-4c3d-992e-17e25973d658")
 		)
@@ -23219,7 +23129,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "R6")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -23234,7 +23144,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c470c9f")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR027"
 			(at 50.8 86.36 0)
 			(effects
 				(font
@@ -23284,7 +23194,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR010")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -23299,7 +23209,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c4d064d")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR038"
 			(at 166.37 229.87 0)
 			(effects
 				(font
@@ -23349,7 +23259,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR042")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -23364,7 +23274,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c5fee98")
-		(property "Reference" "C16"
+		(property "Reference" "C18"
 			(at 62.738 39.768 0)
 			(effects
 				(font
@@ -23544,7 +23454,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "C16")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -23560,7 +23470,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cc9138a")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 46.482 113.03 90)
 			(effects
 				(font
@@ -23757,60 +23667,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 44.45 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 44.45 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 44.45 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 44.45 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 44.45 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 44.45 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "011f535d-0b8d-4a5a-94e7-e2a87bc35540")
 		)
@@ -23820,7 +23676,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -23835,7 +23691,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cca0562")
-		(property "Reference" "C24"
+		(property "Reference" "C23"
 			(at 120.65 40.64 90)
 			(effects
 				(font
@@ -24006,60 +23862,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 121.92 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 121.92 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 121.92 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 121.92 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 121.92 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 121.92 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7a507386-649a-4aae-b28f-9aeeb51f6e54")
 		)
@@ -24069,7 +23871,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "C24")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -24084,7 +23886,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cca057a")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR034"
 			(at 121.92 49.53 0)
 			(effects
 				(font
@@ -24134,7 +23936,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR028")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -24214,7 +24016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ce96d94")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 52.07 88.9 0)
 			(effects
 				(font
@@ -24385,60 +24187,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 50.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 50.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 50.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 50.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 50.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 50.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ec217831-c7d7-4950-a054-f2af87ecf5c2")
 		)
@@ -24448,7 +24196,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -24463,7 +24211,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cfe03f2")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR026"
 			(at 44.45 127 0)
 			(effects
 				(font
@@ -24513,7 +24261,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR08")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -24808,60 +24556,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 59.69 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 59.69 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 59.69 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 59.69 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 59.69 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 59.69 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8fe46827-1ccb-4490-8393-5293de02aaea")
 		)
@@ -24886,7 +24580,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d59f846")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR028"
 			(at 67.31 91.44 0)
 			(effects
 				(font
@@ -24936,7 +24630,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR015")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -24989,60 +24683,6 @@
 		)
 		(property "Description" "Conn Tag Connect 2070 standard ARM Cortex-M SWD and JTAG interface plus UART"
 			(at 296.418 127.508 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" ""
-			(at 293.37 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 293.37 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 293.37 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 293.37 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 293.37 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 293.37 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25110,7 +24750,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ab3b468-e257-4590-b0b3-cd2e6edddf07")
-		(property "Reference" "C15"
+		(property "Reference" "C17"
 			(at 57.658 39.768 0)
 			(effects
 				(font
@@ -25290,7 +24930,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "C15")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -25305,7 +24945,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "120ed1c6-b47c-4046-af43-c935db91544a")
-		(property "Reference" "C22"
+		(property "Reference" "C21"
 			(at 76.708 39.768 0)
 			(effects
 				(font
@@ -25485,7 +25125,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "C22")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -25588,60 +25228,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 74.93 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 74.93 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 74.93 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 74.93 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 74.93 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 74.93 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c16996bc-e032-45f7-bdcb-f2928efbeae7")
 		)
@@ -25666,7 +25252,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e9fb430-707c-481c-9f53-f6396c4d211e")
-		(property "Reference" "R21"
+		(property "Reference" "R16"
 			(at 285.496 124.46 0)
 			(effects
 				(font
@@ -25864,60 +25450,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 290.83 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 290.83 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 290.83 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 290.83 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 290.83 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 290.83 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "52fae91c-9533-4ea1-a30c-59bda14ea489")
 		)
@@ -25927,7 +25459,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "R21")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -25942,7 +25474,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b15ecc3-0d48-4d03-8600-b95b69efe0d0")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR029"
 			(at 67.31 104.14 0)
 			(effects
 				(font
@@ -25992,7 +25524,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR017")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -26007,7 +25539,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e99bfa4-b1a4-49c2-ab6d-1ea264280204")
-		(property "Reference" "D11"
+		(property "Reference" "D3"
 			(at 144.78 252.73 0)
 			(effects
 				(font
@@ -26096,60 +25628,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 148.59 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 148.59 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 148.59 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 148.59 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 148.59 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 148.59 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ed85c009-bda0-4754-a1d0-34c1a1e4cc6b")
 		)
@@ -26159,7 +25637,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "D11")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -26203,7 +25681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588894288130551808"
+		(property "Datasheet" "DF40HC3.0-100DS-0.4V51"
 			(at 389.89 95.25 0)
 			(effects
 				(font
@@ -26222,52 +25700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 389.89 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 389.89 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 389.89 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 389.89 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 389.89 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
+		(property "LCSC" "C424649"
 			(at 389.89 95.25 0)
 			(effects
 				(font
@@ -26594,7 +26027,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32e983e6-474e-4e8c-bd9a-bfb196908b83")
-		(property "Reference" "C25"
+		(property "Reference" "C24"
 			(at 124.46 201.168 90)
 			(effects
 				(font
@@ -26764,60 +26197,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 124.46 204.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 124.46 204.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 124.46 204.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 124.46 204.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 124.46 204.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 124.46 204.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "380456a2-097d-4d3b-9c1d-7159793e0ae4")
 		)
@@ -26827,7 +26206,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "C25")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -26842,7 +26221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b30c626-9dd4-428e-97ad-0fef1884e802")
-		(property "Reference" "C11"
+		(property "Reference" "C13"
 			(at 42.418 39.768 0)
 			(effects
 				(font
@@ -27022,7 +26401,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "C11")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -27038,7 +26417,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43224f40-e187-47a8-a72b-1be21539cee5")
-		(property "Reference" "RN3"
+		(property "Reference" "RN2"
 			(at 157.48 245.9482 90)
 			(effects
 				(font
@@ -27081,7 +26460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" ""
+		(property "Part #" "CAT16-1001F4LF"
 			(at 308.61 -124.46 0)
 			(effects
 				(font
@@ -27153,60 +26532,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 157.48 256.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 157.48 256.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 157.48 256.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 157.48 256.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 157.48 256.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 157.48 256.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b84cd750-fbf2-4534-b2a7-db4e7cd831aa")
 		)
@@ -27234,7 +26559,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "RN3")
+					(reference "RN2")
 					(unit 1)
 				)
 			)
@@ -27249,7 +26574,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46be23f5-a0c6-4f12-9085-dc723b193e66")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR036"
 			(at 162.56 266.7 0)
 			(effects
 				(font
@@ -27299,7 +26624,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR037")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -27314,7 +26639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4961b906-8695-4987-a762-216e1d07f749")
-		(property "Reference" "D15"
+		(property "Reference" "D6"
 			(at 144.78 260.35 0)
 			(effects
 				(font
@@ -27403,60 +26728,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 148.59 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 148.59 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 148.59 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 148.59 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 148.59 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 148.59 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8464f706-0746-4e85-8ca8-47ba9e17637a")
 		)
@@ -27466,14 +26737,13 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "D15")
+					(reference "D6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "LED-WHITE_1")
 		(lib_id "dnt_global:LED-WHITE")
 		(at 148.59 254 180)
 		(unit 1)
@@ -27482,7 +26752,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "512629b4-8046-453d-b228-9a5ade68701e")
-		(property "Reference" "D13"
+		(property "Reference" "D4"
 			(at 144.78 255.27 0)
 			(effects
 				(font
@@ -27552,7 +26822,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "D13")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -27568,7 +26838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52c48ee2-74ad-46d7-a267-bfdded1d8ee7")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR041"
 			(at 304.8 86.36 0)
 			(effects
 				(font
@@ -27578,11 +26848,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 304.8 85.09 0)
+			(at 307.34 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -27618,7 +26889,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR049")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -27634,7 +26905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "564c5aee-5e34-40a1-b88c-59a2aa95d725")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR025"
 			(at 25.4 30.48 0)
 			(effects
 				(font
@@ -27644,11 +26915,12 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 25.4 21.59 0)
+			(at 27.94 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -27684,7 +26956,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR06")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -27718,7 +26990,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "dnt:Conn_SAMTEC_FTSH-107-01-F-DV-K-Fix"
+		(property "Footprint" "dnt:SAMTEC_FTSH-107-01-F-DV-K-Fix"
 			(at 293.37 53.34 0)
 			(effects
 				(font
@@ -27736,7 +27008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART"
+		(property "Description" "SAMTEC FTSH-107-01-L-DV-K-A - ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART"
 			(at 300.482 29.972 0)
 			(effects
 				(font
@@ -27745,52 +27017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 293.37 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 293.37 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 293.37 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 293.37 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 293.37 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
+		(property "LCSC" "C5563894"
 			(at 293.37 53.34 0)
 			(effects
 				(font
@@ -27859,7 +27086,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59b6782e-1390-4f58-bb8b-ddb6bc1adc79")
-		(property "Reference" "D14"
+		(property "Reference" "D5"
 			(at 144.78 257.81 0)
 			(effects
 				(font
@@ -27946,60 +27173,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 148.59 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 148.59 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 148.59 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 148.59 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 148.59 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 148.59 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b05ee1fb-42f4-44bd-9c14-5586c238ab59")
 		)
@@ -28009,7 +27182,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "D14")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -28025,7 +27198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a00a489-9c1c-47bc-9bc3-b05e39d04733")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR040"
 			(at 293.37 38.1 0)
 			(effects
 				(font
@@ -28035,11 +27208,12 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 293.37 29.21 0)
+			(at 295.91 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -28075,7 +27249,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR047")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -28090,7 +27264,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bed743a-955b-4096-b7d1-89f60c3a38ad")
-		(property "Reference" "C23"
+		(property "Reference" "C22"
 			(at 109.22 210.693 90)
 			(effects
 				(font
@@ -28260,60 +27434,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 109.22 207.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 109.22 207.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 109.22 207.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 109.22 207.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 109.22 207.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 109.22 207.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b5479b1c-b6ed-4ab7-9e26-83804f903a7d")
 		)
@@ -28323,7 +27443,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "C23")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -28618,60 +27738,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 35.56 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 35.56 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 35.56 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 35.56 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 35.56 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 35.56 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5e2d3301-6e5a-4d63-b588-b247d3367d57")
 		)
@@ -28696,7 +27762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6da05318-0d94-417a-9ca3-3357c5f4ba2e")
-		(property "Reference" "R20"
+		(property "Reference" "R15"
 			(at 285.496 74.93 0)
 			(effects
 				(font
@@ -28894,60 +27960,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 290.83 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 290.83 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 290.83 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 290.83 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 290.83 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 290.83 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "18a0f4cf-5084-4eed-98b5-8475f90533e5")
 		)
@@ -28957,7 +27969,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "R20")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -28972,7 +27984,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76bb87f3-643b-4ca2-b078-97c9cad87c52")
-		(property "Reference" "C13"
+		(property "Reference" "C16"
 			(at 52.578 39.768 0)
 			(effects
 				(font
@@ -29152,7 +28164,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "C13")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -29168,7 +28180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "796c8682-0bb1-4b7b-bbeb-b321a3655271")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR045"
 			(at 382.27 85.09 0)
 			(effects
 				(font
@@ -29178,11 +28190,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 382.27 83.82 0)
+			(at 384.81 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -29218,7 +28231,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR060")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -29234,7 +28247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a2989af-614e-422a-b133-c09691541ba8")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR024"
 			(at 21.59 99.06 0)
 			(effects
 				(font
@@ -29244,11 +28257,12 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 21.59 90.17 0)
+			(at 24.13 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -29284,7 +28298,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR04")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -29310,11 +28324,12 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 146.05 21.59 0)
+			(at 148.59 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -29365,7 +28380,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "911017de-255a-41d8-9015-dad94bb7b928")
-		(property "Reference" "C9"
+		(property "Reference" "C12"
 			(at 37.338 39.768 0)
 			(effects
 				(font
@@ -29545,7 +28560,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "C9")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -29560,7 +28575,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c1c3f19-2c0f-48e8-bff0-2b64f721bd84")
-		(property "Reference" "C17"
+		(property "Reference" "C19"
 			(at 73.66 105.41 0)
 			(effects
 				(font
@@ -29731,60 +28746,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 71.12 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 71.12 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 71.12 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 71.12 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 71.12 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 71.12 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f90e6772-1b7f-4107-970d-42d9c6b3d4a3")
 		)
@@ -29794,7 +28755,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "C17")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -29837,7 +28798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588894288130551808"
+		(property "Datasheet" "DF40HC3.0-100DS-0.4V51"
 			(at 360.68 95.25 0)
 			(effects
 				(font
@@ -29856,52 +28817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 360.68 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 360.68 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 360.68 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 360.68 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 360.68 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
+		(property "LCSC" "C424649"
 			(at 360.68 95.25 0)
 			(effects
 				(font
@@ -30229,7 +29145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa7501fe-979d-4bae-8fae-3eab20597263")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR043"
 			(at 340.36 208.28 0)
 			(effects
 				(font
@@ -30239,11 +29155,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 340.36 199.39 0)
+			(at 342.9 203.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -30279,7 +29196,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR051")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -30294,7 +29211,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b413de73-c9e9-4b28-96ec-092fc81178fb")
-		(property "Reference" "C26"
+		(property "Reference" "C25"
 			(at 131.572 36.432 0)
 			(effects
 				(font
@@ -30474,7 +29391,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "C26")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -30490,7 +29407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbaf6f71-10a6-4980-9b00-328411d5fca4")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR039"
 			(at 265.43 143.51 0)
 			(effects
 				(font
@@ -30541,7 +29458,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR044")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -30556,7 +29473,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bccdb9f9-ca2e-471e-aecc-8341ccd2b5b4")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR033"
 			(at 119.38 204.47 0)
 			(effects
 				(font
@@ -30606,7 +29523,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR021")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -30622,7 +29539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7a8100b-5018-461d-a38d-044057bfcc52")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR044"
 			(at 360.68 82.55 0)
 			(effects
 				(font
@@ -30632,11 +29549,12 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 360.68 73.66 0)
+			(at 363.22 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -30672,7 +29590,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR059")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -30688,7 +29606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc249404-b810-4434-a7da-22c3174afcb1")
-		(property "Reference" "R19"
+		(property "Reference" "R14"
 			(at 255.27 141.478 90)
 			(effects
 				(font
@@ -30885,60 +29803,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 255.27 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 255.27 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 255.27 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 255.27 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 255.27 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 255.27 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "87cc8faa-4a8f-4214-a73e-393694a382e2")
 		)
@@ -30948,7 +29812,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "R19")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -30963,7 +29827,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc94893c-2a0c-4e20-8fbd-13f5ae508fa3")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR031"
 			(at 73.66 49.53 0)
 			(effects
 				(font
@@ -31013,7 +29877,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR011")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -31199,60 +30063,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 71.12 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 71.12 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 71.12 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 71.12 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 71.12 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 71.12 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5871c597-627a-472b-903b-3e25eb038dc3")
 		)
@@ -31277,7 +30087,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d42e2006-3275-4746-9399-3174189de9d5")
-		(property "Reference" "C12"
+		(property "Reference" "C14"
 			(at 47.498 39.768 0)
 			(effects
 				(font
@@ -31457,7 +30267,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "C12")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -31472,7 +30282,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfa9ae85-81e5-428e-bd8a-6503c50ef814")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR030"
 			(at 67.31 119.38 0)
 			(effects
 				(font
@@ -31522,7 +30332,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR018")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -31537,7 +30347,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb055957-f334-4875-8032-911831f3c79c")
-		(property "Reference" "C8"
+		(property "Reference" "C11"
 			(at 32.258 39.768 0)
 			(effects
 				(font
@@ -31717,7 +30527,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "C8")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -31733,7 +30543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edec329d-243c-43bb-8174-c02a20628ee5")
-		(property "Reference" "U3"
+		(property "Reference" "U6"
 			(at 168.5133 227.33 0)
 			(effects
 				(font
@@ -31815,60 +30625,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 163.83 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 163.83 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 163.83 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 163.83 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 163.83 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 163.83 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "17"
 			(uuid "9df37ec9-5958-4231-b928-74233058a925")
 		)
@@ -31883,7 +30639,6 @@
 		)
 		(pin "87"
 			(uuid "21981990-d40f-44d5-af67-d724daebfbf9")
-			(alternate "USART2_RX")
 		)
 		(pin "37"
 			(uuid "cab604d5-7de4-4369-85c2-e8ba220ac0e5")
@@ -31893,7 +30648,6 @@
 		)
 		(pin "98"
 			(uuid "d3bd8877-bd02-446f-ae72-bbb7a807853f")
-			(alternate "UART8_TX")
 		)
 		(pin "39"
 			(uuid "208cab45-bfeb-435c-a2fb-650aca8634a1")
@@ -31903,7 +30657,6 @@
 		)
 		(pin "86"
 			(uuid "4137c8b0-ef74-41ce-842b-740980d4f18c")
-			(alternate "USART2_TX")
 		)
 		(pin "33"
 			(uuid "47882e0d-b55d-4f31-8f4e-4abfe59501b6")
@@ -31916,7 +30669,6 @@
 		)
 		(pin "24"
 			(uuid "081288c6-d3dc-452f-a1d2-cd03c30d82be")
-			(alternate "ADC1_IN1")
 		)
 		(pin "55"
 			(uuid "374fe559-7bd3-4d93-9466-1acf09dbe6f8")
@@ -31947,7 +30699,6 @@
 		)
 		(pin "47"
 			(uuid "5870d954-cd68-40f6-9809-80efd852a140")
-			(alternate "TIM2_CH3")
 		)
 		(pin "40"
 			(uuid "d3a17316-9fb7-41d4-a1d7-f40377c4bbf0")
@@ -32005,7 +30756,6 @@
 		)
 		(pin "97"
 			(uuid "9b2c9d24-bb38-4bec-b0b8-d76190c539b6")
-			(alternate "UART8_RX")
 		)
 		(pin "51"
 			(uuid "f9a201b7-0eb4-49c1-83a6-bf3974e104e6")
@@ -32178,7 +30928,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "U3")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -32194,7 +30944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6d2b26f-5a0b-4bea-8a4e-8850d39276d0")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR042"
 			(at 304.8 135.89 0)
 			(effects
 				(font
@@ -32204,11 +30954,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 304.8 134.62 0)
+			(at 307.34 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -32244,7 +30995,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR050")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -32259,7 +31010,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff795495-2c57-419e-80e7-cf8daf65c49a")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR032"
 			(at 104.14 207.01 0)
 			(effects
 				(font
@@ -32309,7 +31060,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
-					(reference "#PWR019")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)

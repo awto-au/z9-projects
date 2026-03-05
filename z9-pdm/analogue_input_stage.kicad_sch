@@ -8,328 +8,6 @@
 		(title "l8")
 	)
 	(lib_symbols
-		(symbol "Diode:BAT54S"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BAT54S"
-				(at -6.35 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 1.905 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
-				(at -3.048 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "schottky diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BAT54S_0_1"
-				(polyline
-					(pts
-						(xy -4.445 1.27) (xy -4.445 -1.27) (xy -2.54 0) (xy -4.445 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -1.27) (xy -3.175 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -3.175 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 1.27) (xy -1.905 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.27) (xy 1.905 -1.27) (xy 3.81 0) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 -1.27) (xy 3.175 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.27) (xy 4.445 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 3.175 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 3.81 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 1.27) (xy 4.445 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BAT54S_1_1"
-				(pin passive line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 5.08)
-					(name "COM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_Diode_TVS_AKL:PESD24VL1BA"
 			(pin_numbers
 				(hide yes)
@@ -376,6 +54,15 @@
 				)
 			)
 			(property "Description" "SOD-323 Bidirectional TVS Diode, 24V, 200W, Alternate KiCAD Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2443373"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1694,6 +1381,337 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "dnt_global:BAT54S"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BAT54S"
+				(at -6.35 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 1.905 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+				(at -2.54 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C19726"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAT54S_0_1"
+				(polyline
+					(pts
+						(xy -4.445 1.27) (xy -4.445 -1.27) (xy -2.54 0) (xy -4.445 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.27) (xy -3.175 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -3.175 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy -1.905 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.905 -1.27) (xy 3.81 0) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.27) (xy 3.175 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 4.445 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 3.175 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 1.27) (xy 4.445 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAT54S_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2110,7 +2128,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19b7c1ae-1ad0-410d-82f5-10917d718f32")
-		(property "Reference" "R5001"
+		(property "Reference" "R39"
 			(at 142.24 59.69 90)
 			(effects
 				(font
@@ -2316,39 +2334,39 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/16936357-08be-4dfb-9389-5ff776d9b4b6"
-					(reference "R5201")
+					(reference "R45")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/2dd2e65c-6d2c-4efc-971f-df9732d92616"
-					(reference "R5101")
+					(reference "R42")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/475a8070-9854-42c4-a221-83799d98dc7a"
-					(reference "R5301")
+					(reference "R48")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/6e105c8c-269d-44b6-bf84-4ea90c10d39b"
-					(reference "R5601")
+					(reference "R57")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/8e372482-0802-42be-8457-226c2d332a06"
-					(reference "R5401")
+					(reference "R51")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/9000048e-bda8-4ae5-91bd-14a70361a8ab"
-					(reference "R5801")
+					(reference "R63")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/9a14746b-34ec-4972-892b-737dff6e1e47"
-					(reference "R5701")
+					(reference "R60")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/c655b86a-12db-4169-a137-df9f02825cf7"
-					(reference "R5501")
+					(reference "R54")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/ca441d0e-e0e4-4e4e-8f25-3aa63f5e3572"
-					(reference "R5001")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -2364,7 +2382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5228aad6-f6b0-459c-a91b-34f32fc0b094")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR091"
 			(at 163.83 114.3 0)
 			(effects
 				(font
@@ -2374,11 +2392,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 113.03 0)
+			(at 166.37 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2414,39 +2433,39 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/16936357-08be-4dfb-9389-5ff776d9b4b6"
-					(reference "#PWR0101")
+					(reference "#PWR093")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/2dd2e65c-6d2c-4efc-971f-df9732d92616"
-					(reference "#PWR0551")
+					(reference "#PWR092")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/475a8070-9854-42c4-a221-83799d98dc7a"
-					(reference "#PWR053")
+					(reference "#PWR094")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/6e105c8c-269d-44b6-bf84-4ea90c10d39b"
-					(reference "#PWR056")
+					(reference "#PWR097")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/8e372482-0802-42be-8457-226c2d332a06"
-					(reference "#PWR054")
+					(reference "#PWR095")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/9000048e-bda8-4ae5-91bd-14a70361a8ab"
-					(reference "#PWR058")
+					(reference "#PWR099")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/9a14746b-34ec-4972-892b-737dff6e1e47"
-					(reference "#PWR057")
+					(reference "#PWR098")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/c655b86a-12db-4169-a137-df9f02825cf7"
-					(reference "#PWR055")
+					(reference "#PWR096")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/ca441d0e-e0e4-4e4e-8f25-3aa63f5e3572"
-					(reference "#PWR052")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -2462,7 +2481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e7373b1-d9ff-43e2-b56d-7cbfdd5fdc53")
-		(property "Reference" "D5001"
+		(property "Reference" "D14"
 			(at 158.75 76.1999 90)
 			(effects
 				(font
@@ -2507,6 +2526,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2443373"
+			(at 156.21 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e21ea6b-2130-46cb-a21f-bd1860613311")
 		)
@@ -2516,39 +2544,39 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/16936357-08be-4dfb-9389-5ff776d9b4b6"
-					(reference "D5201")
+					(reference "D18")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/2dd2e65c-6d2c-4efc-971f-df9732d92616"
-					(reference "D5101")
+					(reference "D16")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/475a8070-9854-42c4-a221-83799d98dc7a"
-					(reference "D5301")
+					(reference "D20")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/6e105c8c-269d-44b6-bf84-4ea90c10d39b"
-					(reference "D5601")
+					(reference "D26")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/8e372482-0802-42be-8457-226c2d332a06"
-					(reference "D5401")
+					(reference "D22")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/9000048e-bda8-4ae5-91bd-14a70361a8ab"
-					(reference "D5801")
+					(reference "D30")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/9a14746b-34ec-4972-892b-737dff6e1e47"
-					(reference "D5701")
+					(reference "D28")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/c655b86a-12db-4169-a137-df9f02825cf7"
-					(reference "D5501")
+					(reference "D24")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/ca441d0e-e0e4-4e4e-8f25-3aa63f5e3572"
-					(reference "D5001")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -2564,7 +2592,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d232e61-826c-44e1-a6f4-00695ef5f949")
-		(property "Reference" "R5003"
+		(property "Reference" "R41"
 			(at 182.372 74.93 90)
 			(effects
 				(font
@@ -2761,60 +2789,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 180.34 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 180.34 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 180.34 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 180.34 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 180.34 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 180.34 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "bf78f63b-a446-4940-bbc3-54777a50b632")
 		)
@@ -2824,39 +2798,39 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/16936357-08be-4dfb-9389-5ff776d9b4b6"
-					(reference "R5203")
+					(reference "R47")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/2dd2e65c-6d2c-4efc-971f-df9732d92616"
-					(reference "R5103")
+					(reference "R44")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/475a8070-9854-42c4-a221-83799d98dc7a"
-					(reference "R5303")
+					(reference "R50")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/6e105c8c-269d-44b6-bf84-4ea90c10d39b"
-					(reference "R5603")
+					(reference "R59")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/8e372482-0802-42be-8457-226c2d332a06"
-					(reference "R5403")
+					(reference "R53")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/9000048e-bda8-4ae5-91bd-14a70361a8ab"
-					(reference "R5803")
+					(reference "R65")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/9a14746b-34ec-4972-892b-737dff6e1e47"
-					(reference "R5703")
+					(reference "R62")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/c655b86a-12db-4169-a137-df9f02825cf7"
-					(reference "R5503")
+					(reference "R56")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/ca441d0e-e0e4-4e4e-8f25-3aa63f5e3572"
-					(reference "R5003")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -2871,7 +2845,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f64a1b3-d57e-43e1-ba1d-21c821188be6")
-		(property "Reference" "C5001"
+		(property "Reference" "C41"
 			(at 191.77 72.39 0)
 			(effects
 				(font
@@ -3042,60 +3016,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 190.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 190.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 190.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 190.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 190.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 190.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c97bc1c5-ee1e-49d3-84ef-494337225bbb")
 		)
@@ -3105,46 +3025,46 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/16936357-08be-4dfb-9389-5ff776d9b4b6"
-					(reference "C5201")
+					(reference "C43")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/2dd2e65c-6d2c-4efc-971f-df9732d92616"
-					(reference "C5101")
+					(reference "C42")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/475a8070-9854-42c4-a221-83799d98dc7a"
-					(reference "C5301")
+					(reference "C44")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/6e105c8c-269d-44b6-bf84-4ea90c10d39b"
-					(reference "C5601")
+					(reference "C47")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/8e372482-0802-42be-8457-226c2d332a06"
-					(reference "C5401")
+					(reference "C45")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/9000048e-bda8-4ae5-91bd-14a70361a8ab"
-					(reference "C5801")
+					(reference "C49")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/9a14746b-34ec-4972-892b-737dff6e1e47"
-					(reference "C5701")
+					(reference "C48")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/c655b86a-12db-4169-a137-df9f02825cf7"
-					(reference "C5501")
+					(reference "C46")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/ca441d0e-e0e4-4e4e-8f25-3aa63f5e3572"
-					(reference "C5001")
+					(reference "C41")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT54S")
+		(lib_id "dnt_global:BAT54S")
 		(at 203.2 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3153,7 +3073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb45de54-18ac-49ea-9141-d46d8b0ec99f")
-		(property "Reference" "D5002"
+		(property "Reference" "D15"
 			(at 200.66 77.4699 90)
 			(effects
 				(font
@@ -3182,7 +3102,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
-			(at 203.2 81.788 0)
+			(at 197.866 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3191,6 +3111,15 @@
 			)
 		)
 		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+			(at 203.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19726"
 			(at 203.2 78.74 0)
 			(effects
 				(font
@@ -3211,39 +3140,39 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/16936357-08be-4dfb-9389-5ff776d9b4b6"
-					(reference "D5202")
+					(reference "D19")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/2dd2e65c-6d2c-4efc-971f-df9732d92616"
-					(reference "D5102")
+					(reference "D17")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/475a8070-9854-42c4-a221-83799d98dc7a"
-					(reference "D5302")
+					(reference "D21")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/6e105c8c-269d-44b6-bf84-4ea90c10d39b"
-					(reference "D5602")
+					(reference "D27")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/8e372482-0802-42be-8457-226c2d332a06"
-					(reference "D5402")
+					(reference "D23")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/9000048e-bda8-4ae5-91bd-14a70361a8ab"
-					(reference "D5802")
+					(reference "D31")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/9a14746b-34ec-4972-892b-737dff6e1e47"
-					(reference "D5702")
+					(reference "D29")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/c655b86a-12db-4169-a137-df9f02825cf7"
-					(reference "D5502")
+					(reference "D25")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/ca441d0e-e0e4-4e4e-8f25-3aa63f5e3572"
-					(reference "D5002")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -3259,7 +3188,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f791db1e-3c52-47f6-ab35-bec3c8860bb4")
-		(property "Reference" "R5002"
+		(property "Reference" "R40"
 			(at 167.64 61.468 90)
 			(effects
 				(font
@@ -3456,60 +3385,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 167.64 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 167.64 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 167.64 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 167.64 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 167.64 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 167.64 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "76284d9c-7534-416f-a74d-14d8ab077393")
 		)
@@ -3519,39 +3394,39 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/16936357-08be-4dfb-9389-5ff776d9b4b6"
-					(reference "R5202")
+					(reference "R46")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/2dd2e65c-6d2c-4efc-971f-df9732d92616"
-					(reference "R5102")
+					(reference "R43")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/475a8070-9854-42c4-a221-83799d98dc7a"
-					(reference "R5302")
+					(reference "R49")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/6e105c8c-269d-44b6-bf84-4ea90c10d39b"
-					(reference "R5602")
+					(reference "R58")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/8e372482-0802-42be-8457-226c2d332a06"
-					(reference "R5402")
+					(reference "R52")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/9000048e-bda8-4ae5-91bd-14a70361a8ab"
-					(reference "R5802")
+					(reference "R64")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/9a14746b-34ec-4972-892b-737dff6e1e47"
-					(reference "R5702")
+					(reference "R61")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/c655b86a-12db-4169-a137-df9f02825cf7"
-					(reference "R5502")
+					(reference "R55")
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8/ca441d0e-e0e4-4e4e-8f25-3aa63f5e3572"
-					(reference "R5002")
+					(reference "R40")
 					(unit 1)
 				)
 			)

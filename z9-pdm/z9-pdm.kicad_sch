@@ -1820,7 +1820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f6681e4-4252-424a-a8f3-96f38e5c3f1a")
-		(property "Reference" "H2"
+		(property "Reference" "H7"
 			(at 401.32 228.5999 0)
 			(effects
 				(font
@@ -1867,64 +1867,10 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 398.78 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 398.78 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 398.78 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 398.78 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 398.78 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 398.78 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
-					(reference "H2")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -1940,7 +1886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d5f4b3d-d3eb-4e48-ba16-d6012bf9ad78")
-		(property "Reference" "H6"
+		(property "Reference" "H4"
 			(at 374.65 236.2199 0)
 			(effects
 				(font
@@ -1987,64 +1933,10 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 372.11 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 372.11 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 372.11 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 372.11 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 372.11 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 372.11 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
-					(reference "H6")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -2060,7 +1952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c1f7e36-41a9-42e3-aa7f-8b8b488797be")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR02"
 			(at 293.37 68.58 0)
 			(effects
 				(font
@@ -2070,11 +1962,12 @@
 			)
 		)
 		(property "Value" "+5VA"
-			(at 293.37 59.69 0)
+			(at 295.91 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2110,7 +2003,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
-					(reference "#PWR033")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2173,60 +2066,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 372.11 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 372.11 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 372.11 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 372.11 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 372.11 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 372.11 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
@@ -2246,7 +2085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baf1583d-18bf-4bc1-b9a9-5cb0ba44d27c")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR03"
 			(at 293.37 113.03 0)
 			(effects
 				(font
@@ -2256,11 +2095,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 293.37 111.76 0)
+			(at 295.91 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2296,7 +2136,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
-					(reference "#PWR034")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2312,7 +2152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfaf5cbe-039d-4ddb-bc1c-548109137b08")
-		(property "Reference" "H3"
+		(property "Reference" "H8"
 			(at 401.32 236.2199 0)
 			(effects
 				(font
@@ -2359,64 +2199,10 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 398.78 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 398.78 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 398.78 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 398.78 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 398.78 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 398.78 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
-					(reference "H3")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -2432,7 +2218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf998a29-9a76-48ab-8a61-c9b92d2cabb8")
-		(property "Reference" "H1"
+		(property "Reference" "H6"
 			(at 401.32 219.7099 0)
 			(effects
 				(font
@@ -2479,64 +2265,10 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 398.78 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 398.78 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 398.78 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 398.78 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 398.78 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 398.78 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
-					(reference "H1")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -2552,7 +2284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e684af9b-b4be-453d-bcab-c3a14ddc99dd")
-		(property "Reference" "H4"
+		(property "Reference" "H9"
 			(at 401.32 243.8399 0)
 			(effects
 				(font
@@ -2599,64 +2331,10 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 398.78 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 398.78 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 398.78 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 398.78 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 398.78 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 398.78 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
-					(reference "H4")
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -2672,7 +2350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e82a7379-053a-4a18-94a9-4003d2d07e43")
-		(property "Reference" "H8"
+		(property "Reference" "H2"
 			(at 374.65 220.9799 0)
 			(effects
 				(font
@@ -2719,64 +2397,10 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 372.11 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 372.11 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 372.11 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 372.11 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 372.11 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 372.11 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
-					(reference "H8")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -2792,7 +2416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9ad72ec-937d-45a7-a1db-8f8c9cdd0f3a")
-		(property "Reference" "H7"
+		(property "Reference" "H3"
 			(at 374.65 228.5999 0)
 			(effects
 				(font
@@ -2839,64 +2463,10 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 372.11 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 372.11 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 372.11 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 372.11 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 372.11 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 372.11 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
-					(reference "H7")
+					(reference "H3")
 					(unit 1)
 				)
 			)

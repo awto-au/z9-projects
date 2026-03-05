@@ -55,35 +55,17 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Silkscreen" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "LCSC" "C189892"
 				(at 0 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "FT Rotation Offset" "180"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8279,11 +8261,11 @@
 		(at 256.54 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "08a1a499-2c39-4113-a863-40ae5ac517d8")
-		(property "Reference" "J17"
+		(property "Reference" "J14"
 			(at 270.51 92.7099 0)
 			(effects
 				(font
@@ -8322,60 +8304,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" ""
-			(at 256.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 256.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 256.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 256.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 256.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
 			(at 256.54 64.77 0)
 			(effects
 				(font
@@ -8459,7 +8387,7 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
-					(reference "J17")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -8476,7 +8404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c4dfa44-b42f-456b-bdff-16ddb80e45c4")
-		(property "Reference" "J16"
+		(property "Reference" "J5"
 			(at 67.31 154.94 0)
 			(effects
 				(font
@@ -8519,33 +8447,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" ""
-			(at 67.31 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 67.31 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Silkscreen" ""
-			(at 67.31 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C189892"
 			(at 67.31 177.038 0)
 			(effects
@@ -8555,52 +8456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 67.31 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 67.31 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 67.31 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 67.31 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 67.31 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
+		(property "FT Rotation Offset" "180"
 			(at 67.31 167.64 0)
 			(effects
 				(font
@@ -8630,7 +8486,7 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
-					(reference "J16")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -8641,11 +8497,11 @@
 		(at 107.95 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "1f4b3419-2abd-4938-b829-c0e9b3fa18a7")
-		(property "Reference" "J11"
+		(property "Reference" "J9"
 			(at 110.49 157.48 90)
 			(effects
 				(font
@@ -8708,67 +8564,13 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 107.95 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 107.95 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 107.95 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 107.95 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 107.95 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "GROUND"
-			(at 107.95 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "37193be5-c77a-45aa-8956-9c4b99d4b796")
 		)
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
-					(reference "J11")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -8779,11 +8581,11 @@
 		(at 81.28 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "22f91045-7df2-4d05-b441-6016a17505cf")
-		(property "Reference" "J202"
+		(property "Reference" "J7"
 			(at 83.82 43.1799 0)
 			(effects
 				(font
@@ -8821,60 +8623,6 @@
 		)
 		(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 84.328 24.384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" ""
-			(at 81.28 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 81.28 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 81.28 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 81.28 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 81.28 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 81.28 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8921,7 +8669,7 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
-					(reference "J202")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -8947,11 +8695,12 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 25.4 21.59 0)
+			(at 27.94 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8998,11 +8747,11 @@
 		(at 129.54 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "3f64417c-edd1-4672-96b8-482f4b7bbce1")
-		(property "Reference" "J21"
+		(property "Reference" "J10"
 			(at 143.51 92.7099 0)
 			(effects
 				(font
@@ -9041,60 +8790,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" ""
-			(at 129.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 129.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 129.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 129.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 129.54 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
 			(at 129.54 64.77 0)
 			(effects
 				(font
@@ -9178,7 +8873,7 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
-					(reference "J21")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -9194,7 +8889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53e4139d-34eb-4f19-9d10-d3e3f2d43c82")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR052"
 			(at 165.1 128.27 0)
 			(effects
 				(font
@@ -9204,11 +8899,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 127 0)
+			(at 167.64 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9244,7 +8940,7 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
-					(reference "#PWR012")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -9255,11 +8951,11 @@
 		(at 135.89 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "5cc19892-b65d-4880-a4fc-590f3898d067")
-		(property "Reference" "J200"
+		(property "Reference" "J11"
 			(at 138.43 43.1799 0)
 			(effects
 				(font
@@ -9297,60 +8993,6 @@
 		)
 		(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 138.938 24.384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" ""
-			(at 135.89 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 135.89 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 135.89 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 135.89 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 135.89 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 135.89 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9397,7 +9039,7 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
-					(reference "J200")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -9413,7 +9055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86381e4f-1c6d-4124-8b23-5028ceb319fa")
-		(property "Reference" "#PWR0708"
+		(property "Reference" "#PWR048"
 			(at 50.8 142.24 0)
 			(effects
 				(font
@@ -9423,11 +9065,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 140.97 0)
+			(at 53.34 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9463,7 +9106,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
-					(reference "#PWR0708")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -9474,11 +9117,11 @@
 		(at 195.58 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "91c5b66c-edca-48d4-af6c-4c7011ecbba0")
-		(property "Reference" "J201"
+		(property "Reference" "J13"
 			(at 198.12 43.1799 0)
 			(effects
 				(font
@@ -9516,60 +9159,6 @@
 		)
 		(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 198.628 24.384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" ""
-			(at 195.58 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 195.58 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 195.58 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 195.58 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 195.58 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 195.58 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9616,7 +9205,7 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
-					(reference "J201")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -9631,7 +9220,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c3d7624-dda9-4ac8-9ccf-1bcdb25bdf7f")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR051"
 			(at 107.95 181.61 0)
 			(effects
 				(font
@@ -9681,7 +9270,7 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
-					(reference "#PWR032")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -9692,11 +9281,11 @@
 		(at 262.89 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "ade8c6ca-6d6d-42e1-afc9-c6af8c839800")
-		(property "Reference" "J203"
+		(property "Reference" "J15"
 			(at 265.43 43.1799 0)
 			(effects
 				(font
@@ -9734,60 +9323,6 @@
 		)
 		(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 265.938 24.384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" ""
-			(at 262.89 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 262.89 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 262.89 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 262.89 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 262.89 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 262.89 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9834,7 +9369,7 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
-					(reference "J203")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -9845,11 +9380,11 @@
 		(at 100.33 160.02 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "b50520eb-d786-450f-a440-404a06d9aef9")
-		(property "Reference" "J10"
+		(property "Reference" "J8"
 			(at 97.79 165.1 90)
 			(effects
 				(font
@@ -9912,67 +9447,13 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 100.33 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 100.33 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 100.33 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 100.33 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 100.33 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 100.33 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b17c173b-1c1f-4dfd-908b-ca8c1cd3d6ef")
 		)
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
-					(reference "J10")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -9987,7 +9468,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b871df37-3cee-4444-9420-7781f7012dc9")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR047"
 			(at 41.91 171.45 0)
 			(effects
 				(font
@@ -10037,7 +9518,7 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
-					(reference "#PWR043")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -10048,11 +9529,11 @@
 		(at 189.23 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "d752787d-3996-4070-928e-4b3e424f77cd")
-		(property "Reference" "J19"
+		(property "Reference" "J12"
 			(at 220.98 92.7099 0)
 			(effects
 				(font
@@ -10091,60 +9572,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" ""
-			(at 189.23 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 189.23 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 189.23 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 189.23 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 189.23 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
 			(at 189.23 64.77 0)
 			(effects
 				(font
@@ -10228,7 +9655,7 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
-					(reference "J19")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -10244,7 +9671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddb17a87-24bc-459f-8719-7094ee39c01f")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR050"
 			(at 104.14 128.27 0)
 			(effects
 				(font
@@ -10254,11 +9681,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 127 0)
+			(at 106.68 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10294,7 +9722,7 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
-					(reference "#PWR09")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -10305,11 +9733,11 @@
 		(at 74.93 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(uuid "f16d9498-16c2-45f5-b95f-049e91a20224")
-		(property "Reference" "J12"
+		(property "Reference" "J6"
 			(at 88.9 92.7099 0)
 			(effects
 				(font
@@ -10348,60 +9776,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" ""
-			(at 74.93 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 74.93 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 74.93 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 74.93 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 74.93 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
 			(at 74.93 64.77 0)
 			(effects
 				(font
@@ -10485,7 +9859,7 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
-					(reference "J12")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -10501,7 +9875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb591f88-e65e-4672-b1ea-6aa8f9b96832")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 100.33 154.94 0)
 			(effects
 				(font
@@ -10511,11 +9885,12 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 100.33 146.05 0)
+			(at 102.87 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10551,7 +9926,7 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)

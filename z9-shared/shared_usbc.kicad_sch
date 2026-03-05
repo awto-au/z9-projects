@@ -2757,7 +2757,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7051x"
+			(property "Footprint" "dnt:USB_C_Receptacle_G-Switch_GT-USB-7051x"
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -4217,7 +4217,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01d14031-281b-4c27-b5c0-fe0c88f6f7de")
-		(property "Reference" "D801"
+		(property "Reference" "D33"
 			(at 129.032 114.4016 0)
 			(effects
 				(font
@@ -4319,7 +4319,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/afe0b366-72e8-4aeb-bdd6-ed92c2bd7364"
-					(reference "D801")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -4335,7 +4335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "148bafce-c7a8-4c24-97e8-2a5c9ad17391")
-		(property "Reference" "F801"
+		(property "Reference" "F9"
 			(at 102.87 72.39 90)
 			(effects
 				(font
@@ -4414,7 +4414,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/afe0b366-72e8-4aeb-bdd6-ed92c2bd7364"
-					(reference "F801")
+					(reference "F9")
 					(unit 1)
 				)
 			)
@@ -4513,7 +4513,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "247f8959-3fb5-4d6d-a36c-d0ad16b5932f")
-		(property "Reference" "R805"
+		(property "Reference" "R75"
 			(at 182.372 115.57 0)
 			(effects
 				(font
@@ -4711,60 +4711,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 184.15 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 184.15 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 184.15 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 184.15 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 184.15 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 184.15 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "cd71d640-2c6e-4bf5-93f3-fe7584a88903")
 		)
@@ -4792,7 +4738,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/afe0b366-72e8-4aeb-bdd6-ed92c2bd7364"
-					(reference "R805")
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -4807,7 +4753,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a8430c5-0f41-4de8-bbda-f5e296f0b3e5")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0114"
 			(at 184.15 137.16 0)
 			(effects
 				(font
@@ -4876,7 +4822,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/afe0b366-72e8-4aeb-bdd6-ed92c2bd7364"
-					(reference "#PWR0104")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -4976,7 +4922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c0251c9-8338-4cff-8426-b709547e008c")
-		(property "Reference" "R801"
+		(property "Reference" "R71"
 			(at 60.198 128.27 90)
 			(effects
 				(font
@@ -5173,60 +5119,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 62.23 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 62.23 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 62.23 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 62.23 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 62.23 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 62.23 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "cb3a14a0-2b05-495d-ac9a-fa40343f030b")
 		)
@@ -5254,7 +5146,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/afe0b366-72e8-4aeb-bdd6-ed92c2bd7364"
-					(reference "R801")
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -5270,7 +5162,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b2f8a4f-a46c-41a6-b7b1-33cbe9218b6d")
-		(property "Reference" "R802"
+		(property "Reference" "R72"
 			(at 156.718 115.57 0)
 			(effects
 				(font
@@ -5468,60 +5360,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 154.94 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 154.94 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 154.94 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 154.94 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 154.94 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 154.94 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "4adbec1c-927a-4eef-afa1-5a44d54e533c")
 		)
@@ -5549,7 +5387,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/afe0b366-72e8-4aeb-bdd6-ed92c2bd7364"
-					(reference "R802")
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -5565,7 +5403,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a2a6980-613e-43a8-a26b-0e91727fc499")
-		(property "Reference" "R804"
+		(property "Reference" "R74"
 			(at 177.8 76.708 90)
 			(effects
 				(font
@@ -5788,7 +5626,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/afe0b366-72e8-4aeb-bdd6-ed92c2bd7364"
-					(reference "R804")
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -5804,7 +5642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fb276b3-8247-46c2-a2bc-b96f94a65e9c")
-		(property "Reference" "D802"
+		(property "Reference" "D34"
 			(at 167.64 58.1024 0)
 			(effects
 				(font
@@ -5966,60 +5804,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 165.1 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 165.1 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 165.1 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 165.1 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 165.1 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 165.1 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6c309a5b-ff1d-4c73-97f9-9751b90ee907")
 		)
@@ -6047,7 +5831,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/afe0b366-72e8-4aeb-bdd6-ed92c2bd7364"
-					(reference "D802")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -6063,7 +5847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "921038c5-cd7c-40ad-88ae-b6f91ea34118")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0112"
 			(at 165.1 54.61 0)
 			(effects
 				(font
@@ -6073,11 +5857,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 165.1 45.72 0)
+			(at 167.64 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6131,7 +5916,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/afe0b366-72e8-4aeb-bdd6-ed92c2bd7364"
-					(reference "#PWR0102")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -6146,7 +5931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "980307ca-c38b-4e77-99e1-55b15e9a13c7")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0110"
 			(at 120.65 137.16 0)
 			(effects
 				(font
@@ -6215,7 +6000,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/afe0b366-72e8-4aeb-bdd6-ed92c2bd7364"
-					(reference "#PWR0106")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -6231,7 +6016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c17a96b1-cd7d-4a69-b244-0977f8efaa40")
-		(property "Reference" "R803"
+		(property "Reference" "R73"
 			(at 166.878 115.57 0)
 			(effects
 				(font
@@ -6429,60 +6214,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 165.1 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 165.1 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 165.1 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 165.1 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 165.1 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 165.1 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "210e9d31-1069-4ae5-8c17-e265a80cb530")
 		)
@@ -6510,7 +6241,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/afe0b366-72e8-4aeb-bdd6-ed92c2bd7364"
-					(reference "R803")
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -6526,7 +6257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0418115-2388-4ade-a808-d9d54569936a")
-		(property "Reference" "J801"
+		(property "Reference" "J18"
 			(at 78.74 71.12 0)
 			(effects
 				(font
@@ -6542,7 +6273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7051x"
+		(property "Footprint" "dnt:USB_C_Receptacle_G-Switch_GT-USB-7051x"
 			(at 82.55 93.98 0)
 			(effects
 				(font
@@ -6570,60 +6301,6 @@
 			)
 		)
 		(property "LCSC" "C2843970"
-			(at 78.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" ""
-			(at 78.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 78.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 78.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 78.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 78.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
 			(at 78.74 93.98 0)
 			(effects
 				(font
@@ -6704,7 +6381,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/afe0b366-72e8-4aeb-bdd6-ed92c2bd7364"
-					(reference "J801")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -6720,7 +6397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9d78787-6844-4aed-b817-7ae697905b12")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0113"
 			(at 165.1 143.51 0)
 			(effects
 				(font
@@ -6789,7 +6466,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/afe0b366-72e8-4aeb-bdd6-ed92c2bd7364"
-					(reference "#PWR0105")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -6805,7 +6482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0370149-c42b-4191-8108-cb7b72c2d49a")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0111"
 			(at 154.94 143.51 0)
 			(effects
 				(font
@@ -6874,7 +6551,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/afe0b366-72e8-4aeb-bdd6-ed92c2bd7364"
-					(reference "#PWR0103")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -6889,7 +6566,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9e9ffc3-ccb0-45a0-8eed-4fbcbfc50c25")
-		(property "Reference" "C801"
+		(property "Reference" "C55"
 			(at 72.39 128.27 90)
 			(effects
 				(font
@@ -7060,60 +6737,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 71.12 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 71.12 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 71.12 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 71.12 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 71.12 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 71.12 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "9d87d66a-ceec-43a8-8ac6-3a11e8cf9e62")
 		)
@@ -7141,7 +6764,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/afe0b366-72e8-4aeb-bdd6-ed92c2bd7364"
-					(reference "C801")
+					(reference "C55")
 					(unit 1)
 				)
 			)

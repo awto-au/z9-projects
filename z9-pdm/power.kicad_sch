@@ -8,167 +8,6 @@
 		(title "l8")
 	)
 	(lib_symbols
-		(symbol "Device:C_Polarized"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_JLCPCB-Resistors:0402,1.5kΩ"
 			(pin_numbers
 				(hide yes)
@@ -699,328 +538,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_Transistor_MOSFET_AKL:DMT6007LFG"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "DMT6007LFG"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PCM_Package_SON_AKL:Diodes_PowerDI3333-8"
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tme.eu/Document/9eee555e33b42e24108ba0fd1d3ac8ad/DMT6007LFG.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "POWERDI3333-8 N-MOSFET enchancement mode transistor, 60V, 80A, 62.5W, Alternate KiCAD Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "enchancement mosfet nmosfet n-mosfet nmos n-mos emos emosfet DMT6007LFG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DMT6007LFG_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 2.54 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.1778)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "DMT6007LFG_1_1"
-				(circle
-					(center 5.08 -2.54)
-					(radius 0.1778)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin input line
-					(at -3.81 -1.27 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2017,6 +1534,516 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "dnt_global:100uf_35V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100uf_35V"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893427748507648"
+				(at 0 -5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "-55℃~+105℃ 1000hrs@105℃ 10mm 10mm 220mA@120Hz 220uF 50V ±20% SMD,D10xL10mm Aluminum Electrolytic Capacitors - SMD ROHS"
+				(at 1.524 14.986 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C125977"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part #" " UWT1H221MNL1GS"
+				(at 0.508 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "100uf_35V_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "100uf_35V_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "dnt_global:DMT6007LFG"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "DMT6007LFG"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Package_SON_AKL:Diodes_PowerDI3333-8"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/9eee555e33b42e24108ba0fd1d3ac8ad/DMT6007LFG.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "POWERDI3333-8 N-MOSFET enchancement mode transistor, 60V, 80A, 62.5W, Alternate KiCAD Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" " C2802568"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "enchancement mosfet nmosfet n-mosfet nmos n-mos emos emosfet DMT6007LFG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DMT6007LFG_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 2.54 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DMT6007LFG_1_1"
+				(circle
+					(center 5.08 -2.54)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "dnt_global:D_TVS_-_SM15T100CA"
 			(pin_numbers
 				(hide yes)
@@ -2402,7 +2429,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "ST"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2411,12 +2438,13 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "LCSC" "C19191773"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "VN9016AJTR"
@@ -3456,6 +3484,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 97.79) (xy 213.36 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04941acd-63bc-4234-8873-7acd2b7070ff")
+	)
+	(wire
+		(pts
 			(xy 127 118.11) (xy 127 124.46)
 		)
 		(stroke
@@ -3806,7 +3844,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 87.63) (xy 213.36 124.46)
+			(xy 213.36 105.41) (xy 213.36 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4286,7 +4324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ce26b81-b396-4eec-9fa7-e2d9eaa42a5f")
-		(property "Reference" "C31"
+		(property "Reference" "C6"
 			(at 116.84 111.7599 0)
 			(effects
 				(font
@@ -4466,7 +4504,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "C31")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4481,7 +4519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12cc9a76-1f9a-4e19-8ec5-5bc6ca5e92e1")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR017"
 			(at 143.51 130.81 0)
 			(effects
 				(font
@@ -4532,7 +4570,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "#PWR075")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -4547,7 +4585,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23e26435-5950-4310-a679-730c4327908c")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR018"
 			(at 213.36 130.81 0)
 			(effects
 				(font
@@ -4598,7 +4636,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "#PWR080")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4622,7 +4660,7 @@
 			)
 		)
 		(property "Value" "Fuse_16V_500mA_100A_1A_150mΩ_PTC"
-			(at 241.046 74.422 90)
+			(at 234.442 66.548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4689,7 +4727,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "333dbacf-4013-4917-bab5-0ced063639d3")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR012"
 			(at 104.14 130.81 0)
 			(effects
 				(font
@@ -4740,7 +4778,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "#PWR020")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4755,7 +4793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c5f94ba-221e-44ec-a7ce-375a9711240a")
-		(property "Reference" "R25"
+		(property "Reference" "R5"
 			(at 60.96 85.09 0)
 			(effects
 				(font
@@ -4962,7 +5000,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "R25")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4977,7 +5015,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fcebec4-0500-4d6b-8f75-4ac33413e79e")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR010"
 			(at 66.04 130.81 0)
 			(effects
 				(font
@@ -5028,14 +5066,14 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "#PWR016")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PCM_Transistor_MOSFET_AKL:DMT6007LFG")
+		(lib_id "dnt_global:DMT6007LFG")
 		(at 64.77 82.55 270)
 		(mirror x)
 		(unit 1)
@@ -5044,7 +5082,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "528ecd35-4c31-4686-95e9-ece1a9fc2f25")
-		(property "Reference" "Q4"
+		(property "Reference" "Q2"
 			(at 64.77 71.12 90)
 			(effects
 				(font
@@ -5087,6 +5125,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" " C2802568"
+			(at 64.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "4d6400e7-0180-49fd-b41b-d9a0e14d7cd7")
 		)
@@ -5105,7 +5152,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "Q4")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -5121,7 +5168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55723453-710a-4ba2-9a17-55a9452f40b7")
-		(property "Reference" "C30"
+		(property "Reference" "C7"
 			(at 129.54 111.7599 0)
 			(effects
 				(font
@@ -5301,7 +5348,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "C30")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5316,7 +5363,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a349eb8-1438-4d5c-9024-78b24500046b")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR016"
 			(at 139.7 130.81 0)
 			(effects
 				(font
@@ -5367,14 +5414,14 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "#PWR076")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
+		(lib_id "dnt_global:100uf_35V")
 		(at 91.44 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5382,7 +5429,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b763694-b35e-44ca-a04b-c6c3aad7c3e4")
-		(property "Reference" "C28"
+		(property "Reference" "C4"
 			(at 95.25 99.4409 0)
 			(effects
 				(font
@@ -5391,8 +5438,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 89.408 105.156 0)
+		(property "Value" "100uf_35V"
+			(at 92.075 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5410,7 +5457,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893427748507648"
-			(at 91.44 101.6 0)
+			(at 91.44 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5418,8 +5465,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 91.44 101.6 0)
+		(property "Description" "-55℃~+105℃ 1000hrs@105℃ 10mm 10mm 220mA@120Hz 220uF 50V ±20% SMD,D10xL10mm Aluminum Electrolytic Capacitors - SMD ROHS"
+			(at 92.964 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5436,6 +5483,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part #" " UWT1H221MNL1GS"
+			(at 91.948 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ce8dd02-05b1-4cfe-bdfa-9c9e8094433a")
 		)
@@ -5445,7 +5501,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "C28")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5461,7 +5517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64f3e0ad-78f5-48f8-b872-d4f4c053b0e1")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR08"
 			(at 27.94 81.28 0)
 			(effects
 				(font
@@ -5471,11 +5527,12 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 27.94 72.39 0)
+			(at 30.48 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5511,7 +5568,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "#PWR02")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5526,7 +5583,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "694100af-421d-40d4-97bc-2df750f153f9")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR015"
 			(at 127 130.81 0)
 			(effects
 				(font
@@ -5577,7 +5634,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "#PWR077")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5592,7 +5649,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d2ea03e-c0da-40cc-921b-9fe298cb0b88")
-		(property "Reference" "U9"
+		(property "Reference" "U4"
 			(at 178.308 77.216 0)
 			(effects
 				(font
@@ -5608,7 +5665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "dnt:POWERSSO16_3p9X4p9X0p5_STM"
+		(property "Footprint" "POWERSSO16_3p9X4p9X0p5_STM"
 			(at 179.324 113.284 0)
 			(effects
 				(font
@@ -5628,7 +5685,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ST"
+			(at 149.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19191773"
 			(at 149.86 90.17 0)
 			(effects
 				(font
@@ -5695,7 +5761,7 @@
 					(unit 1)
 				)
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "U9")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5711,7 +5777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e8fb99b-0572-4664-8cb7-52e4c352ca1a")
-		(property "Reference" "#FLG011"
+		(property "Reference" "#FLG05"
 			(at 208.28 73.025 0)
 			(effects
 				(font
@@ -5762,7 +5828,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "#FLG011")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -5778,7 +5844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70570624-8515-4254-9098-29c6b80b5ae4")
-		(property "Reference" "R27"
+		(property "Reference" "R9"
 			(at 142.24 116.8399 0)
 			(effects
 				(font
@@ -5985,7 +6051,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "R27")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6001,7 +6067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "776a853e-2096-421b-9f64-1cb6d466bba1")
-		(property "Reference" "C29"
+		(property "Reference" "C8"
 			(at 146.05 106.6799 0)
 			(effects
 				(font
@@ -6181,7 +6247,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "C29")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6277,52 +6343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 31.75 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 31.75 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 31.75 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 31.75 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 31.75 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
+		(property "Field4" ""
 			(at 31.75 100.33 90)
 			(effects
 				(font
@@ -6347,16 +6368,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 213.36 83.82 0)
+		(lib_id "dnt_global:100uf_35V")
+		(at 213.36 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "90815d62-153a-402f-a352-ad920afb288b")
-		(property "Reference" "C33"
-			(at 217.17 81.6609 0)
+		(property "Reference" "C9"
+			(at 217.17 99.4409 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6364,8 +6385,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 211.328 87.376 0)
+		(property "Value" "100uf_35V"
+			(at 213.995 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6374,7 +6395,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
-			(at 214.3252 87.63 0)
+			(at 214.3252 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6383,7 +6404,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893427748507648"
-			(at 213.36 83.82 0)
+			(at 213.36 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6391,8 +6412,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 213.36 83.82 0)
+		(property "Description" "-55℃~+105℃ 1000hrs@105℃ 10mm 10mm 220mA@120Hz 220uF 50V ±20% SMD,D10xL10mm Aluminum Electrolytic Capacitors - SMD ROHS"
+			(at 214.884 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6401,7 +6422,16 @@
 			)
 		)
 		(property "LCSC" "C125977"
-			(at 213.36 83.82 0)
+			(at 213.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" " UWT1H221MNL1GS"
+			(at 213.868 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6418,7 +6448,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "C33")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6433,7 +6463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9472afdc-3354-48b3-ab67-47803b809f84")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR09"
 			(at 31.75 130.81 0)
 			(effects
 				(font
@@ -6484,7 +6514,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "#PWR061")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6500,7 +6530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1c71e0e-f0ba-4f74-ac45-fe6e8f26a923")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG03"
 			(at 39.37 73.025 0)
 			(effects
 				(font
@@ -6551,7 +6581,7 @@
 		(instances
 			(project "l8-kicad"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "#FLG02")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -6566,7 +6596,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4aa7936-f59d-49ea-ba5d-38e1c7d325a6")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR014"
 			(at 121.92 130.81 0)
 			(effects
 				(font
@@ -6617,7 +6647,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "#PWR024")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6632,7 +6662,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b781e8cf-e7e8-4fe7-9d78-ded5f4988f7b")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR013"
 			(at 114.3 130.81 0)
 			(effects
 				(font
@@ -6683,7 +6713,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "#PWR078")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6699,7 +6729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b91b5d2f-429d-4012-8ded-069dbbc01923")
-		(property "Reference" "R23"
+		(property "Reference" "R4"
 			(at 50.8 105.4099 0)
 			(effects
 				(font
@@ -6906,7 +6936,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "R23")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6921,7 +6951,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c46450f9-98c4-4040-834b-d9e40cbaf2f1")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR011"
 			(at 91.44 130.81 0)
 			(effects
 				(font
@@ -6972,7 +7002,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "#PWR079")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6988,7 +7018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4ecae1b-7dd8-49f2-940b-7fc0957a20e6")
-		(property "Reference" "C32"
+		(property "Reference" "C5"
 			(at 106.68 99.0599 0)
 			(effects
 				(font
@@ -7168,7 +7198,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "C32")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -7183,7 +7213,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c70e5767-46f1-4636-8dfa-110b2f618701")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR019"
 			(at 215.9 78.74 0)
 			(effects
 				(font
@@ -7233,7 +7263,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "#PWR07")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7249,7 +7279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce8039e9-6df4-421a-a938-4286c37533f2")
-		(property "Reference" "R26"
+		(property "Reference" "R6"
 			(at 72.39 91.4399 0)
 			(effects
 				(font
@@ -7456,7 +7486,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "R26")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7472,7 +7502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce9a4636-8c8e-41c4-8eda-52ded5639838")
-		(property "Reference" "C27"
+		(property "Reference" "C3"
 			(at 55.88 90.1699 0)
 			(effects
 				(font
@@ -7652,7 +7682,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "C27")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -7668,7 +7698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df66daf1-4967-4f61-80fe-551f1eba3266")
-		(property "Reference" "U8"
+		(property "Reference" "U3"
 			(at 77.47 107.9499 0)
 			(effects
 				(font
@@ -7734,7 +7764,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "U8")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7750,7 +7780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6fbdadc-772d-4729-8ee8-ff867f337518")
-		(property "Reference" "R28"
+		(property "Reference" "R7"
 			(at 116.84 85.0899 0)
 			(effects
 				(font
@@ -7957,7 +7987,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "R28")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7973,7 +8003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e99d0096-f1a0-4da7-935f-623a9c74e970")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG04"
 			(at 86.36 73.025 0)
 			(effects
 				(font
@@ -8024,7 +8054,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "#FLG03")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -8040,7 +8070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f042afd1-966a-4bde-b2a7-b24ad6873e70")
-		(property "Reference" "R5"
+		(property "Reference" "R8"
 			(at 129.54 85.0899 0)
 			(effects
 				(font
@@ -8247,7 +8277,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cb7fc79f-a21e-4f3e-a003-80932d60a7a0"
-					(reference "R5")
+					(reference "R8")
 					(unit 1)
 				)
 			)

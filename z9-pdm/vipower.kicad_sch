@@ -1537,7 +1537,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06dae812-2cf2-4531-8177-6c78fedcf79d")
-		(property "Reference" "R223"
+		(property "Reference" "R20"
 			(at 62.23 64.262 90)
 			(effects
 				(font
@@ -1734,60 +1734,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 62.23 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 62.23 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 62.23 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 62.23 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 62.23 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 62.23 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7b131aaa-c9f3-4b8d-8df8-f81f63852091")
 		)
@@ -1797,7 +1743,7 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cd2147da-2530-4471-81dd-8f7a12e86f84"
-					(reference "R223")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -1813,7 +1759,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07e278cc-5062-4dae-8cd4-92e987107103")
-		(property "Reference" "R3"
+		(property "Reference" "R19"
 			(at 62.23 60.452 90)
 			(effects
 				(font
@@ -2010,60 +1956,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 62.23 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 62.23 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 62.23 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 62.23 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 62.23 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 62.23 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e9ee04da-9005-4143-a03b-1e77900f61d1")
 		)
@@ -2073,7 +1965,7 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cd2147da-2530-4471-81dd-8f7a12e86f84"
-					(reference "R3")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2089,7 +1981,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07e53b8c-a188-4b5e-817f-b80d9f080e85")
-		(property "Reference" "R2"
+		(property "Reference" "R17"
 			(at 62.23 48.26 90)
 			(effects
 				(font
@@ -2286,60 +2178,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 62.23 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 62.23 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 62.23 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 62.23 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 62.23 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 62.23 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "022b43df-dc62-4301-8f87-ebd9c40a2bad")
 		)
@@ -2349,7 +2187,7 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cd2147da-2530-4471-81dd-8f7a12e86f84"
-					(reference "R2")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -2365,7 +2203,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10580caa-5e7e-4192-b045-ce19dc38a910")
-		(property "Reference" "R15"
+		(property "Reference" "R22"
 			(at 67.056 73.406 90)
 			(effects
 				(font
@@ -2562,60 +2400,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 62.23 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 62.23 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 62.23 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 62.23 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 62.23 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 62.23 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "883a4379-e1ed-419c-9481-ab12a5016902")
 		)
@@ -2625,7 +2409,7 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cd2147da-2530-4471-81dd-8f7a12e86f84"
-					(reference "R15")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -2641,7 +2425,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "416f1488-11bb-4561-b3a7-b5e8bf1099e6")
-		(property "Reference" "R11"
+		(property "Reference" "R24"
 			(at 61.976 105.156 90)
 			(effects
 				(font
@@ -2838,60 +2622,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 62.23 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 62.23 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 62.23 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 62.23 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 62.23 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 62.23 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7e15fe2a-6545-43c9-a783-b0fa1156fb7a")
 		)
@@ -2901,7 +2631,7 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cd2147da-2530-4471-81dd-8f7a12e86f84"
-					(reference "R11")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -2917,7 +2647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85d06ca0-2721-49eb-9077-d101bbf31204")
-		(property "Reference" "R22"
+		(property "Reference" "R23"
 			(at 67.056 76.454 90)
 			(effects
 				(font
@@ -3114,60 +2844,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 62.23 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 62.23 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 62.23 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 62.23 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 62.23 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 62.23 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a8180366-8165-44bc-956b-61690abe10c3")
 		)
@@ -3177,7 +2853,7 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cd2147da-2530-4471-81dd-8f7a12e86f84"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -3193,7 +2869,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0e662e8-598b-419e-b2d8-da3daeecbeba")
-		(property "Reference" "R7"
+		(property "Reference" "R18"
 			(at 62.23 56.642 90)
 			(effects
 				(font
@@ -3390,60 +3066,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 62.23 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 62.23 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 62.23 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 62.23 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 62.23 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 62.23 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "39059414-b8a5-4a77-99f5-2b798c74d952")
 		)
@@ -3453,7 +3075,7 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cd2147da-2530-4471-81dd-8f7a12e86f84"
-					(reference "R7")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3469,7 +3091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6d8127f-66dc-498c-9002-1765e876ee94")
-		(property "Reference" "R14"
+		(property "Reference" "R21"
 			(at 67.31 71.374 90)
 			(effects
 				(font
@@ -3666,60 +3288,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 62.23 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 62.23 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 62.23 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 62.23 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 62.23 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 62.23 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "31e20121-e557-4dd8-abed-bca7dc98e6c7")
 		)
@@ -3729,7 +3297,7 @@
 		(instances
 			(project "z9-pdm-pcb"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cd2147da-2530-4471-81dd-8f7a12e86f84"
-					(reference "R14")
+					(reference "R21")
 					(unit 1)
 				)
 			)

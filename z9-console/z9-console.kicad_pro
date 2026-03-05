@@ -1105,14 +1105,50 @@
           "label": "FT Rototation Offset",
           "name": "FT Rototation Offset",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Current Rating",
+          "name": "Current Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Circuits",
+          "name": "Circuits",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Impedance @ Frequency",
+          "name": "Impedance @ Frequency",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "JLCPCB Rotation Offset"
     },
     "connection_grid_size": 50.0,
     "drawing": {

@@ -2799,7 +2799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0859973b-7624-4280-bbd2-b60661fdeb30")
-		(property "Reference" "FB701"
+		(property "Reference" "FB4"
 			(at 107.95 63.5507 0)
 			(effects
 				(font
@@ -2991,7 +2991,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/c97401c5-7e03-4d93-a14f-f692468677b5"
-					(reference "FB701")
+					(reference "FB4")
 					(unit 1)
 				)
 			)
@@ -3007,7 +3007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ae01731-a13c-4be2-8aa2-21711979cf0b")
-		(property "Reference" "Q701"
+		(property "Reference" "Q3"
 			(at 220.98 104.1399 0)
 			(effects
 				(font
@@ -3256,7 +3256,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/c97401c5-7e03-4d93-a14f-f692468677b5"
-					(reference "Q701")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -3272,7 +3272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f31783b-fab8-49c9-8406-2db3f4f49970")
-		(property "Reference" "D701"
+		(property "Reference" "D32"
 			(at 207.01 86.0424 0)
 			(effects
 				(font
@@ -3452,60 +3452,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 204.47 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 204.47 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 204.47 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 204.47 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 204.47 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 204.47 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "194f108e-fbbe-4b91-9463-2cbd06258077")
 		)
@@ -3527,7 +3473,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/c97401c5-7e03-4d93-a14f-f692468677b5"
-					(reference "D701")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -3543,7 +3489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37f26d5e-0de8-4aa2-9583-2890b5fc3998")
-		(property "Reference" "#PWR0702"
+		(property "Reference" "#PWR0101"
 			(at 133.35 133.35 0)
 			(effects
 				(font
@@ -3553,11 +3499,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 132.08 0)
+			(at 135.89 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3605,7 +3552,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/c97401c5-7e03-4d93-a14f-f692468677b5"
-					(reference "#PWR0702")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -3621,7 +3568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cc3c212-8cc4-4f06-a10f-735db7ce8813")
-		(property "Reference" "#PWR0704"
+		(property "Reference" "#PWR0103"
 			(at 194.31 133.35 0)
 			(effects
 				(font
@@ -3631,11 +3578,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 132.08 0)
+			(at 196.85 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3683,7 +3631,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/c97401c5-7e03-4d93-a14f-f692468677b5"
-					(reference "#PWR0704")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -3698,7 +3646,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "537c6c7e-1af3-4f0e-96d4-72f7974c5146")
-		(property "Reference" "C702"
+		(property "Reference" "C51"
 			(at 146.558 88.028 0)
 			(effects
 				(font
@@ -3890,7 +3838,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/c97401c5-7e03-4d93-a14f-f692468677b5"
-					(reference "C702")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -3905,7 +3853,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f79bb9f-6e02-4e35-9f67-ce807abd6ee8")
-		(property "Reference" "C703"
+		(property "Reference" "C52"
 			(at 197.612 83.422 0)
 			(effects
 				(font
@@ -4097,7 +4045,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/c97401c5-7e03-4d93-a14f-f692468677b5"
-					(reference "C703")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -4113,7 +4061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8eb51b38-331c-477f-b51b-4923420dccc8")
-		(property "Reference" "BZ701"
+		(property "Reference" "BZ2"
 			(at 223.52 85.0899 0)
 			(effects
 				(font
@@ -4197,7 +4145,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/c97401c5-7e03-4d93-a14f-f692468677b5"
-					(reference "BZ701")
+					(reference "BZ2")
 					(unit 1)
 				)
 			)
@@ -4213,7 +4161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96f8f307-dee6-412c-a253-e580c2801e22")
-		(property "Reference" "#PWR0703"
+		(property "Reference" "#PWR0102"
 			(at 148.59 133.35 0)
 			(effects
 				(font
@@ -4223,11 +4171,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 132.08 0)
+			(at 151.13 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4275,7 +4224,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/c97401c5-7e03-4d93-a14f-f692468677b5"
-					(reference "#PWR0703")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -4291,7 +4240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0d590e7-2ca6-4ef2-904a-031a21bda9f1")
-		(property "Reference" "C701"
+		(property "Reference" "C50"
 			(at 135.89 83.8199 0)
 			(effects
 				(font
@@ -4483,7 +4432,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/c97401c5-7e03-4d93-a14f-f692468677b5"
-					(reference "C701")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -4499,7 +4448,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7601478-8323-472f-b71e-8f38289f64d4")
-		(property "Reference" "R702"
+		(property "Reference" "R67"
 			(at 196.342 116.84 90)
 			(effects
 				(font
@@ -4717,7 +4666,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/c97401c5-7e03-4d93-a14f-f692468677b5"
-					(reference "R702")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -4733,7 +4682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b44b11f1-392c-453e-8063-4c254b971085")
-		(property "Reference" "#PWR0701"
+		(property "Reference" "#PWR0100"
 			(at 104.14 52.07 0)
 			(effects
 				(font
@@ -4743,11 +4692,12 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 104.14 43.18 0)
+			(at 106.68 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4795,7 +4745,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/c97401c5-7e03-4d93-a14f-f692468677b5"
-					(reference "#PWR0701")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -4810,7 +4760,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7620809-b646-4c24-8300-099ba229ec42")
-		(property "Reference" "R701"
+		(property "Reference" "R66"
 			(at 189.23 107.95 90)
 			(effects
 				(font
@@ -5028,7 +4978,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/c97401c5-7e03-4d93-a14f-f692468677b5"
-					(reference "R701")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -5044,7 +4994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7334eb3-a705-4592-ad1b-584b4116249b")
-		(property "Reference" "#PWR0705"
+		(property "Reference" "#PWR0104"
 			(at 217.17 133.35 0)
 			(effects
 				(font
@@ -5054,11 +5004,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.17 132.08 0)
+			(at 219.71 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5106,7 +5057,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/c97401c5-7e03-4d93-a14f-f692468677b5"
-					(reference "#PWR0705")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)

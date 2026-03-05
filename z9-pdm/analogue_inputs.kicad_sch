@@ -750,7 +750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14348baa-f03b-49c6-a86f-169bfaf5d3b8")
-		(property "Reference" "#PWR04901"
+		(property "Reference" "#PWR090"
 			(at 130.81 25.4 0)
 			(effects
 				(font
@@ -760,11 +760,12 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 130.81 16.51 0)
+			(at 133.35 20.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -800,7 +801,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8"
-					(reference "#PWR04901")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)

@@ -2167,7 +2167,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7051x"
+			(property "Footprint" "dnt:USB_C_Receptacle_G-Switch_GT-USB-7051x"
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -3757,7 +3757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e6c3fe0-71c7-45a5-9a10-fc12f76b5242")
-		(property "Reference" "#PWR0751"
+		(property "Reference" "#PWR053"
 			(at 44.45 80.01 0)
 			(effects
 				(font
@@ -3767,11 +3767,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 78.74 0)
+			(at 46.99 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3807,7 +3808,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/04b50bea-1e22-4812-a1d7-d5af092b1e4c"
-					(reference "#PWR0751")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -3823,7 +3824,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f298f5f-129c-4099-88be-03f05a77666d")
-		(property "Reference" "R827"
+		(property "Reference" "R29"
 			(at 237.998 96.52 0)
 			(effects
 				(font
@@ -4021,60 +4022,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 236.22 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 236.22 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 236.22 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 236.22 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 236.22 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 236.22 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "445f0159-cce1-4881-b88f-673fa2841a6f")
 		)
@@ -4084,7 +4031,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/04b50bea-1e22-4812-a1d7-d5af092b1e4c"
-					(reference "R827")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -4100,7 +4047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26435ac2-3fac-4a33-9479-661b4c66a5d6")
-		(property "Reference" "R751"
+		(property "Reference" "R25"
 			(at 46.99 69.8499 0)
 			(effects
 				(font
@@ -4307,7 +4254,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/04b50bea-1e22-4812-a1d7-d5af092b1e4c"
-					(reference "R751")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -4323,7 +4270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38ae1e25-acb7-424e-8757-8aa1c5e9d4dc")
-		(property "Reference" "#PWR02201"
+		(property "Reference" "#PWR056"
 			(at 127 163.83 0)
 			(effects
 				(font
@@ -4333,11 +4280,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 162.56 0)
+			(at 129.54 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4373,7 +4321,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/04b50bea-1e22-4812-a1d7-d5af092b1e4c"
-					(reference "#PWR02201")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -4389,7 +4337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46488673-3997-4d66-83dd-2784d22f1374")
-		(property "Reference" "R1"
+		(property "Reference" "R26"
 			(at 193.04 49.5299 0)
 			(effects
 				(font
@@ -4596,7 +4544,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/04b50bea-1e22-4812-a1d7-d5af092b1e4c"
-					(reference "R1")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -4611,7 +4559,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "532ce293-0144-40d1-b4e1-635ecf8b14d0")
-		(property "Reference" "J826"
+		(property "Reference" "J16"
 			(at 262.382 49.276 0)
 			(effects
 				(font
@@ -4627,7 +4575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7051x"
+		(property "Footprint" "dnt:USB_C_Receptacle_G-Switch_GT-USB-7051x"
 			(at 264.16 71.12 0)
 			(effects
 				(font
@@ -4655,60 +4603,6 @@
 			)
 		)
 		(property "LCSC" "C2843970"
-			(at 267.97 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" ""
-			(at 267.97 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 267.97 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 267.97 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 267.97 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 267.97 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
 			(at 267.97 71.12 0)
 			(effects
 				(font
@@ -4771,7 +4665,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/04b50bea-1e22-4812-a1d7-d5af092b1e4c"
-					(reference "J826")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -4786,7 +4680,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89d6becc-4a75-4e83-a0df-5851cd4e6c3d")
-		(property "Reference" "R752"
+		(property "Reference" "R28"
 			(at 196.8499 73.66 0)
 			(effects
 				(font
@@ -4993,7 +4887,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/04b50bea-1e22-4812-a1d7-d5af092b1e4c"
-					(reference "R752")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -5008,7 +4902,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5eff5f6-79a6-4af0-923c-225381b09c9c")
-		(property "Reference" "#PWR0828"
+		(property "Reference" "#PWR058"
 			(at 275.59 30.48 0)
 			(effects
 				(font
@@ -5059,7 +4953,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/04b50bea-1e22-4812-a1d7-d5af092b1e4c"
-					(reference "#PWR0828")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -5075,7 +4969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac2a20a1-812e-4031-802b-facf8ebbac12")
-		(property "Reference" "C751"
+		(property "Reference" "C26"
 			(at 96.52 35.5599 0)
 			(effects
 				(font
@@ -5255,7 +5149,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/04b50bea-1e22-4812-a1d7-d5af092b1e4c"
-					(reference "C751")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -5271,7 +5165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4769a73-b99c-4a0a-bb42-e97f042261a2")
-		(property "Reference" "#PWR02202"
+		(property "Reference" "#PWR054"
 			(at 107.95 52.07 0)
 			(effects
 				(font
@@ -5281,11 +5175,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 50.8 0)
+			(at 110.49 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5321,7 +5216,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/04b50bea-1e22-4812-a1d7-d5af092b1e4c"
-					(reference "#PWR02202")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5337,7 +5232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b785bae2-0fda-4c52-8b06-ad1d9050ff6c")
-		(property "Reference" "#PWR0832"
+		(property "Reference" "#PWR057"
 			(at 245.11 124.46 0)
 			(effects
 				(font
@@ -5388,7 +5283,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/04b50bea-1e22-4812-a1d7-d5af092b1e4c"
-					(reference "#PWR0832")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -5404,7 +5299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be2eb6c9-4bae-4b9f-ba2f-2ca01ae76009")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR055"
 			(at 127 27.94 0)
 			(effects
 				(font
@@ -5414,11 +5309,12 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 127 19.05 0)
+			(at 129.54 22.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5454,7 +5350,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/04b50bea-1e22-4812-a1d7-d5af092b1e4c"
-					(reference "#PWR030")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -5470,7 +5366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc77d3eb-41d4-4595-87d5-c30b0f66241c")
-		(property "Reference" "R828"
+		(property "Reference" "R30"
 			(at 246.888 96.52 0)
 			(effects
 				(font
@@ -5668,60 +5564,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 245.11 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 245.11 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 245.11 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 245.11 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 245.11 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 245.11 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "09b1b68f-f8ee-483c-9339-0c70de4a4e57")
 		)
@@ -5731,7 +5573,7 @@
 		(instances
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/04b50bea-1e22-4812-a1d7-d5af092b1e4c"
-					(reference "R828")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -5747,7 +5589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0b3355c-c906-4ecb-9dc8-e329c53dc2f7")
-		(property "Reference" "R753"
+		(property "Reference" "R27"
 			(at 196.85 57.15 90)
 			(effects
 				(font
@@ -5953,7 +5795,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/04b50bea-1e22-4812-a1d7-d5af092b1e4c"
-					(reference "R753")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -5969,7 +5811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8dff239-d578-49de-9d76-2bbb11063722")
-		(property "Reference" "C2201"
+		(property "Reference" "C27"
 			(at 110.49 34.2899 0)
 			(effects
 				(font
@@ -6149,7 +5991,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/04b50bea-1e22-4812-a1d7-d5af092b1e4c"
-					(reference "C2201")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -6165,7 +6007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f757462f-877b-4624-9544-6403a59ce401")
-		(property "Reference" "U2201"
+		(property "Reference" "U7"
 			(at 129.1433 53.34 0)
 			(effects
 				(font
@@ -6183,7 +6025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Espressif:ESP32-S3-WROOM-1U"
+		(property "Footprint" "PCM_Espressif:ESP32-S3-WROOM-1"
 			(at 129.54 144.78 0)
 			(effects
 				(font
@@ -6202,15 +6044,6 @@
 			)
 		)
 		(property "Description" "2.4 GHz WiFi (802.11 b/g/n) and Bluetooth ® 5 (LE) module Built around ESP32S3 series of SoCs, Xtensa ® dualcore 32bit LX7 microprocessor Flash up to 16 MB, PSRAM up to 8 MB 36 GPIOs, rich set of peripherals Onboard PCB antenna"
-			(at 127 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2980300"
 			(at 127 96.52 0)
 			(effects
 				(font
@@ -6345,7 +6178,7 @@
 		(instances
 			(project ""
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/04b50bea-1e22-4812-a1d7-d5af092b1e4c"
-					(reference "U2201")
+					(reference "U7")
 					(unit 1)
 				)
 			)

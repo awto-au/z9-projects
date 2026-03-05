@@ -2516,7 +2516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f318322-5538-4ba9-be99-86133d941428")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0118"
 			(at 128.27 142.24 0)
 			(effects
 				(font
@@ -2526,11 +2526,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 140.97 0)
+			(at 130.81 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2578,7 +2579,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
-					(reference "#PWR0111")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -2593,7 +2594,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ee2337a-ac40-421c-8e28-33b67f0517c8")
-		(property "Reference" "C953"
+		(property "Reference" "C60"
 			(at 186.182 96.122 0)
 			(effects
 				(font
@@ -2785,7 +2786,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
-					(reference "C953")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -2801,7 +2802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bb0a43e-d14e-4696-8af0-3de0209557ad")
-		(property "Reference" "#PWR0951"
+		(property "Reference" "#PWR0115"
 			(at 52.07 160.02 0)
 			(effects
 				(font
@@ -2811,11 +2812,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 52.07 151.13 0)
+			(at 54.61 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2863,7 +2865,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
-					(reference "#PWR0951")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -2879,7 +2881,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b1ef05f-843d-4a08-99cd-dfc48347a804")
-		(property "Reference" "R951"
+		(property "Reference" "R76"
 			(at 190.5 73.66 90)
 			(effects
 				(font
@@ -2915,60 +2917,6 @@
 		)
 		(property "Description" "250mW Thick Film Resistors 200V ±100ppm/°C ±1% 120Ω 1206 Chip Resistor - Surface Mount ROHS"
 			(at 193.04 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" ""
-			(at 193.04 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 193.04 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 193.04 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 193.04 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 193.04 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 193.04 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3150,7 +3098,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
-					(reference "R951")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -3165,7 +3113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e42be7a-b3df-4d12-8a0e-79236a4b80a1")
-		(property "Reference" "C951"
+		(property "Reference" "C58"
 			(at 130.302 79.612 0)
 			(effects
 				(font
@@ -3357,7 +3305,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
-					(reference "C951")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -3372,7 +3320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62247b45-8bdd-4abf-8cfd-24941a640d14")
-		(property "Reference" "C955"
+		(property "Reference" "C57"
 			(at 120.396 158.75 0)
 			(effects
 				(font
@@ -3508,7 +3456,7 @@
 			)
 		)
 		(property "Voltage Rated" "25V"
-			(at 120.904 162.052 0)
+			(at 120.142 162.0662 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -3564,7 +3512,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
-					(reference "C955")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -3579,7 +3527,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8262395f-48e8-41bd-a0da-8bb23c474119")
-		(property "Reference" "C952"
+		(property "Reference" "C59"
 			(at 169.291 96.6216 0)
 			(effects
 				(font
@@ -3771,7 +3719,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
-					(reference "C952")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -3787,7 +3735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9acff709-e683-4bdb-a818-a17fe81b6acf")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0117"
 			(at 78.74 77.47 0)
 			(effects
 				(font
@@ -3797,11 +3745,12 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 78.74 68.58 0)
+			(at 81.28 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3849,7 +3798,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
-					(reference "#PWR0110")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -3864,7 +3813,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "afd512b1-907c-4f0b-9bd9-2bea9b16d1aa")
-		(property "Reference" "C954"
+		(property "Reference" "C56"
 			(at 54.61 159.512 0)
 			(effects
 				(font
@@ -4000,7 +3949,7 @@
 			)
 		)
 		(property "Voltage Rated" "25V"
-			(at 55.626 162.814 0)
+			(at 54.102 162.0662 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -4056,7 +4005,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
-					(reference "C954")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -4072,7 +4021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3c78465-adbd-4358-b0a9-5bace530c2af")
-		(property "Reference" "#PWR0952"
+		(property "Reference" "#PWR0116"
 			(at 52.07 184.15 0)
 			(effects
 				(font
@@ -4082,11 +4031,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 182.88 0)
+			(at 54.61 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4134,7 +4084,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
-					(reference "#PWR0952")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -4150,7 +4100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b440554f-ea30-4239-b586-c1bf6a965b85")
-		(property "Reference" "U952"
+		(property "Reference" "U14"
 			(at 90.17 148.59 0)
 			(effects
 				(font
@@ -4262,7 +4212,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
-					(reference "U952")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -4278,7 +4228,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ed28da0c-e4c8-4101-ac29-1f2de52deb67")
-		(property "Reference" "JP951"
+		(property "Reference" "JP4"
 			(at 195.58 64.7699 90)
 			(effects
 				(font
@@ -4323,60 +4273,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" ""
-			(at 193.04 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 193.04 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 193.04 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 193.04 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" ""
-			(at 193.04 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 193.04 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "05cdb320-1cee-4b79-9b5c-f1f0605c419c")
 		)
@@ -4398,7 +4294,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
-					(reference "JP951")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -4414,7 +4310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fef37e52-386f-4958-9f5a-a5e91768511d")
-		(property "Reference" "U951"
+		(property "Reference" "U15"
 			(at 146.05 82.55 0)
 			(effects
 				(font
@@ -4524,7 +4420,7 @@
 			)
 			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/2345b862-d871-4771-9bee-01079d71c128"
-					(reference "U951")
+					(reference "U15")
 					(unit 1)
 				)
 			)
