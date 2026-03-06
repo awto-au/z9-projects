@@ -1400,7 +1400,7 @@
 				)
 			)
 			(property "LCSC" "C125977"
-				(at 0 0 0)
+				(at 8.636 1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1410,6 +1410,15 @@
 			)
 			(property "Part #" " UWT1H221MNL1GS"
 				(at 0.508 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "FT Rotation Offset" "180"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1576,6 +1585,15 @@
 				)
 			)
 			(property "LCSC" " C2802568"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "FT Rotation Offset" "270"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2252,6 +2270,15 @@
 					(hide yes)
 				)
 			)
+			(property "FT Rotation Offset" "90"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "ideal-diode or-ing"
 				(at 0 0 0)
 				(effects
@@ -2448,6 +2475,15 @@
 				)
 			)
 			(property "LCSC" "C19191773"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "FT Rotation Offset" "90"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5143,6 +5179,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "270"
+			(at 64.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "4d6400e7-0180-49fd-b41b-d9a0e14d7cd7")
 		)
@@ -5484,7 +5529,7 @@
 			)
 		)
 		(property "LCSC" "C125977"
-			(at 91.44 101.6 0)
+			(at 100.076 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5494,6 +5539,15 @@
 		)
 		(property "Part #" " UWT1H221MNL1GS"
 			(at 91.948 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 91.44 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,6 +5757,15 @@
 			)
 		)
 		(property "LCSC" "C19191773"
+			(at 149.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 149.86 90.17 0)
 			(effects
 				(font
@@ -6430,7 +6493,7 @@
 			)
 		)
 		(property "LCSC" "C125977"
-			(at 213.36 101.6 0)
+			(at 221.996 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6440,6 +6503,15 @@
 		)
 		(property "Part #" " UWT1H221MNL1GS"
 			(at 213.868 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 213.36 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7752,6 +7824,15 @@
 			)
 		)
 		(property "LCSC" "C2941042"
+			(at 66.04 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 66.04 109.22 0)
 			(effects
 				(font
