@@ -798,7 +798,7 @@
 			(uuid "d748f6cf-bee1-4398-8445-c96e5e62ac2a")
 		)
 		(instances
-			(project ""
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/4bf3a54e-2413-4742-bb3c-6ced251716e8"
 					(reference "#PWR090")
 					(unit 1)

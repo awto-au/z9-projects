@@ -1868,7 +1868,7 @@
 			)
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
 					(reference "H7")
 					(unit 1)
@@ -1934,7 +1934,7 @@
 			)
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
 					(reference "H4")
 					(unit 1)
@@ -2000,7 +2000,7 @@
 			(uuid "bbc7b9a5-6aa1-47ed-b936-476eac2f8a3d")
 		)
 		(instances
-			(project ""
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
 					(reference "#PWR02")
 					(unit 1)
@@ -2066,7 +2066,7 @@
 			)
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
 					(reference "H5")
 					(unit 1)
@@ -2132,7 +2132,7 @@
 			(uuid "69d7c54f-d34d-4e73-94ef-77627be929a6")
 		)
 		(instances
-			(project ""
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
 					(reference "#PWR03")
 					(unit 1)
@@ -2198,7 +2198,7 @@
 			)
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
 					(reference "H8")
 					(unit 1)
@@ -2264,7 +2264,7 @@
 			)
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
 					(reference "H6")
 					(unit 1)
@@ -2330,7 +2330,7 @@
 			)
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
 					(reference "H9")
 					(unit 1)
@@ -2396,7 +2396,7 @@
 			)
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
 					(reference "H2")
 					(unit 1)
@@ -2462,7 +2462,7 @@
 			)
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a"
 					(reference "H3")
 					(unit 1)
