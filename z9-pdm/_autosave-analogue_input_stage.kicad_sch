@@ -2472,7 +2472,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e7373b1-d9ff-43e2-b56d-7cbfdd5fdc53")
 		(property "Reference" "D14"
-			(at 158.75 77.4699 90)
+			(at 158.75 76.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2480,7 +2480,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "PESD24VF1BLYL"
 			(at 158.75 78.7399 90)
 			(effects
 				(font
