@@ -1741,7 +1741,7 @@
 			(uuid "5f111e6f-75b7-4765-891e-7f118ea09793")
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cd2147da-2530-4471-81dd-8f7a12e86f84"
 					(reference "R20")
 					(unit 1)
@@ -1963,7 +1963,7 @@
 			(uuid "02b3030b-8902-4135-9e24-9a1a8aca4845")
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cd2147da-2530-4471-81dd-8f7a12e86f84"
 					(reference "R19")
 					(unit 1)
@@ -2185,7 +2185,7 @@
 			(uuid "22ee3405-358d-473d-bbfa-80501a1aa5ff")
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cd2147da-2530-4471-81dd-8f7a12e86f84"
 					(reference "R17")
 					(unit 1)
@@ -2407,7 +2407,7 @@
 			(uuid "5e824b14-9e90-4459-ab62-a8d91e4b8431")
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cd2147da-2530-4471-81dd-8f7a12e86f84"
 					(reference "R22")
 					(unit 1)
@@ -2629,7 +2629,7 @@
 			(uuid "fa123426-c494-404b-b40d-c0757c956178")
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cd2147da-2530-4471-81dd-8f7a12e86f84"
 					(reference "R24")
 					(unit 1)
@@ -2851,7 +2851,7 @@
 			(uuid "048833a1-cc43-4d1d-a89c-fafdd399c611")
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cd2147da-2530-4471-81dd-8f7a12e86f84"
 					(reference "R23")
 					(unit 1)
@@ -3073,7 +3073,7 @@
 			(uuid "3821d194-1693-45a8-b5e3-bade80a8f3f9")
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cd2147da-2530-4471-81dd-8f7a12e86f84"
 					(reference "R18")
 					(unit 1)
@@ -3295,7 +3295,7 @@
 			(uuid "bc052e8d-449d-472c-bc03-fe389e9535c9")
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/cd2147da-2530-4471-81dd-8f7a12e86f84"
 					(reference "R21")
 					(unit 1)

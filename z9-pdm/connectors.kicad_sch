@@ -8385,7 +8385,7 @@
 			(uuid "7dedd265-5ace-4a75-b57d-98f332c72a11")
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
 					(reference "J14")
 					(unit 1)
@@ -8399,7 +8399,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8484,7 +8484,7 @@
 			(uuid "f18b304c-e2fb-46c4-9b09-302f32882f68")
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
 					(reference "J5")
 					(unit 1)
@@ -8568,7 +8568,7 @@
 			(uuid "37193be5-c77a-45aa-8956-9c4b99d4b796")
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
 					(reference "J9")
 					(unit 1)
@@ -8667,7 +8667,7 @@
 			(uuid "ee4cf718-3e50-40fd-8a12-8d6196da2d2d")
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
 					(reference "J7")
 					(unit 1)
@@ -8733,7 +8733,7 @@
 			(uuid "29eb5a61-98e9-4562-ae1a-c60bc237e71c")
 		)
 		(instances
-			(project ""
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
 					(reference "#PWR046")
 					(unit 1)
@@ -8870,7 +8870,7 @@
 			(uuid "cacfab62-ed87-4ce0-bd90-a7ad6596f1c7")
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
 					(reference "J10")
 					(unit 1)
@@ -8936,7 +8936,7 @@
 			(uuid "0ab012c7-dc87-4064-8233-b7207e1d831d")
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
 					(reference "#PWR052")
 					(unit 1)
@@ -9035,7 +9035,7 @@
 			(uuid "1eb080bc-980b-4900-98cf-fe9499a3641f")
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
 					(reference "J11")
 					(unit 1)
@@ -9200,7 +9200,7 @@
 			(uuid "4899be36-9fe9-4251-b976-87125ce7d7a5")
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
 					(reference "J13")
 					(unit 1)
@@ -9265,7 +9265,7 @@
 			(uuid "7c43d10f-fdfb-4aec-a847-667db7200af7")
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
 					(reference "#PWR051")
 					(unit 1)
@@ -9364,7 +9364,7 @@
 			(uuid "d01555a1-b15b-4135-a8a9-cc370275d26d")
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
 					(reference "J15")
 					(unit 1)
@@ -9448,7 +9448,7 @@
 			(uuid "b17c173b-1c1f-4dfd-908b-ca8c1cd3d6ef")
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
 					(reference "J8")
 					(unit 1)
@@ -9513,7 +9513,7 @@
 			(uuid "8123be09-f1d5-40ce-9b86-b7f8d6ca048b")
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
 					(reference "#PWR047")
 					(unit 1)
@@ -9650,7 +9650,7 @@
 			(uuid "5ccaabbe-3f8c-4504-aedb-8a97806f3969")
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
 					(reference "J12")
 					(unit 1)
@@ -9716,7 +9716,7 @@
 			(uuid "8639a310-bc8f-4f85-aa5c-7548d5ec66a8")
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
 					(reference "#PWR050")
 					(unit 1)
@@ -9853,7 +9853,7 @@
 			(uuid "d100ee27-180b-4d29-8148-23fae20559e5")
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
 					(reference "J6")
 					(unit 1)
@@ -9919,7 +9919,7 @@
 			(uuid "35444446-36f6-46d3-a6aa-35dfcc186d96")
 		)
 		(instances
-			(project "z9-pdm-pcb"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/651fe70f-48a4-454d-84e2-56b28624b7c9"
 					(reference "#PWR049")
 					(unit 1)

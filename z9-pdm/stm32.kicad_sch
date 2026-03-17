@@ -22840,7 +22840,7 @@
 			(uuid "13ea725a-def1-499f-b92f-2d8d17c36f1b")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "FB2")
 					(unit 1)
@@ -22905,7 +22905,7 @@
 			(uuid "37b2f960-9233-4052-b49e-f0f5b1214ddb")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR037")
 					(unit 1)
@@ -23127,7 +23127,7 @@
 			(uuid "dec494e4-4190-4a72-8faf-0a45d00a7eea")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "R12")
 					(unit 1)
@@ -23192,7 +23192,7 @@
 			(uuid "c70bd7cd-da6b-42b3-ba9a-5ed67b369eab")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR027")
 					(unit 1)
@@ -23257,7 +23257,7 @@
 			(uuid "a5653678-725d-4551-ad1e-145edf6fda6f")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR038")
 					(unit 1)
@@ -23452,7 +23452,7 @@
 			(uuid "6b57972f-40aa-45b2-b0b5-a3d39555f242")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "C18")
 					(unit 1)
@@ -23674,7 +23674,7 @@
 			(uuid "639e7c8d-8dec-4b19-be8e-0087f0326aca")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "R13")
 					(unit 1)
@@ -23869,7 +23869,7 @@
 			(uuid "d355e46c-d916-4cc8-80bf-b5e36d2dde3c")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "C23")
 					(unit 1)
@@ -23934,7 +23934,7 @@
 			(uuid "2ae1c526-ad04-407b-ab02-84fa363edb82")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR034")
 					(unit 1)
@@ -23999,7 +23999,7 @@
 			(uuid "471ae13d-d5df-42b5-9098-1a386acf37e3")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR035")
 					(unit 1)
@@ -24194,7 +24194,7 @@
 			(uuid "f7089b7a-172e-4b3a-9641-ee68362f472f")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "C15")
 					(unit 1)
@@ -24259,7 +24259,7 @@
 			(uuid "87f8988c-e515-475b-b57f-6857db48619f")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR026")
 					(unit 1)
@@ -24563,7 +24563,7 @@
 			(uuid "c9038106-314d-4078-bd54-78b012724e03")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "SW3")
 					(unit 1)
@@ -24628,7 +24628,7 @@
 			(uuid "768641c3-92f6-4dc5-bbb8-d76f3ce97622")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR028")
 					(unit 1)
@@ -24733,7 +24733,7 @@
 			(uuid "b605f9de-c97d-40bc-937b-d0f36d03cb3d")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "J3")
 					(unit 1)
@@ -24928,7 +24928,7 @@
 			(uuid "0009a76d-3b5c-46e0-9091-d3db1cd84440")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "C17")
 					(unit 1)
@@ -25123,7 +25123,7 @@
 			(uuid "28bfaad2-95c2-4bd1-8296-8f14074fce64")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "C21")
 					(unit 1)
@@ -25235,7 +25235,7 @@
 			(uuid "efcf40f0-db53-49eb-b4bf-c1e94a50eb76")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "X2")
 					(unit 1)
@@ -25457,7 +25457,7 @@
 			(uuid "5ae73989-c9b0-4897-a0f3-f44107091a27")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "R16")
 					(unit 1)
@@ -25522,7 +25522,7 @@
 			(uuid "715c761b-d58e-4a36-8ff6-7dfa00574d76")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR029")
 					(unit 1)
@@ -25635,7 +25635,7 @@
 			(uuid "99c4556b-8dce-4e0d-9829-2dd41b7e0a35")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "D3")
 					(unit 1)
@@ -26204,7 +26204,7 @@
 			(uuid "7d703ca2-a2fe-42f3-b4f5-2e9109711d41")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "C24")
 					(unit 1)
@@ -26399,7 +26399,7 @@
 			(uuid "3cdb5e38-15a1-4434-a431-fe4659ea6785")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "C13")
 					(unit 1)
@@ -26557,7 +26557,7 @@
 			(uuid "5f798a89-44c9-4fb6-85a7-601d3e2fbc6f")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "RN2")
 					(unit 1)
@@ -26622,7 +26622,7 @@
 			(uuid "33531e81-50c0-4e63-8598-8b2d7eb0db40")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR036")
 					(unit 1)
@@ -26735,7 +26735,7 @@
 			(uuid "3bff0d88-74c9-45b1-85d1-cbd9ad5112e3")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "D6")
 					(unit 1)
@@ -26820,7 +26820,7 @@
 			(uuid "ee405f9e-d43f-492e-9531-e73288f5c953")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "D4")
 					(unit 1)
@@ -26886,7 +26886,7 @@
 			(uuid "040bf6dc-fc2f-4ed7-9537-42ba0c65572c")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR041")
 					(unit 1)
@@ -26952,7 +26952,7 @@
 			(uuid "8cc0e189-6f3a-4860-a0df-16af3884a79f")
 		)
 		(instances
-			(project ""
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR025")
 					(unit 1)
@@ -26965,7 +26965,7 @@
 		(at 293.37 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -27067,7 +27067,7 @@
 			(uuid "9d3bc79a-959e-4bde-8e6a-e038de2f0005")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "J2")
 					(unit 1)
@@ -27178,7 +27178,7 @@
 			(uuid "3d04b7d5-58ef-475a-b8d4-84c2c097a32c")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "D5")
 					(unit 1)
@@ -27244,7 +27244,7 @@
 			(uuid "d39fdf3c-5501-451d-adff-e571f6195c42")
 		)
 		(instances
-			(project ""
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR040")
 					(unit 1)
@@ -27438,7 +27438,7 @@
 			(uuid "6d8fed63-c1b4-49fe-9197-62ba67f70c6d")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "C22")
 					(unit 1)
@@ -27742,7 +27742,7 @@
 			(uuid "91bdbf45-9022-4384-a319-3d42c4a24478")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "SW2")
 					(unit 1)
@@ -27964,7 +27964,7 @@
 			(uuid "b9d3ece9-89af-4738-97a2-fc3013acc284")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "R15")
 					(unit 1)
@@ -28159,7 +28159,7 @@
 			(uuid "dd7a0b3a-150b-486a-bc02-5289e7f7ee09")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "C16")
 					(unit 1)
@@ -28225,7 +28225,7 @@
 			(uuid "97519c59-6788-484a-8053-28f445708f23")
 		)
 		(instances
-			(project ""
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR045")
 					(unit 1)
@@ -28291,7 +28291,7 @@
 			(uuid "29bd6fa2-117e-43a3-ba36-c0aa0eb26d63")
 		)
 		(instances
-			(project ""
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR024")
 					(unit 1)
@@ -28357,7 +28357,7 @@
 			(uuid "7bed0d0e-acc8-4f6e-a3af-5ffca2e49ae5")
 		)
 		(instances
-			(project ""
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#FLG07")
 					(unit 1)
@@ -28552,7 +28552,7 @@
 			(uuid "a243b1b2-aeb0-4741-835f-e7fd060b6d1a")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "C12")
 					(unit 1)
@@ -28747,7 +28747,7 @@
 			(uuid "6aa9f65a-14a7-4294-9bee-5e5365fb513d")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "C19")
 					(unit 1)
@@ -29121,7 +29121,7 @@
 			(uuid "4769da0e-af3d-4034-a61f-2f028693fed5")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "J4")
 					(unit 1)
@@ -29187,7 +29187,7 @@
 			(uuid "c861894e-1389-4432-8e6b-4f807c051cf3")
 		)
 		(instances
-			(project ""
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR043")
 					(unit 1)
@@ -29382,7 +29382,7 @@
 			(uuid "59c4ec3f-163e-4cff-9860-a7dc5f89351f")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "C25")
 					(unit 1)
@@ -29449,7 +29449,7 @@
 			(uuid "6dda17d5-344f-4739-9f4f-1f84c77a71df")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR039")
 					(unit 1)
@@ -29514,7 +29514,7 @@
 			(uuid "34c1b253-e1a4-40f2-94c4-51b0f8000bca")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR033")
 					(unit 1)
@@ -29580,7 +29580,7 @@
 			(uuid "404f31b6-f68e-4152-98d0-af7cfb596f44")
 		)
 		(instances
-			(project ""
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR044")
 					(unit 1)
@@ -29802,7 +29802,7 @@
 			(uuid "b9293b44-08d1-461d-897c-e87cb4f04fc0")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "R14")
 					(unit 1)
@@ -29867,7 +29867,7 @@
 			(uuid "3b70b885-10bf-42c7-beb7-b9c8d7401183")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR031")
 					(unit 1)
@@ -30062,7 +30062,7 @@
 			(uuid "6327e190-cc4a-4387-a756-7381938309c8")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "C20")
 					(unit 1)
@@ -30257,7 +30257,7 @@
 			(uuid "91ebd348-83e5-4a7e-b41b-f890357b42d8")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "C14")
 					(unit 1)
@@ -30322,7 +30322,7 @@
 			(uuid "2fbce39d-9971-44f4-a5bc-c55943fb0a4d")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR030")
 					(unit 1)
@@ -30918,7 +30918,7 @@
 			(uuid "c00ad005-c2a8-48be-8c78-0bf507dfae61")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "U6")
 					(unit 1)
@@ -30984,7 +30984,7 @@
 			(uuid "6f767c62-b403-40ce-aad9-7d3397118546")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR042")
 					(unit 1)
@@ -31049,7 +31049,7 @@
 			(uuid "e84f24ef-689d-4253-8754-ddf25370f2e4")
 		)
 		(instances
-			(project "l8-kicad"
+			(project "z9-pdm"
 				(path "/b643db5c-578e-4b48-aafc-cc4190db582a/00000000-0000-0000-0000-00005d0250fb"
 					(reference "#PWR032")
 					(unit 1)
