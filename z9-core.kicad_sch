@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "392ab61e-cb83-4945-9e87-ff2a5807a99d")
 	(paper "A4")
 	(lib_symbols)
@@ -21,7 +21,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0e20848c-16f7-4471-b0eb-90040c9430ec")
-		(property "Sheetname" "usbc"
+		(property "Sheetname" "shared_usbc"
 			(at 44.45 32.3084 0)
 			(effects
 				(font
@@ -30,7 +30,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "z9-shared/usbc.kicad_sch"
+		(property "Sheetfile" "z9-shared/shared_usbc.kicad_sch"
 			(at 44.45 56.4646 0)
 			(effects
 				(font
@@ -43,6 +43,132 @@
 			(project "z9-core"
 				(path "/392ab61e-cb83-4945-9e87-ff2a5807a99d"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 33.02)
+		(size 35.56 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0e20848c-16f7-4471-b0eb-90040c9430ed")
+		(property "Sheetname" "shared_can_isolated"
+			(at 80.01 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "z9-shared/shared_isolated_can.kicad_sch"
+			(at 80.01 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "z9-core"
+				(path "/392ab61e-cb83-4945-9e87-ff2a5807a99d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 33.02)
+		(size 35.56 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0e20848c-16f7-4471-b0eb-90040c9430ee")
+		(property "Sheetname" "shared_ism330dhcx"
+			(at 115.57 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "z9-shared/shared_ism330dhcx.kicad_sch"
+			(at 115.57 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "z9-core"
+				(path "/392ab61e-cb83-4945-9e87-ff2a5807a99d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 33.02)
+		(size 35.56 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0e20848c-16f7-4471-b0eb-90040c9430ef")
+		(property "Sheetname" "shared_buzzer"
+			(at 151.13 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "z9-shared/shared_buzzer.kicad_sch"
+			(at 151.13 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "z9-core"
+				(path "/392ab61e-cb83-4945-9e87-ff2a5807a99d"
+					(page "5")
 				)
 			)
 		)
