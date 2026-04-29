@@ -20,3 +20,6 @@ z9-pdm/#auto_saved_files#
 
 # Editor local history caches
 **/.history/
+
+# Nested KiCad library repo
+dnt.kicad.libs/
