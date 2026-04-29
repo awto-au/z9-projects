@@ -655,16 +655,24 @@
       {
         "filename": "z9-zero-expander.kicad_sch",
         "name": "z9-zero-expander",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "39e3e5e4-0aea-430b-b3d5-6c87e34aa042"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U2-3",
     "variants": []
   },
   "sheets": [
     [
       "39e3e5e4-0aea-430b-b3d5-6c87e34aa042",
-      "Root"
+      "z9-zero-expander"
+    ],
+    [
+      "dbb327df-adcb-4ccc-9233-182c3f277cf6",
+      "awto_stlink_pod"
+    ],
+    [
+      "6d48b67a-2494-4297-88a7-e61840badd80",
+      "awto_olive"
     ]
   ],
   "text_variables": {},
