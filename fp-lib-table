@@ -2,5 +2,5 @@
   (version 7)
   (lib (name "dnt") (type "KiCad") (uri "${KIPRJMOD}/dnt.kicad.libs/footprints/dnt.pretty") (options "") (descr ""))
   (lib (name "PCM_Espressif") (type "KiCad") (uri "${KIPRJMOD}/dnt.kicad.libs/footprints/PCM_Espressif.pretty") (options "") (descr ""))
-  (lib (name "PCM_JLCPCB") (type "KiCad") (uri "/home/dan/.local/share/kicad/9.0/3rdparty/footprints/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.pretty") (options "") (descr ""))
+  (lib (name "PCM_JLCPCB") (type "KiCad") (uri "${KICAD9_3RD_PARTY}/footprints/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.pretty") (options "") (descr ""))
 )
