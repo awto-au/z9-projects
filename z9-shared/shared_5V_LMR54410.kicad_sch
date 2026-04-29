@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "a7202c14-0f41-48d8-b26c-392947ef0c55")
+	(uuid "c6e889f8-d252-47bb-acac-ee7397c7ab1d")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Diode:B340"
