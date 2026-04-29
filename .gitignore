@@ -17,3 +17,6 @@ z9-pdm/~z9-pdm.kicad_pcb.lck
 z9-pdm/_autosave-power.kicad_sch
 z9-pdm/_autosave-stm32.kicad_sch
 z9-pdm/#auto_saved_files#
+
+# Editor local history caches
+**/.history/
