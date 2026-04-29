@@ -8511,8 +8511,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1c4dfa44-b42f-456b-bdff-16ddb80e45c4")
 		(property "Reference" "J5"
@@ -8525,7 +8524,7 @@
 				)
 			)
 		)
-		(property "Value" "JST  GH"
+		(property "Value" "BM06B-GHS-GB-TBT(LF)(SN)(N)"
 			(at 67.31 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8546,7 +8545,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_JST-BM06B-GHS-TBT-LF-SN_C189892.pdf"
+		(property "Datasheet" ""
 			(at 67.31 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -8557,7 +8556,7 @@
 				)
 			)
 		)
-		(property "Description" "JST Connector  6 pins"
+		(property "Description" "-25℃~+85℃ 1 1.25mm 10.75mm 1A 1x6P 4.05mm 4.32mm 50V 6 6P Auxiliary Solder Pin GH Gold PA9T Phosphor Bronze Surface Mount,Vertical UL94V-0 White SMD,P=1.25mm Wire To Board Connector ROHS"
 			(at 68.072 150.368 0)
 			(hide yes)
 			(show_name no)
@@ -8568,7 +8567,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C160392"
+		(property "LCSC" "C17467557"
 			(at 67.31 177.038 0)
 			(hide yes)
 			(show_name no)
