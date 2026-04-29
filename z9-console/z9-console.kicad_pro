@@ -1234,7 +1234,7 @@
       {
         "filename": "z9-console.kicad_sch",
         "name": "z9-console",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "8d063f79-9282-4820-bcf4-1ff3c006cf08"
       }
     ],
     "used_designators": "",
@@ -1243,7 +1243,7 @@
   "sheets": [
     [
       "8d063f79-9282-4820-bcf4-1ff3c006cf08",
-      "Root"
+      "z9-console"
     ],
     [
       "801ffdec-7184-42a0-bbdb-64e97598ca97",
